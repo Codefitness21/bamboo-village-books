@@ -1080,6 +1080,7 @@ export default {
 
   .info-container {
     flex-direction: column-reverse;
+    margin-bottom: 0px;
   }
 
   .text-container {

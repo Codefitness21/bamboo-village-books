@@ -258,12 +258,12 @@ li{
 
   .about-author {
     p {
-      font-size: 16px;
+      font-size: 24px;
     }
 
     ul {
       li {
-        font-size: 16px;
+        font-size: 24px;
       }
     }
   }

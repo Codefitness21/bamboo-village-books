@@ -273,7 +273,7 @@ h2 {
 
   .services-intro {
     p {
-    font-size: 16px;
+    font-size: 24px;
   }
   }
 
@@ -295,7 +295,7 @@ h2 {
       text-align: left;
     }
     p {
-      font-size: 16px;
+      font-size: 24px;
     }
   }
 }

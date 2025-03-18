@@ -319,7 +319,7 @@ export default {
 
   h1 {
     font-weight: bold;
-    margin-top: 64px;
+    margin-top: 110px;
     color: var(--secondary);
   }
 
@@ -404,7 +404,7 @@ export default {
   min-width: 100%;
 
   h2 {
-    padding-top: 48px;
+    padding-top: 72px;
     margin-bottom: 0;
     font-size: 40px;
   }

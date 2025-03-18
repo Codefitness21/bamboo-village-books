@@ -254,6 +254,15 @@ export default {
 }
 
 @media (min-width:768px) and (max-width:1024px) {
+  .services-title {
+h1 {
+  font-size: 78px;
+}
+h2 {
+  font-size: 56px;
+}
+  }
+
   .services-package-bundle {
     flex-direction: column;
   }
@@ -264,7 +273,7 @@ export default {
 
   .services-intro {
     p {
-    font-size: 24px;
+    font-size: 16px;
   }
   }
 
@@ -272,7 +281,7 @@ export default {
     min-height: 0;
 
     li {
-      font-size: 24px;
+      font-size: 16px;
     }
   }
 
@@ -282,11 +291,11 @@ export default {
     }
 
     h4 {
-      font-size: 24px;
+      font-size: 20px;
       text-align: left;
     }
     p {
-      font-size: 24px;
+      font-size: 16px;
     }
   }
 }

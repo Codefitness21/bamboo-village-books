@@ -164,17 +164,17 @@
             his journey to captivate readers with stories of resilience and leadership.
           </p>
           <div class="desktop-read-bio-btn">
-          <a @click="open('about')"><button class="read-bio-btn">READ FULL BIO</button></a>
-        </div>
+            <a @click="open('about')"><button class="read-bio-btn">READ FULL BIO</button></a>
+          </div>
         </div>
         <div class="right-aligned-image-container">
           <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/author.jpg" alt="Author Image">
         </div>
       </div>
       <div class="tablet-read-bio-btn">
-      <a @click="open('about')"><button class="read-bio-btn">READ FULL BIO</button></a>
-    </div>
-    <!-- <section class="vision people"> -->
+        <a @click="open('about')"><button class="read-bio-btn">READ FULL BIO</button></a>
+      </div>
+      <!-- <section class="vision people"> -->
       <h2>Our Vision</h2>
       <div class="info-container vision-info-container">
         <div class="left-aligned-image-container">
@@ -193,8 +193,8 @@
           </p>
         </div>
       </div>
-   
-    <!-- <section class="team people"> -->
+
+      <!-- <section class="team people"> -->
       <h2>Our Team</h2>
       <div class="info-container">
         <div class="text-container">
@@ -219,7 +219,7 @@
         </div>
       </div>
     </section>
-  <!-- </section>
+    <!-- </section>
 </section> -->
     <section class="achievements-carousel-container">
       <h2>Achievements and Acknowledgments</h2>
@@ -845,9 +845,12 @@ export default {
       flex-direction: column;
       justify-content: flex-start;
       align-self: center;
+      width: 100%;
     }
 
     .text-container {
+      width: 100%;
+
       p {
         padding: 16px;
       }
@@ -909,7 +912,40 @@ export default {
       }
     } */
   }
+
+  .meet-author {
+    h2 {
+      margin-bottom: 32px;
+    }
+  }
+
+  .info-container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+
+    .right-aligned-image-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 32px;
+      width: 100%;
+
+      img {
+        width: 40%;
+      }
+    }
+
+    .text-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+  }
 }
+
 
 @media (max-width:767px) {
 
@@ -1112,6 +1148,7 @@ export default {
   .vision-info-container {
     display: flex;
     flex-direction: column;
+
     .left-aligned-image-container {
       img {
         width: 80%;

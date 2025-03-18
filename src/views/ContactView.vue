@@ -198,6 +198,12 @@ for other devices. */
 }
 
 @media (min-width:768px) and (max-width:1410px) {
+  .header {
+    h2 {
+      font-size: 56px;
+    }
+  }
+  
  .contact-information-container {
   width: 100%;
   .contact-image-container {

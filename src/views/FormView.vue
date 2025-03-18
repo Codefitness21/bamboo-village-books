@@ -149,21 +149,6 @@ export default {
 /* Section 2 - Contact form. Split into a top and bottom section and left and right container for better alignment and repsonsiveness
 for other devices. */
 .form-container {
-  .arrow-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    background: none;
-    padding-top: 64px;
-    font-weight: bold;
-    cursor: pointer;
-    gap: 8px;
-
-    a {
-      color: var(--quinary);
-    }
-  }
-
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -179,6 +164,21 @@ for other devices. */
     margin: 16px 0 32px 0;
   }
 }
+
+.arrow-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background: none;
+    padding-top: 64px;
+    font-weight: bold;
+    cursor: pointer;
+    gap: 8px;
+
+    a {
+      color: var(--quinary);
+    }
+  }
 
 .intern-form-container {
   display: flex;

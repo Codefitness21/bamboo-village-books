@@ -1098,7 +1098,7 @@ export default {
     flex-direction: column;
   }
 
-  .vision-info-container {
+  .vision {
     .left-aligned-image-container {
       img {
         width: 80%;

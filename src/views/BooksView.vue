@@ -8,12 +8,12 @@
     </section>
     <section class="ashes-container">
       <h2>NEW RELEASE!<br>Quinton Taylor-Garcia presents ASHES OF THE CITY </h2>
-      <div class="info-container">
-        <div class="left-aligned-image-container">
+      <div class="ashes-info-container">
+        <div class="ashes-left-aligned-image-container">
           <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/ashes-book-cover.png"
             alt="Author Image">
         </div>
-        <div class="text-container">
+        <div class="ashes-text-container">
           <p><b>Ashes of the City</b> explores themes of leadership, morality, and the loss of innocence in a brutal,
             post-disaster world. Perfect for fans of The Hunger Games and Lord of the Flies, this powerful story will
             keep readers on the edge of their seats, questioning what it means to survive when everything you once knew
@@ -290,7 +290,9 @@ export default {
     padding: 42px;
   }
 
-  .info-container {
+  .ashes-info-container {
+    display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
 
@@ -299,12 +301,12 @@ export default {
     }
   }
 
-  .left-aligned-image-container {
+  .ashes-left-aligned-image-container {
     width: 50%;
     align-items: center;
   }
 
-  .text-container {
+  .ashes-text-container {
     width: 50%;
   }
 }
@@ -536,7 +538,7 @@ a {
       padding: 24px;
     }
 
-    .info-container {
+    .ashes-info-container {
       img {
         width: 74%;
       }
@@ -593,15 +595,12 @@ a {
         width: 100%;
       }
 
-      .info-container {
-        flex-direction: column;
-      }
-
       p {
         padding: 18px;
       }
 
-      .info-container {
+      .ashes-info-container {
+        flex-direction: column;
         img {
           width: 100%;
           margin: 0;

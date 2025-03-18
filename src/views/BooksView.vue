@@ -519,7 +519,7 @@ a {
 
 @media (min-width:768px) and (max-width:1024px) {
   .hero-book-image {
-    height: 34vh;
+    height: 38vh;
 
     h1 {
       font-size: 56px;

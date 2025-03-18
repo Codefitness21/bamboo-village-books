@@ -477,7 +477,7 @@ export default {
   }
 }
 
-/* .dragons-book-image-container {
+.dragons-book-image-container {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -487,7 +487,7 @@ export default {
   img {
     width: 96%;
   }
-} */
+}
 
 /* .myasthenia-container {
   display: flex;
@@ -530,7 +530,7 @@ export default {
   }
 } */
 
-/* .dragons-container {
+.dragons-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -572,7 +572,7 @@ export default {
   .text-container {
     width: 50%;
   }
-} */
+}
 
 /* Mailing list css present on the footer page. */
 

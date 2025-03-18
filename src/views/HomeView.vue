@@ -163,16 +163,17 @@
             in
             his journey to captivate readers with stories of resilience and leadership.
           </p>
+          <a @click="open('about')"><button class="read-bio-btn">READ FULL BIO</button></a>
         </div>
         <div class="right-aligned-image-container">
           <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/author.jpg" alt="Author Image">
         </div>
       </div>
-      <a @click="open('about')"><button class="read-bio-btn">READ FULL BIO</button></a>
+      
    
     <!-- <section class="vision people"> -->
       <h2>Our Vision</h2>
-      <div class="info-container">
+      <div class="info-container vision-info-container">
         <div class="left-aligned-image-container">
           <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/community.jpg" alt="Community Image">
         </div>
@@ -678,6 +679,7 @@ export default {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+  margin-bottom: 100px;
 }
 
 .text-container {
@@ -1088,6 +1090,11 @@ export default {
     align-items: center;
     margin-bottom: 32px;
     width: 100%;
+  }
+
+  .vision-info-container {
+    display: flex;
+    flex-direction: column;
   }
 
   .vision {

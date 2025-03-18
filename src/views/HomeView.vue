@@ -163,16 +163,11 @@
             in
             his journey to captivate readers with stories of resilience and leadership.
           </p>
-          <div class="desktop-read-bio-btn">
             <a @click="open('about')"><button class="read-bio-btn">READ FULL BIO</button></a>
-          </div>
         </div>
         <div class="right-aligned-image-container">
           <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/author.jpg" alt="Author Image">
         </div>
-      </div>
-      <div class="tablet-read-bio-btn">
-        <a @click="open('about')"><button class="read-bio-btn">READ FULL BIO</button></a>
       </div>
       <!-- <section class="vision people"> -->
       <h2>Our Vision</h2>
@@ -482,7 +477,7 @@ export default {
   }
 }
 
-.dragons-book-image-container {
+/* .dragons-book-image-container {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -492,9 +487,9 @@ export default {
   img {
     width: 96%;
   }
-}
+} */
 
-.myasthenia-container {
+/* .myasthenia-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -533,9 +528,9 @@ export default {
   .text-container {
     width: 50%;
   }
-}
+} */
 
-.dragons-container {
+/* .dragons-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -577,7 +572,7 @@ export default {
   .text-container {
     width: 50%;
   }
-}
+} */
 
 /* Mailing list css present on the footer page. */
 
@@ -617,10 +612,6 @@ export default {
   img {
     border-radius: 3px;
   }
-}
-
-.tablet-read-bio-btn {
-  display: none;
 }
 
 .bamboo-image img {
@@ -944,8 +935,27 @@ export default {
       width: 100%;
     }
   }
-}
 
+  .vision-info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .left-aligned-image-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 32px;
+      width: 100%;
+
+      img {
+        width: 40%;
+      }
+    }
+  }
+}
 
 @media (max-width:767px) {
 

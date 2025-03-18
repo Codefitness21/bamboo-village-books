@@ -676,7 +676,10 @@ a {
   }
 
   .upcoming-releases-container {
-    margin-bottom: 0;
+    h2 {
+      font-size: 24px;
+      margin-bottom: 48px;
+    }
   }
 
   .upcoming-books {
@@ -690,10 +693,6 @@ a {
     height: 400px;
     width: 300px;
     margin-bottom: 56px;
-    h2 {
-      font-size: 24px;
-      margin-bottom: 48px;
-    }
   }
 }
 </style>

@@ -1080,7 +1080,7 @@ export default {
 
   .info-container {
     flex-direction: column-reverse;
-    margin-bottom: 0px;
+    margin-bottom: 72px;
   }
 
   .text-container {
@@ -1098,7 +1098,7 @@ export default {
     flex-direction: column;
   }
 
-  .vision {
+  .vision-info-container {
     .left-aligned-image-container {
       img {
         width: 80%;

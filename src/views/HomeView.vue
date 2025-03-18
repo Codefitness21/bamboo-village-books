@@ -898,7 +898,7 @@ export default {
   /* carousel */
   .hero-image-carousel-container {
     h1 {
-      margin-top: 146px;
+      margin-top: 120px;
     }
   }
 

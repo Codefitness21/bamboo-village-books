@@ -290,8 +290,8 @@ li{
 
   .author-image {
     img {
-      margin-top: 112px;
-      width: 80%;
+      margin-top: 120px;
+      width: 100%;
     }
   }
 

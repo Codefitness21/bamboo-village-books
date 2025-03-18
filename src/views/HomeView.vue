@@ -163,13 +163,17 @@
             in
             his journey to captivate readers with stories of resilience and leadership.
           </p>
+          <div class="desktop-read-bio-btn">
           <a @click="open('about')"><button class="read-bio-btn">READ FULL BIO</button></a>
+        </div>
         </div>
         <div class="right-aligned-image-container">
           <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/author.jpg" alt="Author Image">
         </div>
       </div>
-      
+      <div class="tablet-read-bio-btn">
+      <a @click="open('about')"><button class="read-bio-btn">READ FULL BIO</button></a>
+    </div>
     <!-- <section class="vision people"> -->
       <h2>Our Vision</h2>
       <div class="info-container vision-info-container">
@@ -615,6 +619,10 @@ export default {
   }
 }
 
+.tablet-read-bio-btn {
+  display: none;
+}
+
 .bamboo-image img {
   width: 45%;
   display: flex;
@@ -776,11 +784,11 @@ export default {
 @media (min-width:768px) and (max-width:1024px) {
 
   /* Home Page Container */
-  .home-page-container {
+  /* .home-page-container {
     p {
-      font-size: 18px;
+      font-size: 16px;
     }
-  }
+  } */
 
   /* Carousel */
   .home-title {
@@ -865,6 +873,7 @@ export default {
       padding: 0 32px 16px 32px;
 
       p {
+        font-size: 16px;
         margin-top: 30px;
         border-radius: 8px;
         background-color: rgba(249, 250, 234, 0.6);
@@ -872,7 +881,15 @@ export default {
       }
     }
 
-    .dragons-book-image-container {
+    .tablet-read-bio-btn {
+      display: flex;
+    }
+
+    .desktop-read-bio-btn {
+      display: none;
+    }
+
+    /* .dragons-book-image-container {
       display: flex;
       flex-direction: row;
       justify-content: flex-end;
@@ -890,7 +907,7 @@ export default {
       img {
         width: 90%;
       }
-    }
+    } */
   }
 }
 

@@ -238,7 +238,7 @@ li{
 
 @media (min-width:768px) and (max-width:1024px) {
   .hero-about-image {
-    height: 34vh;
+    height: 38vh;
   }
 
   .author-name {

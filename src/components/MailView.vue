@@ -70,7 +70,7 @@ export default {
   @media (min-width:768px) and (max-width:1410px) {
     .mail-form {
       .email-input {
-      height: 6vh;
+      height: 4vh;
     }
     }
     
@@ -92,6 +92,7 @@ export default {
 
     .email-input {
       width: 100%;
+      height: 5vh;
       margin: 16px 45px 16px 0;
     }
   }

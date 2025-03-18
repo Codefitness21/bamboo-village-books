@@ -604,6 +604,11 @@ a {
       .info-container {
         img {
           width: 100%;
+          margin: 0;
+        }
+
+        .read-btn {
+          margin-top: 0;
         }
       }
     }

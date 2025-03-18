@@ -922,10 +922,6 @@ export default {
       align-items: center;
       margin-bottom: 32px;
       width: 100%;
-
-      img {
-        width: 40%;
-      }
     }
 
     .text-container {
@@ -949,10 +945,6 @@ export default {
       align-items: center;
       margin-bottom: 32px;
       width: 100%;
-
-      img {
-        width: 40%;
-      }
     }
   }
 }

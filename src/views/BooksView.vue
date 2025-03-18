@@ -574,10 +574,10 @@ a {
 
 @media (max-width: 767px) {
   .hero-book-image {
-    height: 36vh;
+    height: 42vh;
 
     h1 {
-      font-size: 32px;
+      font-size: 35px;
     }
 
     img {
@@ -692,6 +692,7 @@ a {
     margin-bottom: 56px;
     h2 {
       font-size: 24px;
+      margin-bottom: 48px;
     }
   }
 }

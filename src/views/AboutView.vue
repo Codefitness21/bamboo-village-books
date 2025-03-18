@@ -281,7 +281,7 @@ li{
       margin: 16px;
     }
 
-    height: 36vh;
+    height: 42vh;
   }
 
   .author-name {
@@ -290,7 +290,7 @@ li{
 
   .author-image {
     img {
-      margin-top: 120px;
+      margin-top: 100px;
       width: 100%;
     }
   }

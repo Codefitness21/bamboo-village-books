@@ -1099,7 +1099,7 @@ export default {
     }
 
     .info-container {
-      flex-direction: column;
+      flex-direction: column-reverse;
       align-self: center;
     }
 

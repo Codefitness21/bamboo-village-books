@@ -69,7 +69,6 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* justify-content: center; */
   background-image: url('https://bamboovillagebooks.s3.us-east-2.amazonaws.com/video/sunset.gif');
   background-size: cover;
   background-repeat: no-repeat;

@@ -591,7 +591,7 @@ a {
     .ashes-container {
       padding: 0 32px 64px 32px;
 
-      .text-container {
+      .ashes-text-container {
         width: 100%;
       }
 

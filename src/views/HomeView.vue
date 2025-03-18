@@ -842,7 +842,6 @@ export default {
     .text-container {
       p {
         padding: 16px;
-        font-size: 18px;
       }
     }
 
@@ -870,7 +869,6 @@ export default {
         border-radius: 8px;
         background-color: rgba(249, 250, 234, 0.6);
         padding: 16px;
-        font-size: 18px;
       }
     }
 

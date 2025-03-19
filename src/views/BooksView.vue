@@ -65,9 +65,9 @@
           <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/ashes.jpg" alt="Ashes of the City">
           <h3>Ashes of the City</h3>
           <div class="cta-row">
-            <a @click="open('ashes')"><button class="cta">LEARN MORE</button></a>
+            <a @click="open('ashes')"><button class="cta-1">LEARN MORE</button></a>
             <div class="dropdown">
-              <button class="dropdown cta">BUY BOOK</button>
+              <button class="dropdown cta-2 ashes-cta">BUY BOOK</button>
               <div class="dropdown-content">
                 <a href="https://www.amazon.com/Ashes-City-Quinton-Taylor-Garcia/dp/B0DJZF3DM3">AMAZON</a>
                 <a href="https://www.barnesandnoble.com/w/ashes-of-the-city-quinton-taylor-garcia/1146717150">BARNES &
@@ -474,6 +474,11 @@ a {
   background-color: var(--secondary);
   color: var(--quarternary);
   border: 1px solid var(--quinary);
+}
+
+.ashes-cta {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 }
 
 /* Section 5 - Upcoming Releases */

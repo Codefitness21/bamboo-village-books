@@ -94,6 +94,7 @@ export default {
       width: 100%;
       height: 7vh;
       margin: 16px 45px 16px 0;
+      font-family: sans-serif;
     }
   }
   .sign-up-btn {

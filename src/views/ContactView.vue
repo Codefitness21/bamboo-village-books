@@ -179,6 +179,7 @@ for other devices. */
 .input-field {
   padding: 16px;
   margin-bottom: 16px;
+  font-family: sans-serif;
 }
 
 /* Bottom row */
@@ -195,6 +196,7 @@ for other devices. */
   height: 32vh;
   padding: 16px;
   line-height: 1.6;
+  font-family: sans-serif;
 }
 
 @media (min-width:768px) and (max-width:1410px) {

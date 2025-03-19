@@ -132,6 +132,7 @@
     .planone-input-field {
       width: 30vw;
       margin-bottom: 16px;
+      font-family: sans-serif;
     }
   }
   
@@ -189,6 +190,7 @@
     height: 24vh;
     padding: 8px;
     line-height: 1.6;
+    font-family: sans-serif;
   }
   
   

@@ -231,6 +231,7 @@ label {
 /* Sapcing allowed between the input fields */
 .input-field {
   padding: 16px;
+  font-family: sans-serif;
 }
 
 /* Middle Row */
@@ -251,6 +252,7 @@ label {
   height: 10vh;
   padding: 8px;
   line-height: 1.6;
+  font-family: sans-serif;
 }
 
 /* Bottom Row */

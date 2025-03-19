@@ -46,7 +46,7 @@
           </div>
         </div>
         <div class="services-package mid-green">
-          <h3>Intermediate Package: <br> Developing Story</h3>
+          <h3>Intermediate Package: <br> Bestseller Bound</h3>
           <p>Tailored for authors with polished manuscript, seeking comprehensive support.</p>
           <h2>$2,000 - $2,500</h2>
           <div class="package-inclusion">

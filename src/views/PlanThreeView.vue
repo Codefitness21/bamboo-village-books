@@ -9,7 +9,7 @@
             <a @click="open('services')">Back to Services</a>
           </div>
         </div>
-        <h2>Intermediate Package: Developing Story</h2>
+        <h2>Publishing Package: Bestseller Bound</h2>
         <div class="planthree-form-container">
           <form class="planthree-form" action="https://formspree.io/f/mzzepjro" method="POST">
             <div class="top-row-container">

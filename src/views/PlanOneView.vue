@@ -9,7 +9,7 @@
             <a @click="open('services')">Back to Services</a>
           </div>
         </div>
-        <h2>Beginner Package: Chapter One</h2>
+        <h2>Beginner Package: First Chapter</h2>
         <div class="planone-form-container">
           <form class="planone-form" action="https://formspree.io/f/xkgjwqrw" method="POST">
             <div class="top-row-container">

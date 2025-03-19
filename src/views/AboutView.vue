@@ -291,7 +291,7 @@ li{
   .author-image {
     img {
       margin-top: 100px;
-      width: 90%;
+      width: 100%;
     }
   }
 

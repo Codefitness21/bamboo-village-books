@@ -73,7 +73,7 @@
             <div class="read-btn"><a href="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/pdfs/Eclipse_Dragons_The_Rogue_Mages+_Uprising_Book_2.pdf"><button
                   class="read-sample-btn white-btn">READ SAMPLE</button></a></div>
             <div class="read-btn">
-              <a href="https://www.amazon.com/gp/product/B0D91LXSWL?ref_=dbs_m_mng_rwt_calw_tpbk_2&storeType=ebooks"><button
+              <a href="https://www.amazon.com/Eclipse-Dragons-Rogue-Mages-Uprising/dp/B0CZQ1HTT4/"><button
                   class="cta-2 white-btn">BUY BOOK</button></a>
             </div>
           </div>

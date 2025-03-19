@@ -277,7 +277,7 @@ export default {
           background: "https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/dragon-transparency-bkgrd.png",
           subtitle: "Born of Imagination and Celestial Inspiration: The Eclipse Dragons Trilogy",
           image3: 'https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/trilogy.png',
-          text: "In 2024, the Year of the Dragon, a series of breathtaking eclipses sparked the creation of this fantasy saga. The Eclipse Dragon Series channels the wonder of these celestial events into a rich, imaginative world of dragons, heroes, and epic battles. These stories represent the power of creativity to transform fleeting moments into enduring tales",
+          text: "In 2024, the Year of the Dragon, a series of breathtaking eclipses sparked the creation of this fantasy saga. The Eclipse Dragon Series channels the wonder of these celestial events into a rich, imaginative world of dragons, heroes, and epic battles. These stories represent the power of creativity to transform fleeting moments into enduring tales.",
           cta: "LEARN MORE",
           link: "eclipse"
         },
@@ -289,6 +289,10 @@ export default {
     window.scrollTo(0, 0)
   },
   methods: {
+    open(target) {
+      this.currentLocation = target
+      this.$router.push({ name: target })
+    },
     nextSlide() {
       this.currentIndex = (this.currentIndex + 1) % this.slides.length;
     },

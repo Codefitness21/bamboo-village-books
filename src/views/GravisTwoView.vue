@@ -30,7 +30,7 @@
             heartfelt reflections, the tranquility in acceptance, the metaphorical 'last sunset,' and the family's
             continued journey post-loss. Each section underscores the emotional landscape</p>
           <div class="cta-row">
-            <div class="read-btn"><a href="The_Last_Sunset-Journey_with_Myasthenia_Gravis.pdf"><button
+            <div class="read-btn"><a href="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/pdfs/The_Last_Sunset-Journey_with_Myasthenia_Gravis.pdf"><button
                   class="read-sample-btn">READ SAMPLE</button></a></div>
             <div class="read-btn">
               <a href="https://www.amazon.com/Last-Sunset-Myasthenia-Embracing-Connection/dp/B0CN65MYL3/"><button

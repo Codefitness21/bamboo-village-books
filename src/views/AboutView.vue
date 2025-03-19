@@ -45,7 +45,7 @@
       <p>Quinton's works include The Silent Call of the Lake: JM's Story, the young adult dystopian novel Ashes of the
         City, and the fantasy Eclipse Dragons series. Ashes of the City has been praised by Haley Koth of The US Review
         of
-        Books as "fast-paced and quick-witted," appealing to fans of The Maze Runner and Divergent. The Eclipse Dragons
+        Books as "fast-paced and quick-witted", appealing to fans of The Maze Runner and Divergent. The Eclipse Dragons
         series delves into a rich fantasy world, captivating readers with its intricate storytelling and imaginative
         scope.</p>
 

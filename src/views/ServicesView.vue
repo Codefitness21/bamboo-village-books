@@ -32,7 +32,7 @@
                 book a professional look.</li>
               <li>Formatting Services: Basic formatting for both
                 eBook and print versions.</li>
-              <li>SBN Assignment: Assignment of an International
+              <li>ISBN Assignment: Assignment of an International
                 Standard Book Number, essential for sales and distribution.</li>
               <li>Marketing Consultation: A one-hour consultation
                 to discuss marketing strategies for beginners.</li>

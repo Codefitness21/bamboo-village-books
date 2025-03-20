@@ -52,6 +52,14 @@
             <div class="btn" v-for="(review, index) in reviews" :key="index" :class="{ active: currentIndex === index }"
               @click="changeReview(index)"></div>
           </div>
+          <div class="navigate">
+            <div class="arrow left ">
+              <i @click="prevReview" class="fa-solid fa-chevron-left"></i>
+            </div>
+            <div class="arrow right">
+              <i @click="nextReview" class="fa-solid fa-chevron-right"></i>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -221,6 +229,12 @@ export default {
     closeModal() {
       this.showModal = false
     },
+    nextReview() {
+      this.currentIndex = (this.currentIndex + 1) % this.reviews.length;
+    },
+    prevReview() {
+      this.currentIndex = (this.currentIndex - 1 + this.reviews.length) % this.reviews.length;
+    },
     changeReview(index) {
       this.currentIndex = index
     },
@@ -365,7 +379,7 @@ export default {
   }
 
   .text {
-    text-align: left;
+    text-align: center;
     margin-bottom: 16px;
   }
 
@@ -380,10 +394,49 @@ export default {
   }
 }
 
+.navigate {
+    position: absolute;
+    z-index: 1;
+    padding: 0 16px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+
+    .arrow {
+      display: flex;
+      flex: 1;
+    }
+
+    .right {
+      justify-content: flex-end;
+    }
+
+    i {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      background-color: rgb(252, 199, 101, 0.5);
+      color: var(--secondary);
+    }
+
+    i:hover {
+      color: var(--quarternary);
+    }
+  }
+
 .review-indicator-btn {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  position: relative;
+  z-index: 2;
 
   .btn {
     width: 12px;
@@ -399,7 +452,6 @@ export default {
     background-color: var(--secondary);
   }
 }
-
 
 /* Sections 4 - All Books Container  */
 .all-books-container {

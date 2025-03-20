@@ -560,7 +560,7 @@ a {
   justify-content: center;
   align-items: center;
   background-color: var(--quinary);
-  background-image: url("https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/bamboo-logo.png");
+  background-image: url("https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/bamboo-transparent-logo.png");
   background-size: 70%;
   background-repeat: no-repeat;
   background-position: center;

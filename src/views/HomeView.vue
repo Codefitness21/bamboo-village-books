@@ -76,7 +76,7 @@
         <div class="slide-hero-home-image" v-for="(slide, index) in slides" :key="index" v-show="currentIndex === index"
           :style="{ backgroundImage: `url(${slide.background})` }">
           <h1 v-if="slide.title">{{ slide.title }}</h1>
-          <div class="hero-staggard-books" v-if="slide.image0">
+          <div class="hero-staggered-books" v-if="slide.image0">
             <img :src="slide.image0" />
           </div>
           <div class="hero-books-grid" v-if="slide.image1">
@@ -436,7 +436,7 @@ export default {
   }
 }
 
-.hero-staggard-books img {
+.hero-staggered-books img {
   margin-top: 72px;
   width: 90%;
   animation: 0.6s ease-in-out turn-icon-animation;
@@ -1036,7 +1036,7 @@ export default {
     }
   }
 
-  .hero-staggard-books {
+  .hero-staggered-books {
     display: none;
   }
 

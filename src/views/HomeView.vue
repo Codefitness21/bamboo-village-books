@@ -424,9 +424,23 @@ export default {
   cursor: pointer;
 }
 
+@keyframes turn-icon-animation {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.4);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
 .hero-staggard-books img {
   margin-top: 72px;
   width: 90%;
+  animation: 0.6s ease-in-out turn-icon-animation;
+  animation-delay: 1.5s;
 }
 
 .hero-slide-1 {

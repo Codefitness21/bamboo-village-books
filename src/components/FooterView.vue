@@ -29,10 +29,10 @@
                 <div class="social-media-icons">
                     <a href="https://www.linkedin.com/company/bamboo-village-books/"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/linkedin.png" alt="Linkedin Logo" /></a>
                     <a href="https://x.com/bamboovillagez"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/twitter-x.png" alt="Twitter Logo" /></a>
-                    <a href="https://www.instagram.com/reel/DEVvTjgSrlR/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/instagram.png" alt="Instagram Logo" /></a>
+                    <!-- <a href="https://www.instagram.com/reel/DEVvTjgSrlR/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/instagram.png" alt="Instagram Logo" /></a> -->
                     <a href="https://www.facebook.com/bamboo.village.books"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/facebook.png" alt="Facebook Logo" /></a>
                     <a href="https://www.tiktok.com/@bamboovillagebooks"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/tiktok.png" alt="Tiktok Logo" /></a>
-                    <a href="https://youtu.be/yoKTlytbFq8"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/youtube.png" alt="Youtube Logo" /></a>
+                    <!-- <a href="https://youtu.be/yoKTlytbFq8"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/youtube.png" alt="Youtube Logo" /></a> -->
                 </div>
             </div>
         </div>

@@ -150,7 +150,7 @@
         childhood.</p>
       <p><b>-Quinton Taylor-Garcia,</b> Founder & CEO</p>
     </section>
-    <section class="meet-author people">
+    <section class="meet-author people view">
       <h2>Meet The Author</h2>
       <!-- <div class="bamboo-image"><img src="../assets/bvb-circle-logo.png"></div> -->
       <div class="info-container">
@@ -163,7 +163,7 @@
             in
             his journey to captivate readers with stories of resilience and leadership.
           </p>
-            <a @click="open('about')"><button class="read-bio-btn">READ FULL BIO</button></a>
+          <a @click="open('about')"><button class="read-bio-btn">READ FULL BIO</button></a>
         </div>
         <div class="right-aligned-image-container">
           <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/author.jpg" alt="Author Image">
@@ -308,6 +308,8 @@ export default {
 
 <style>
 /* Home page container and info pertaining to all sections. Padding - set to 64px r,b,l. for sections. */
+
+
 .home-page-container {
   display: flex;
   flex-direction: column;
@@ -428,9 +430,11 @@ export default {
   0% {
     transform: scale(1);
   }
+
   25% {
     transform: scale(1.4);
   }
+
   100% {
     transform: scale(1);
   }
@@ -722,6 +726,25 @@ export default {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+@keyframes appear {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+.info-container {
+  animation: appear 1s ease-out;
+  animation-timeline: view();
+  animation-range: entry 150% cover 40%;
+}
+
 
 /* Section 7 - Achievements and Acknowledgements */
 .achievements-carousel-container {

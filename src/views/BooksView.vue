@@ -64,6 +64,9 @@
       </div>
     </section>
     <section class="all-books-container">
+      <!-- <div class="left-stalk">
+      <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/left-bamboo-frame.png" alt="">
+    </div>  -->
       <div class="books-grid-title">
         <h2>EXPLORE ALL BOOKS</h2>
       </div>
@@ -455,15 +458,23 @@ export default {
 
 /* Sections 4 - All Books Container  */
 .all-books-container {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   background-color: var(--secondary);
-  padding: 0 64px 64px 64px;
+  /* background-image: url("https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/left-bamboo-frame.png");
+  background-size: contain;
+  background-repeat: no-repeat; */
+  padding: 0px 0px 64px 0px;
 
   h3 {
     margin: 8px 0 24px 0;
   }
+}
+
+.left-stalk {
+  position: absolute;
 }
 
 .all-books-grid {

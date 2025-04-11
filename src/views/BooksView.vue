@@ -52,14 +52,14 @@
             <div class="btn" v-for="(review, index) in reviews" :key="index" :class="{ active: currentIndex === index }"
               @click="changeReview(index)"></div>
           </div>
-          <!--<div class="navigate">
+          <div class="navigate">
             <div class="arrow left ">
               <i @click="prevReview" class="fa-solid fa-chevron-left"></i>
             </div>
             <div class="arrow right">
               <i @click="nextReview" class="fa-solid fa-chevron-right"></i>
             </div>
-          </div>-->
+          </div>
         </div>
       </div>
     </section>

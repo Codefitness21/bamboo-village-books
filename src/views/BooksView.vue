@@ -738,7 +738,7 @@ a {
 
     img {
       margin-bottom: 16px;
-      width: 100%;
+      /* width: 100%; */
     }
 
     h3 {

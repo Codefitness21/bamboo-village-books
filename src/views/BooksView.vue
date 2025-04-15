@@ -398,41 +398,41 @@ export default {
 }
 
 .navigate {
-    position: absolute;
-    z-index: 1;
-    padding: 0 16px;
-    width: 100%;
+  position: absolute;
+  z-index: 1;
+  padding: 0 16px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+
+  .arrow {
     display: flex;
-    flex-direction: row;
+    flex: 1;
+  }
+
+  .right {
+    justify-content: flex-end;
+  }
+
+  i {
+    display: flex;
     justify-content: center;
     align-items: center;
-    align-self: center;
-
-    .arrow {
-      display: flex;
-      flex: 1;
-    }
-
-    .right {
-      justify-content: flex-end;
-    }
-
-    i {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      cursor: pointer;
-      border-radius: 50%;
-      width: 40px;
-      height: 40px;
-      background-color: rgb(252, 199, 101, 0.5);
-      color: var(--secondary);
-    }
-
-    i:hover {
-      color: var(--quarternary);
-    }
+    cursor: pointer;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(252, 199, 101, 0.5);
+    color: var(--secondary);
   }
+
+  i:hover {
+    color: var(--quarternary);
+  }
+}
 
 .review-indicator-btn {
   display: flex;
@@ -614,15 +614,15 @@ a {
   }
 
   .reviews {
-  .text {
-    font-size: 24px;
-  }
+    .text {
+      font-size: 24px;
+    }
 
-  .image {
-    height: 10%;
-    width: 10%;
+    .image {
+      height: 10%;
+      width: 10%;
+    }
   }
-}
 
   .upcoming-books {
     .book {
@@ -669,6 +669,7 @@ a {
 
       .ashes-info-container {
         flex-direction: column;
+
         img {
           width: 100%;
           margin: 0;
@@ -737,6 +738,8 @@ a {
     gap: 80px;
 
     img {
+      height: 450px;
+      width: 300px;
       margin-bottom: 16px;
       /* width: 100%; */
     }

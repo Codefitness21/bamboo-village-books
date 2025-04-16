@@ -727,7 +727,7 @@ export default {
   background-size: cover;
 }
 
-@keyframes appear {
+/* @keyframes appear {
   from {
     opacity: 0;
     transform: translateY(20px);
@@ -743,7 +743,7 @@ export default {
   animation: appear 1s ease-out;
   animation-timeline: view();
   animation-range: entry 150% cover 40%;
-}
+} */
 
 
 /* Section 7 - Achievements and Acknowledgements */

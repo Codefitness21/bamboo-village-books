@@ -159,7 +159,7 @@
             deep character development and moral exploration. With a passion for storytelling that challenges societal
             norms, Quinton brings readers into complex worlds where humanity's true nature is tested. When not writing,
             he
-            enjoys mentoring others in Information Technology and Cyber Security. Ashes of the City marks another step
+            enjoys mentoring others in Information Technology and Cybersecurity. Ashes of the City marks another step
             in
             his journey to captivate readers with stories of resilience and leadership.
           </p>

@@ -4,75 +4,6 @@
     <div class="hero-image-carousel-container">
       <div class="hero-carousel">
 
-        <!-- <div class="left-carousel-arrow arrow">
-          <i class="fa-solid fa-chevron-left fa-2x scroll-arrow" @click="(scrollLeft)"></i>
-        </div> -->
-        <!-- <div class="slide-hero-home-image hero-slide-1">
-          <h1>BAMBOO VILLAGE BOOKS</h1>
-          <div class="hero-staggard-books">
-            <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/staggard-books.png" alt="Staggard Books" />
-          </div> -->
-        <!-- </div>
-        <div class="slide-hero-home-image ashes-container hero-slide-2">
-          <h2>NEW RELEASE! <br> Quinton Taylor-Garcia presents ASHES OF THE CITY </h2>
-          <div class="info-container">
-            <div class="left-aligned-image-container">
-              <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/ashes-book-cover.png"
-                alt="Ashes Hero Image">
-            </div>
-            <div class="text-container">
-              <p><b>Ashes of the City</b> explores themes of leadership, morality, and the loss of innocence in a
-                brutal, post-disaster world. Perfect for fans of The Hunger Games and Lord of the Flies, this powerful
-                story
-                will keep readers on the edge of their seats, questioning what it means to survive when everything you
-                once
-                knew is gone.
-              </p>
-              <div class="cta-row">
-                <a @click="open('ashestwo')"><button>LEARN MORE</button></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="slide-hero-home-image myasthenia-container hero-slide-3">
-          <h2>A Personal Advocacy Story! <br> The Last Sunset: Journey with Myasthenia Gravis (MG) </h2>
-          <div class="info-container">
-            <div class="left-aligned-image-container">
-              <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Gravis.png" alt=" Hero Image">
-            </div>
-            <div class="text-container">
-              <p>Since being diagnosed with MG in 2012, I've worked to raise awareness about this rare condition.
-                Writing this book allowed me to share my journey and offer support to others living with a chronic
-                illness. The narrative crafted within these pages serves as a fictional yet insightful exploration into
-                the complexities of living with a chronic illness.
-              </p>
-              <div class="cta-row">
-                <a @click="open('gravistwo')"><button>LEARN MORE</button></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="slide-hero-home-image dragons-container hero-slide-4">
-          <h2>Born of Imagination and Celestial Inspiration! <br> The Eclipse Dragons Trilogy</h2>
-          <div class="info-container">
-            <div class="left-aligned-image-container">
-              <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/trilogy.png" alt=" Dragons Image">
-            </div>
-            <div class="text-container">
-              <p>In 2024, the Year of the Dragon, a series of breathtaking eclipses sparked the creation of this fantasy
-                saga. The Eclipse Dragon Series channels the wonder of these celestial events into a rich, imaginative
-                world of dragons, heroes, and epic battles. These stories represent the power of creativity to transform
-                fleeting moments into enduring tales.
-              </p>
-              <div class="cta-row">
-                <a @click="open('eclipse')"><button>LEARN MORE</button></a>
-              </div>
-            </div>
-          </div>
-        </div> -->
-        <!-- <div class="right-carousel-arrow arrow">
-          <i class="fa-solid fa-chevron-right fa-2x scroll-arrow" @click="(scrollRight)"></i>
-        </div> -->
         <div class="slide-hero-home-image" v-for="(slide, index) in slides" :key="index" v-show="currentIndex === index"
           :style="{ backgroundImage: `url(${slide.background})` }">
           <h1 v-if="slide.title">{{ slide.title }}</h1>
@@ -153,7 +84,7 @@
     <section class="meet-author people view">
       <h2>Meet The Author</h2>
       <!-- <div class="bamboo-image"><img src="../assets/bvb-circle-logo.png"></div> -->
-      <div class="info-container">
+      <div class="information-container">
         <div class="text-container">
           <p>Quinton Taylor-Garcia is an emerging voice in dystopian fiction, blending intense survival scenarios with
             deep character development and moral exploration. With a passion for storytelling that challenges societal
@@ -171,7 +102,7 @@
       </div>
       <!-- <section class="vision people"> -->
       <h2>Our Vision</h2>
-      <div class="info-container vision-info-container">
+      <div class="information-container vision-info-container">
         <div class="left-aligned-image-container">
           <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/community.jpg" alt="Community Image">
         </div>
@@ -191,7 +122,7 @@
 
       <!-- <section class="team people"> -->
       <h2>Our Team</h2>
-      <div class="info-container">
+      <div class="information-container">
         <div class="text-container">
           <p>Our team, a collective of avid book enthusiasts,
             is devoted to delivering outstanding customer service and guiding you to your ideal read. We pledge to
@@ -390,16 +321,6 @@ export default {
   background-color: var(--secondary);
 }
 
-/* .hero-carousel {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  scroll-behavior: smooth;
-  overflow-x: scroll;
-  scroll-snap-type: mandatory;
-  width: 100%;
-} */
-
 .slide-hero-home-image {
   display: flex;
   flex-direction: column;
@@ -510,47 +431,6 @@ export default {
     width: 96%;
   }
 }
-
-/* .myasthenia-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding: 0 64px 64px 64px;
-  border-bottom: 1px solid var(--quinary);
-  gap: 8px;
-
-  h2 {
-    color: var(--quinary);
-    line-height: 1.4;
-  }
-
-  p {
-    margin-top: 30px;
-    background-color: rgba(249, 250, 234, 0.6);
-    border-radius: 8px;
-    padding: 42px;
-  }
-
-  .info-container {
-    align-items: center;
-    justify-content: center;
-
-    img {
-      width: 50%;
-    }
-  }
-
-  .left-aligned-image-container {
-    width: 50%;
-    align-items: center;
-  }
-
-  .text-container {
-    width: 50%;
-  }
-} */
 
 .dragons-container {
   display: flex;
@@ -695,7 +575,7 @@ export default {
 }
 
 /* Information pertaining to Meet the Author, Our Vision, and Our Team sections. */
-.info-container {
+.information-container {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -727,24 +607,6 @@ export default {
   background-size: cover;
 }
 
-/* @keyframes appear {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-
-.info-container {
-  animation: appear 1s ease-out;
-  animation-timeline: view();
-  animation-range: entry 150% cover 40%;
-} */
-
 
 /* Section 7 - Achievements and Acknowledgements */
 .achievements-carousel-container {
@@ -774,53 +636,14 @@ export default {
   }
 }
 
-/* @keyframes scroll-hortizontal {
-  0% {
-    transform: translateX(0);
-  }
-
-  100% {
-    transform: translateX(-100%);
-  }
-} */
-
-/* .achievements-carousel:hover .scrolling-carousel-items {
-  animation-play-state: paused;
-}*/
-
 @media (min-width: 1610px) and (max-width: 1740px) {
   p {
     font-size: 32px;
   }
-
-  /* .hero-carousel {
-    .arrow {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: space-bewtween;
-      background-color: rgba(249, 250, 234, 0.2);
-      height: 7%;
-      width: 3%;
-      border-radius: 50%;
-      color: var(--secondary);
-    }
-  } */
 }
-
-/* @media (min-width: 1025px) and (max-width: 1472){
-
-} */
 
 
 @media (min-width:768px) and (max-width:1024px) {
-
-  /* Home Page Container */
-  /* .home-page-container {
-    p {
-      font-size: 16px;
-    }
-  } */
 
   /* Carousel */
   .home-title {
@@ -951,7 +774,7 @@ export default {
     }
   }
 
-  .info-container {
+  .information-container {
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
@@ -1033,14 +856,6 @@ export default {
   }
 
   .slide-hero-home-image {
-    /* padding: 0;
-
-        .info-container {
-          .left-aligned-image-container img {
-            margin: 0;
-          }
-
-        } */
 
     h2 {
       font-size: 26px;
@@ -1062,82 +877,6 @@ export default {
   .hero-staggered-books {
     display: none;
   }
-
-  /* .ashes-container {
-        .text-container {
-          padding: 0px 16px 16px 16px;
-          width: 100%;
-        }
-
-        p {
-          padding: 18px;
-        }
-
-        .left-aligned-image-container {
-          img {
-            width: 100%;
-          }
-        }
-      } */
-
-  /* .myasthenia-container {
-        .text-container {
-          padding: 0px 8px 16px 8px;
-          width: 100%;
-        }
-
-        p {
-          padding: 18px;
-        }
-
-        .left-aligned-image-container {
-          img {
-            width: 50%;
-          }
-        }
-      } */
-
-  /* .dragons-container {
-        align-self: space-between;
-
-        .text-container {
-          padding: 127px 10px 16px 10px;
-          width: 100%;
-        }
-
-        h2 {
-          padding-top: 90px;
-        }
-
-        p {
-          margin-top: 0;
-          padding: 18px;
-        }
-
-        .left-aligned-image-container {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-
-          img {
-            width: 80%;
-          }
-        }
-      } */
-
-  /* .info-container {
-        display: flex;
-        flex-direction: column;
-      }
-
-      .left-aligned-image-container {
-        width: 100%
-      }
-
-      .text-container {
-        width: 100%;
-      } */
-
 
   /* home page container */
   .home-page-container {

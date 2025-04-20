@@ -189,8 +189,15 @@ export default {
     }
 
     p {
-      font-size: 12px;
+      font-size: 20px;
     }
+  }
+
+  .info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
 

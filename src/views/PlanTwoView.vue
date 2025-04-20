@@ -215,6 +215,10 @@
         justify-content: center;
       }
     }
+
+    .arrow-container {
+      margin-bottom: 24px;
+    }
   }
   
   @media (max-width: 767px) {

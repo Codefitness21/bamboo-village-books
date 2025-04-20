@@ -217,13 +217,17 @@
         justify-content: center;
       }
     }
+
+    .arrow-container {
+      margin-bottom: 24px;
+    }
   }
   
   @media (max-width: 767px) {
     .planone-container {
         padding: 32px 40px 96px 40px;
     }
-    
+
     h2 {
       font-size: 24px;
     }

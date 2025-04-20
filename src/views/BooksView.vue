@@ -335,7 +335,7 @@ export default {
   margin-top: 48px;
 
   iframe {
-    width: 1200px;
+    width: 932px;
     height: 600px;
   }
 }

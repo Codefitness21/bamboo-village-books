@@ -912,7 +912,7 @@ export default {
     }
   }
 
-  .info-container {
+  .information-container {
     flex-direction: column-reverse;
     margin-bottom: 32px;
   }
@@ -938,7 +938,7 @@ export default {
       }
     }
 
-    .info-container {
+    .information-container {
       flex-direction: column-reverse;
       align-self: center;
     }

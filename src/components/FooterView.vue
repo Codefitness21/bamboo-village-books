@@ -110,7 +110,7 @@ h6 {
     display: flex;
     flex-direction: column;
     text-align: left;
-    font-size: 14px;
+    font-size: 12px;
     color: var(--secondary);
 }
 
@@ -127,7 +127,7 @@ h6 {
     flex-direction: column;
     justify-content: space-evenly;
     text-align: center;
-    font-size: 14px;
+    font-size: 12px;
     color: var(--secondary);
 }
 
@@ -149,7 +149,7 @@ h6 {
 }
 
 .copyright {
-    font-size: 12px;
+    font-size: 10px;
     font-weight: bold;
     color: var(--secondary)
 }

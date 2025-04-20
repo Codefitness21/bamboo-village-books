@@ -224,6 +224,7 @@ export default {
     padding: 0 32px px 32px;
 
     img {
+      margin-bottom: 24px;
       width: 72%;
     }
 

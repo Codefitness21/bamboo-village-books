@@ -218,6 +218,10 @@
   }
   
   @media (max-width: 767px) {
+    .plantwo-container {
+        padding: 32px 40px 96px 40px;
+    } 
+
     h2 {
       font-size: 24px;
     }

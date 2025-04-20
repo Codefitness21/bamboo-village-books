@@ -125,7 +125,7 @@ h6 {
 .contact-container {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
     text-align: center;
     font-size: 14px;
     color: var(--secondary);

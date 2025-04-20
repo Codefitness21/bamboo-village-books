@@ -186,6 +186,7 @@ export default {
   .ashes-synopsis {
     img {
       width: 80%;
+      margin-bottom: 36px;
     }
 
     p {

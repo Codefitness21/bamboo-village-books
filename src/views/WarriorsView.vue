@@ -81,7 +81,7 @@ export default {
   
   h2 {
     margin: 48px 0 48px 0;
-    color: var(--quinary);
+    color: var(--secondary);
   }
 
   p {

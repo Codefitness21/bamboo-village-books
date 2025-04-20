@@ -400,6 +400,7 @@ export default {
 .navigate {
   position: absolute;
   z-index: 1;
+  margin-top: 85px;
   padding: 0 16px;
   width: 100%;
   display: flex;

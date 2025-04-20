@@ -8,7 +8,7 @@
       <div class="intern-information">
         <div class="intern-image">
           <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Samone.jpg" alt="Samone">
-          
+
         </div>
         <div class=intern-text>
           <div class="name">
@@ -39,7 +39,7 @@
       <div class="intern-information">
         <div class="intern-image">
           <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Alexia.jpg" alt="Alexis">
-          
+
         </div>
         <div class=intern-text>
           <div class="name">
@@ -60,7 +60,7 @@
       <div class="intern-information">
         <div class="intern-image">
           <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/image_placeholder.jpg" alt="Kaleigh">
-          
+
         </div>
         <div class=intern-text>
           <div class="name">
@@ -182,26 +182,39 @@ export default {
 
 @media (min-width:768px) and (max-width:1024px) {
   .intern-image {
-    justify-content: flex-start;
+    img {
+      width: 200%;
+      margin-bottom: 24px;
+    }
     p {
       padding: 0;
       text-align: left;
     }
+
     h3 {
       font-size: 24px;
     }
+
     h4 {
       font-size: 16px;
       margin-bottom: 18px;
     }
   }
-  }
 
-  .bottom-line {
-    h4 {
-      text-align: left;
-    }
+  .intern-information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 64px 96px 64px;
+    align-items: center;
   }
+}
+
+.bottom-line {
+  h4 {
+    text-align: left;
+  }
+}
 
 @media (max-width: 767px) {
   .intern-information {
@@ -233,13 +246,13 @@ export default {
 
   .name {
     h3 {
-    font-size: 24px;
-  }
+      font-size: 24px;
+    }
 
-  h4 {
-    font-size: 20px;
-    margin-bottom: 18px;
-  }
+    h4 {
+      font-size: 20px;
+      margin-bottom: 18px;
+    }
   }
 
   .bottom-line {

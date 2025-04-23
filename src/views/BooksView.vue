@@ -651,6 +651,12 @@ a {
         font-size: 16px;
       }
     }
+
+    .book3 {
+      width: 230px;
+      height: 310px;
+      margin: 24px;
+    }
   }
 
   iframe {
@@ -782,6 +788,12 @@ a {
   }
 
   .book {
+    height: 400px;
+    width: 300px;
+    margin-bottom: 56px;
+  }
+
+  .book3 {
     height: 400px;
     width: 300px;
     margin-bottom: 56px;

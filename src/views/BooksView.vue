@@ -486,7 +486,7 @@ export default {
   flex-grow: 1;
 
   h3 {
-    font-size: 14px;
+    font-size: 15px;
   }
 
   img {

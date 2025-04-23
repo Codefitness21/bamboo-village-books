@@ -594,7 +594,7 @@ a {
   align-items: center;
   background-color: var(--quinary);
   background-image: url("https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Orders.jpg");
-  background-size: 70%;
+  background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
   height: 530px;

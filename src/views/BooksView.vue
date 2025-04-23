@@ -172,14 +172,13 @@
     <section class="upcoming-releases-container">
       <h2>UPCOMING 2025 RELEASES...</h2>
       <div class="upcoming-books">
+        <div class="book3">
+        </div>
         <div class="book">
           <h2>The Silent Crown</h2>
         </div>
         <div class="book">
           <h2>Eclipse Dragons Dark Saga Trilogy</h2>
-        </div>
-        <div class="book">
-          <h2>Myasthenia Gravis</h2>
         </div>
       </div>
     </section>
@@ -586,6 +585,23 @@ a {
   h2 {
     font-size: 32px;
   }
+}
+
+.book3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--quinary);
+  background-image: url("https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Orders.jpg");
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 530px;
+  width: 400px;
+  font-weight: bold;
+  padding: 56px;
+  margin-bottom: 96px;
 }
 
 @media (min-width:768px) and (max-width:1024px) {

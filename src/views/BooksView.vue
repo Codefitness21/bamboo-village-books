@@ -172,7 +172,7 @@
     <section class="upcoming-releases-container">
       <h2>UPCOMING 2025 RELEASES...</h2>
       <div class="upcoming-books">
-        <div class="book3">
+        <div class="book book-1">
         </div>
         <div class="book">
           <h2>The Silent Crown</h2>
@@ -587,21 +587,9 @@ a {
   }
 }
 
-.book3 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--quinary);
-  background-image: url("https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Orders.jpg");
+.book-1 {
   background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 530px;
-  width: 400px;
-  font-weight: bold;
-  padding: 56px;
-  margin-bottom: 96px;
+  background-image: url("https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Orders.jpg");
 }
 
 @media (min-width:768px) and (max-width:1024px) {
@@ -650,12 +638,6 @@ a {
       h2 {
         font-size: 16px;
       }
-    }
-
-    .book3 {
-      width: 230px;
-      height: 310px;
-      margin: 24px;
     }
   }
 
@@ -788,12 +770,6 @@ a {
   }
 
   .book {
-    height: 400px;
-    width: 300px;
-    margin-bottom: 56px;
-  }
-
-  .book3 {
     height: 400px;
     width: 300px;
     margin-bottom: 56px;

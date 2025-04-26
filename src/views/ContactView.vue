@@ -7,7 +7,7 @@
             alt="Team award at ribbon cutting">
         </div>
         <div class="contact-form-container">
-          <form class="contact-form" action="https://formspree.io/f/xbldnbba" method="POST">
+          <form class="contact-form" action="https://formspree.io/f/xbldnbba" method="POST" @submit=handleSubmit autocomplete="off">
             <div class="header">
               <h2>Contact For More Information</h2>
             </div>
@@ -20,7 +20,7 @@
                   </div>
                   <div>
                     <label class="title-input" for="email">Email</label>
-                    <input class="input-field" type="text" id="email" name="email" />
+                    <input class="input-field" type="text" id="email" name="email"  />
                   </div>
                 </div>
                 <div class="right-container">
@@ -42,11 +42,14 @@
               </div>
               <!-- <h3>Make sure all fields are completed. Please allow 24 - 48 hours response time.</h3> -->
               <div class="submit-btn">
-                <button class="submit">SUBMIT</button>
+                <button class="submit" >SUBMIT</button>
               </div>
             </div>
           </form>
         </div>
+        <!-- <div class="contact-form-thankyou">
+          Thank you
+        </div> -->
       </div>
     </section>
   </div>
@@ -57,19 +60,24 @@ export default {
   name: 'ContactView',
   data() {
     return {
-      currentLocation: null
+      // thankyou: false,
+      currentLocation: null,
     }
   },
   async mounted() {
     this.currentLocation = this.$route.name
+    // if(this.$route.query["thanks"]) {
+    //   this.thankyou = true
+    // }
+
   },
   methods: {
     open(target) {
       this.currentLocation = target
       this.$router.push({ name: target })
     }
-  }
-}
+  },
+};
 </script>
 
 <style>

@@ -61,49 +61,49 @@
           </div>
           <div class="middle-row-container">
             <label for="form-message">Tell us how you found us:</label>
-            <textarea class="text-area-intern" type="form-message" id="form-message" name="form-message"></textarea>
+            <textarea class="text-area-intern" type="form-message" id="form-message" name="form-message" autocomplete="off"></textarea>
             <h3>Select the day(s) you're available for work and fill in your available hours next to the corresponding
               weekday:</h3>
           </div>
           <div class="bottom-row-container">
             <div class="bottom-left-container">
               <div class="form-schedule">
-                <input class="checkbox" type="checkbox" id="monday" name="Monday" v-model="ischecked">
+                <input class="checkbox" type="checkbox" id="monday" name="Monday" v-model="ischecked" autocomplete="off">
                 <label class="checkbox-font" for="monday">Monday</label>
               </div>
               <div class="form-schedule">
-                <input class="checkbox" type="checkbox" id="tuesday" name="Tuesday" v-model="ischecked">
+                <input class="checkbox" type="checkbox" id="tuesday" name="Tuesday" v-model="ischecked" autocomplete="off">
                 <label class="checkbox-font" for="tuesday">Tuesday</label>
               </div>
               <div class="form-schedule">
-                <input class="checkbox" type="checkbox" id="wednesday" name="Wednesday" v-model="ischecked">
+                <input class="checkbox" type="checkbox" id="wednesday" name="Wednesday" v-model="ischecked" autocomplete="off">
                 <label class="checkbox-font" for="wednesday">Wednesday</label>
               </div>
               <div class="form-schedule">
-                <input class="checkbox" type="checkbox" id="thursday" name="Thursday" v-model="ischecked">
+                <input class="checkbox" type="checkbox" id="thursday" name="Thursday" v-model="ischecked" autocomplete="off">
                 <label class="checkbox-font" for="thursday">Thursday</label>
               </div>
               <div class="form-schedule">
-                <input class="checkbox" type="checkbox" id="friday" name="Friday" v-model="ischecked">
+                <input class="checkbox" type="checkbox" id="friday" name="Friday" v-model="ischecked" autocomplete="off">
                 <label class="checkbox-font" for="friday">Friday</label>
               </div>
             </div>
             <div class="bottom-right-container">
               <div>
                 <input class="time-input-field" placeholder="(i.e.) 3pm - 5pm CST" type="text" id="monday"
-                  name="monday" />
+                  name="monday" autocomplete="off"/>
               </div>
               <div>
-                <input class="time-input-field" type="text" id="tuesday" name="tuesday" />
+                <input class="time-input-field" type="text" id="tuesday" name="tuesday" autocomplete="off" />
               </div>
               <div>
-                <input class="time-input-field" type="text" id="wednesday" name="wednesday" />
+                <input class="time-input-field" type="text" id="wednesday" name="wednesday" autocomplete="off"/>
               </div>
               <div>
-                <input class="time-input-field" type="text" id="thursday" name="thursday" />
+                <input class="time-input-field" type="text" id="thursday" name="thursday" autocomplete="off"/>
               </div>
               <div>
-                <input class="time-input-field" type="text" id="friday" name="friday" />
+                <input class="time-input-field" type="text" id="friday" name="friday" autocomplete="off"/>
               </div>
             </div>
           </div>

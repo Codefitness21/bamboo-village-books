@@ -29,6 +29,7 @@ import PlanThreeView from "@/views/PlanThreeView.vue";
 import ThankyouView from "@/views/ThankyouView.vue";
 import InternthanksView from "@/views/InternthanksView.vue";
 import PlanonethanksView from "@/views/PlanonethanksView.vue";
+import PlantwothanksView from "@/views/PlantwothanksView.vue";
 
 const routes = [
   {
@@ -170,6 +171,11 @@ const routes = [
     path: "/planonethanks",
     name: "planonethanks",
     component: PlanonethanksView
+  },
+  {
+    path: "/plantwothanks",
+    name: "plantwothanks",
+    component: PlantwothanksView
   },
 ];
 

@@ -47,7 +47,8 @@
           <img class=image v-if="reviews[currentIndex].image" :src="reviews[currentIndex].image" />
           <a class="name0" v-if="review.link" :href="review.link" target="_blank"><u>{{ review.name0 }}</u></a>
           <a class="name1" v-if="review.link" :href="review.link" target="_blank"><u>{{ review.name1 }}</u></a>
-          <div class="name">{{ review.name }}</div>
+          <a class="name" v-if="review.link" :href="review.link" target="_blank"><u>{{ review.name }}</u></a>
+          <!-- <div class="name">{{ review.name }}</div> -->
           <div class="review-indicator-btn">
             <div class="btn" v-for="(review, index) in reviews" :key="index" :class="{ active: currentIndex === index }"
               @click="changeReview(index)"></div>
@@ -206,12 +207,9 @@ export default {
           link: 'https://www.theusreview.com/reviews-1/Ashes-of-the-City-by-Quinton-Taylor-Garcia.html'
         },
         {
-          text: 'A starkly focused yet overlong tale of a clash between moderation versus despotism during an emergency.',
-          name: '- Kirkus Reviews'
-        },
-        {
-          text: 'Readers may find echoes of William Goldings Lord of the Flies or William Butlers The Butterfly Revolution. A thought-provoking YA survival novel that delves into leadership, morality, and human nature in crisis.',
-          name: '- Kirkus Reviews'
+          text: 'A starkly focused yet overlong tale of a clash between moderation versus despotism during an emergency. Readers may find echoes of William Goldings Lord of the Flies or William Butlers The Butterfly Revolution. A thought-provoking YA survival novel that delves into leadership, morality, and human nature in crisis.',
+          name: '- Kirkus Reviews',
+          link: 'https://www.kirkusreviews.com/book-reviews/quinton-taylor-garcia/ashes-of-the-city/'
         }
       ]
     }

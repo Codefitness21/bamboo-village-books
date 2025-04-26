@@ -124,7 +124,7 @@ for other devices. */
   justify-content: center;
   align-items: center;
   width: 50%;
-  /* border: 1px solid var(--secondary); */
+  padding-top: 20px;
 
   .contact-form {
     display: flex;

@@ -15,7 +15,7 @@ button {
     margin-top: 8px;
     font-size: 16px;
     font-weight: bold;
-    padding: 16px 32px;
+    padding: 15px 32px;
     border-radius: 3px;
     /* border-top-left-radius: 0;
   border-bottom-left-radius: 0; */

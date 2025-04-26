@@ -59,7 +59,7 @@ export default {
   .email-input {
     padding: 8px 16px;
     margin-right: 4px;
-    height: 6vh;
+    height: 7vh;
   }
 
   input {

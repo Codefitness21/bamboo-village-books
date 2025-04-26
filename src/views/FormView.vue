@@ -12,7 +12,7 @@
       <h2>Internship Application Form</h2>
       <h3>Sign up for more information about becoming an intern at Bamboo Village Books.</h3>
       <div class="intern-form-container">
-        <form class="intern-form" action="https://formspree.io/f/meoeydbj" method="POST">
+        <form class="intern-form" action="https://formspree.io/f/meoeydbj" method="POST" autocomplete="off">
           <div class="top-row-container">
             <div class="top-left-container">
               <div>

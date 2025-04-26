@@ -27,6 +27,7 @@ import PlanOneView from "@/views/PlanOneView.vue";
 import PlanTwoView from "@/views/PlanTwoView.vue";
 import PlanThreeView from "@/views/PlanThreeView.vue";
 import ThankyouView from "@/views/ThankyouView.vue";
+import InternthanksView from "@/views/InternthanksView.vue";
 
 const routes = [
   {
@@ -158,7 +159,12 @@ const routes = [
     path: "/thanks",
     name: "thankyou",
     component: ThankyouView
-  }
+  },
+  {
+    path: "/internthanks",
+    name: "internthanks",
+    component: InternthanksView
+  },
 ];
 
 const router = createRouter({

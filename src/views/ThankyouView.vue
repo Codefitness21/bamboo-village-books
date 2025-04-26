@@ -1,5 +1,5 @@
 <template>
-    <div class="thanks-contact-container">
+    <div class="thanks-contact-form">
         <p>Thank you for <br> your submission! </p>
     </div>
 </template>
@@ -25,7 +25,7 @@ export default {
 </script>
 
 <style>
-.thanks-contact-container {
+.thanks-contact-form {
     display: flex;
     flex-direction: row;
     justify-content: center;

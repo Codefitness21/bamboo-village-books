@@ -11,48 +11,48 @@
         </div>
         <h2>Intermediate Package: Developing Story</h2>
         <div class="plantwo-form-container">
-          <form class="plantwo-form" action="https://formspree.io/f/xanewpod" method="POST">
+          <form class="plantwo-form" action="https://formspree.io/f/xanewpod" method="POST" autocomplete="off">
             <div class="top-row-container">
               <div class="top-left-container">
                 <div>
                   <label class="title-input" for="first name">First Name</label>
-                  <input class="plantwo-input-field" type="text" id="first name" name="first name" />
+                  <input class="plantwo-input-field" type="text" id="first name" name="first name" autocomplete="off"/>
                 </div>
                 <div>
                   <label class="title-input" for="email">Email</label>
-                  <input class="plantwo-input-field" type="text" id="email" name="email" />
+                  <input class="plantwo-input-field" type="text" id="email" name="email" autocomplete="off"/>
                 </div>
                 <div>
                   <label class="title-input" for="address">Address</label>
-                  <input class="plantwo-input-field" type="text" id="address" name="address" />
+                  <input class="plantwo-input-field" type="text" id="address" name="address" autocomplete="off"/>
                 </div>
                 <div>
                   <label class="title-input" for="city">City</label>
-                  <input class="plantwo-input-field" type="text" id="city" name="city" />
+                  <input class="plantwo-input-field" type="text" id="city" name="city" autocomplete="off"/>
                 </div>
               </div>
               <div class="top-right-container">
                 <div>
                   <label class="title-input" for="last name">Last Name</label>
-                  <input class="plantwo-input-field" type="text" id="last name" name="last name" />
+                  <input class="plantwo-input-field" type="text" id="last name" name="last name" autocomplete="off"/>
                 </div>
                 <div>
                   <label class="title-input" for="phone">Phone</label>
-                  <input class="plantwo-input-field" type="text" placeholder="(_ _ _) _ _ _ - _ _ _ _" id="phone" name="phone" />
+                  <input class="plantwo-input-field" type="text" placeholder="(_ _ _) _ _ _ - _ _ _ _" id="phone" name="phone" autocomplete="off"/>
                 </div>
                 <div>
                   <label class="title-input" for="zip">Zip Code</label>
-                  <input class="plantwo-input-field" type="text" id="zip" name="zip" />
+                  <input class="plantwo-input-field" type="text" id="zip" name="zip" autocomplete="off"/>
                 </div>
                 <div>
                   <label class="title-input" for="state">State</label>
-                  <input class="plantwo-input-field" type="text" id="state" name="state" />
+                  <input class="plantwo-input-field" type="text" id="state" name="state" autocomplete="off"/>
                 </div>
               </div>
             </div>
             <div class="middle-row-container">
               <label for="form-message">How can we support you?</label>
-              <textarea class="text-area-plan" type="form-message" id="form-message" name="form-message"></textarea>
+              <textarea class="text-area-plan" type="form-message" id="form-message" name="form-message" autocomplete="off"></textarea>
               <h3>Make sure all fields are completed with correct information and click apply. Please allow 24 - 48 hours response time.</h3>
             </div>
             <div class="apply-btn">

@@ -17,45 +17,45 @@
             <div class="top-left-container">
               <div>
                 <label class="title-input" for="first name">First Name</label>
-                <input class="input-field" type="text" id="first name" name="first name" />
+                <input class="input-field" type="text" id="first name" name="first name" autocomplete="off"/>
               </div>
               <div>
                 <label class="title-input" for="email">Email</label>
-                <input class="input-field" type="text" id="email" name="email" />
+                <input class="input-field" type="text" id="email" name="email" autocomplete="off"/>
               </div>
               <div>
                 <label class="title-input" for="date">Date of Birth</label>
-                <input class="input-field" type="text" placeholder="MM/DD/YYYY" id="date" name="date" />
+                <input class="input-field" type="text" placeholder="MM/DD/YYYY" id="date" name="date" autocomplete="off"/>
               </div>
               <div>
                 <label class="title-input" for="address">Address</label>
-                <input class="input-field" type="text" id="address" name="address" />
+                <input class="input-field" type="text" id="address" name="address" autocomplete="off"/>
               </div>
               <div>
                 <label class="title-input" for="city">City</label>
-                <input class="input-field" type="text" id="city" name="city" />
+                <input class="input-field" type="text" id="city" name="city" autocomplete="off"/>
               </div>
             </div>
             <div class="top-right-container">
               <div>
                 <label class="title-input" for="last name">Last Name</label>
-                <input class="input-field" type="text" id="last name" name="last name" />
+                <input class="input-field" type="text" id="last name" name="last name" autocomplete="off"/>
               </div>
               <div>
                 <label class="title-input" for="phone">Phone</label>
-                <input class="input-field" type="text" placeholder="(_ _ _) _ _ _ - _ _ _ _" id="phone" name="phone" />
+                <input class="input-field" type="text" placeholder="(_ _ _) _ _ _ - _ _ _ _" id="phone" name="phone" autocomplete="off"/>
               </div>
               <div>
                 <label class="title-input" for="school">School Name</label>
-                <input class="input-field" type="text" id="school" name="school" />
+                <input class="input-field" type="text" id="school" name="school" autocomplete="off"/>
               </div>
               <div>
                 <label class="title-input" for="zip">Zip Code</label>
-                <input class="input-field" type="text" id="zip" name="zip" />
+                <input class="input-field" type="text" id="zip" name="zip" autocomplete="off"/>
               </div>
               <div>
                 <label class="title-input" for="state">State</label>
-                <input class="input-field" type="text" id="state" name="state" />
+                <input class="input-field" type="text" id="state" name="state" autocomplete="off"/>
               </div>
             </div>
           </div>

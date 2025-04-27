@@ -45,13 +45,16 @@
     </div>
     <div class="mailing-container">
       <h5>Join Our Mailing List</h5>
-      <form class="mail-form" action="https://formspree.io/f/xwpvgjop" method="POST">
+      <form class="mail-form" action="https://formspree.io/f/xwpvgjop" method="POST" @submit="showThankYou">
         <div class="input-container">
           <label class="title-input" for="email"></label>
           <input class="email-input" type="text" placeholder="Email" id="email" name="email" />
         </div>
         <button class="sign-up-btn">SIGN UP</button>
       </form>
+      <div class="mail-form-thanks" v-if="!thankyou">
+        <h3>Thank You!</h3>
+      </div>
     </div>
 
     <section class="about-books">
@@ -179,6 +182,7 @@ export default {
 
   data() {
     return {
+      thankyou: true,
       currentLocation: null,
       currentIndex: 0,
       slides: [
@@ -220,6 +224,9 @@ export default {
     window.scrollTo(0, 0)
   },
   methods: {
+    showThankYou() {
+      this.thankyou = false;
+    },
     open(target) {
       this.currentLocation = target
       this.$router.push({ name: target })

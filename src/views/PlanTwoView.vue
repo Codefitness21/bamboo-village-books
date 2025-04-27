@@ -11,7 +11,7 @@
         </div>
         <h2>Intermediate Package: Developing Story</h2>
         <div class="plantwo-form-container">
-          <form class="plantwo-form" action="https://formspree.io/f/xanewpod" method="POST" autocomplete="off">
+          <form class="plantwo-form" action="https://formspree.io/f/xanewpod" method="POST" @submit=handleSubmit autocomplete="off">
             <div class="top-row-container">
               <div class="top-left-container">
                 <div>

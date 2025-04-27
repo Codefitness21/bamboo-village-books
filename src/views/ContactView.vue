@@ -7,7 +7,7 @@
             alt="Team award at ribbon cutting">
         </div>
         <div class="contact-form-container">
-          <form class="contact-form" action="https://formspree.io/f/xbldnbba" method="POST" @submit=handleSubmit autocomplete="off">
+          <form class="contact-form" action="https://formspree.io/f/xbldnbba" method="POST" autocomplete="off">
             <div class="header">
               <h2>Contact For More Information</h2>
             </div>

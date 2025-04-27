@@ -11,7 +11,7 @@
         </div>
         <h2>Beginner Package: First Chapter</h2>
         <div class="planone-form-container">
-          <form class="planone-form" action="https://formspree.io/f/xkgjwqrw" method="POST" autocomplete="off">
+          <form class="planone-form" action="https://formspree.io/f/xkgjwqrw" method="POST" @submit=handleSubmit autocomplete="off">
             <div class="top-row-container">
               <div class="top-left-container">
                 <div>

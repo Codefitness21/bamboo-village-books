@@ -144,7 +144,9 @@ export default {
       flex-direction: row;
       justify-content: center;
       align-items: center;
-      align-self: flex-start;
+      .left-aligned-image-container {
+        align-self: flex-start;
+      }
     }
 
     img {

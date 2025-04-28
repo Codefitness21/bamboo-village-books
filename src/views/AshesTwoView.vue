@@ -84,25 +84,26 @@
             is fragile and survival comes at a price, Maya must decide how far she's willing to go to protect her
             friends and what kind of leader she truly wants to be.</p>
         </div>
+        <div class="cta-row">
+    <div class="read-btn"><a
+        href="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/pdfs/Ashes_of_the_City.pdf"><button
+          class="read-sample-btn white-btn">READ
+          SAMPLE</button></a></div>
+    <div class="read-btn">
+      <div class="dropdown">
+        <button class="dropdown cta white-btn">BUY BOOK</button>
+        <div class="dropdown-content">
+          <a href="https://www.amazon.com/Ashes-City-Quinton-Taylor-Garcia/dp/B0DJZF3DM3">AMAZON</a>
+          <a href="https://www.barnesandnoble.com/w/ashes-of-the-city-quinton-taylor-garcia/1146717150">BARNES &
+            NOBLE</a>
+        </div>
+      </div>
+    </div>
+  </div>
       </div>
     </div>
   </section>
-  <div class="cta-row">
-            <div class="read-btn"><a
-                href="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/pdfs/Ashes_of_the_City.pdf"><button
-                  class="read-sample-btn white-btn">READ
-                  SAMPLE</button></a></div>
-            <div class="read-btn">
-              <div class="dropdown">
-                <button class="dropdown cta white-btn">BUY BOOK</button>
-                <div class="dropdown-content">
-                  <a href="https://www.amazon.com/Ashes-City-Quinton-Taylor-Garcia/dp/B0DJZF3DM3">AMAZON</a>
-                  <a href="https://www.barnesandnoble.com/w/ashes-of-the-city-quinton-taylor-garcia/1146717150">BARNES &
-                    NOBLE</a>
-                </div>
-              </div>
-            </div>
-          </div>
+  
 
   <section class="ashes-video-container">
     <h2>BOOK TRAILER</h2>
@@ -176,42 +177,42 @@ export default {
 
 
   .ashes-synopsis {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-image: url("https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/dystopian-city.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding: 32px 64px 96px 64px;
-
-  h2 {
-    color: var(--secondary);
-    margin: 48px 0 48px 0;
-  }
-
-  p {
-    font-size: 20px;
-    border-radius: 8px;
-    background-color: rgba(0, 0, 0, 0.4);
-    color: var(--secondary);
-    padding: 15px;
-  }
-
-  .info-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
-  }
+    background-image: url("https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/dystopian-city.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 32px 64px 96px 64px;
 
-  .left-aligned-image-container {
-    align-items: center;
-  }
+    h2 {
+      color: var(--secondary);
+      margin: 48px 0 48px 0;
+    }
 
-  img {
-    border: 1px solid var(--quinary);
-    width: 60%;
+    p {
+      font-size: 20px;
+      border-radius: 8px;
+      background-color: rgba(0, 0, 0, 0.4);
+      color: var(--secondary);
+      padding: 15px;
+    }
+
+    .info-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .left-aligned-image-container {
+      align-items: center;
+    }
+
+    img {
+      border: 1px solid var(--quinary);
+      width: 60%;
+    }
   }
-}
 }
 </style>

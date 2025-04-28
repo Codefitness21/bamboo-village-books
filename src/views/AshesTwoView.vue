@@ -117,7 +117,7 @@ export default {
   a {
     color: var(--secondary);
   }
-  .page-info-container {
+  .info-container {
     display: flex;
     flex-direction: row;
     justify-content: center;

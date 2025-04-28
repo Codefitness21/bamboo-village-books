@@ -117,11 +117,28 @@ export default {
   a {
     color: var(--secondary);
   }
+  
+ 
+  .ashes-synopsis {
+  p {
+    font-size: 20px;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: var(--secondary);
+    padding: 15px;
+  }
+
   .info-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
   }
+
+  img {
+    border: 1px solid var(--quinary);
+    width: 60%;
+  }
+}
 }
 </style>

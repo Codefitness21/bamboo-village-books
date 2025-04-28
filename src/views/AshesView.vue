@@ -33,16 +33,16 @@
     </div>
   </section> -->
 
-  <section class="silent-book-container">
-    <div class="silent-synopsis">
-      <div class="black-arrow">
+  <section class="ashes-book-container">
+    <div class="ashes-synopsis">
+      <div class="white-arrow">
         <arrow-books />
       </div>
       <h2>THE SILENT CALL OF THE LAKE</h2>
       <div class="info-container">
         <div class="left-aligned-image-container">
-          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/silent_call.jpg"
-            alt="The Silent Call of the Lake Image">
+          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/ashes.jpg"
+            alt="Ashes of the City Image">
         </div>
         <div class="text-container">
           <p>"Reflections on the Ice: The Life and Legacy of JM" is an evocative and heartfelt journey through the life
@@ -174,7 +174,7 @@ export default {
 } */
 
 
-.silent-synopsis {
+.ashes-synopsis {
   display: flex;
   flex-direction: column;
   justify-content: center;

@@ -70,7 +70,10 @@
             of the Eclipse of Worlds spell doom for all? Dive into "Eclipse Dragons: The Rogue Mages Uprise" and embark
             on a journey where the line between friend and foe blurs, and the heart of a warrior is the only light in
             the encroaching darkness.</p>
-          <div class="cta-row">
+         
+        </div>
+      </div>
+      <div class="cta-row">
             <div class="read-btn"><a href="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/pdfs/Eclipse_Dragons_The_Rogue_Mages+_Uprising_Book_2.pdf"><button
                   class="read-sample-btn white-btn">READ SAMPLE</button></a></div>
             <div class="read-btn">
@@ -78,8 +81,6 @@
                   class="cta-2 white-btn">BUY BOOK</button></a>
             </div>
           </div>
-        </div>
-      </div>
     </div>
   </section>
   <section class="dragonsthree-book-container">
@@ -105,7 +106,10 @@
             over fire burns with a passion for justice; and Luneth, the ice-wielder whose cool demeanor masks a fierce
             protective instinct. Together, they form a tight-knit circle, bound by purpose and unyielding in their
             mission to protect their realm.</p>
-          <div class="cta-row">
+         
+        </div>
+      </div>
+      <div class="cta-row">
             <div class="read-btn"><a
                 href="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/pdfs/Eclipse_Dragons_The_Warlord's_Awakening_Battles_of_the_Multiverse_3.pdf"><button
                   class="read-sample-btn white-btn">READ SAMPLE</button></a></div>
@@ -114,8 +118,6 @@
                   class="cta-2 white-btn">BUY BOOK</button></a>
             </div>
           </div>
-        </div>
-      </div>
     </div>
   </section>
 </template>
@@ -159,6 +161,22 @@ export default {
 }
 
 .dragonsone-synopsis {
+    .info-container, .left-aligned-image-container {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+}
+
+.dragonstwo-synopsis {
+    .info-container, .left-aligned-image-container {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+}
+
+.dragonsthree-synopsis {
     .info-container, .left-aligned-image-container {
         display: flex;
         flex-direction: row;

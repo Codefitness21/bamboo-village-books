@@ -38,28 +38,31 @@
       <div class="white-arrow">
         <arrow-books />
       </div>
-      <h2>THE SILENT CALL OF THE LAKE</h2>
+      <h2>ASHES OF THE CITY</h2>
       <div class="info-container">
         <div class="left-aligned-image-container">
           <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/ashes.jpg"
             alt="Ashes of the City Image">
         </div>
         <div class="text-container">
-          <p>"Reflections on the Ice: The Life and Legacy of JM" is an evocative and heartfelt journey through the life
-            of an elderly man named JM, whose profound connection to ice fishing and the natural world of Cuyahoga Falls
-            shapes his entire existence. From the crisp, frost-laden mornings on the frozen lake to the serene twilight
-            of his later years, this book weaves together the threads of passion, wisdom, and an unbreakable bond with
-            nature. Readers are invited to explore the depths of JM's love for ice fishing, his insights into life, and
-            the reflections of a man who has witnessed the beauty and challenges of a life spent in nature's embrace. As
-            JM's story unfolds from the eager steps of youth to the slower, more measured pace of later years, his
-            experiences resonate with profound lessons about patience, resilience, and the importance of living a life
-            connected to the world around us. Through intimate anecdotes and reflective passages, "Reflections on the
-            Ice" not only chronicles JM's journey but also serves as a timeless reminder of the enduring beauty of
-            following one's passion and living in harmony with the natural world. </p>
+          <p>Ashes of the City is a gripping Young Adult dystopian novel that delves into the struggle for survival in a
+            city shattered by disaster. When a massive earthquake devastates their urban home, a group of high school
+            students is left stranded in the ruins, cut off from rescue and forced to confront a new reality where the
+            old rules no longer apply.</p><br>
+          <p>Maya, a responsible and compassionate leader, steps up to guide the group, clinging to her belief in unity
+            and hope. But her vision is challenged by Jace, a charismatic rebel who believes in a more ruthless
+            approach—one where only the strongest survive. As their differing philosophies clash, the group fractures
+            into factions, with the city's remaining resources becoming the center of a dangerous power struggle.</p>
+          <br>
+          <p>As Maya battles to hold onto her humanity, Jace's tactics grow increasingly harsh, leading to violent
+            confrontations and impossible choices. Amidst collapsing buildings, dwindling supplies, and the ever-present
+            danger of aftershocks, both leaders are forced to face the cost of their decisions. In a world where trust
+            is fragile and survival comes at a price, Maya must decide how far she's willing to go to protect her
+            friends and what kind of leader she truly wants to be.</p>
         </div>
       </div>
       <div class="read-btn"><a
-          href="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/pdfs/The_Silent_Call_of_the_Lake.pdf"><button
+          href="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/pdfs/Ashes_of_the_City.pdf"><button
             class="read-sample-btn white-btn">READ
             SAMPLE</button></a></div>
     </div>
@@ -178,7 +181,7 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: url('https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/silent-lake-bkgrd.jpg');
+  background-image: url("https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/dystopian-city.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   padding: 32px 64px 96px 64px;

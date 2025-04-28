@@ -109,7 +109,7 @@ export default {
   }
 }
 
-/* @media (min-width:768px) and (max-width:1024px) {
+@media (min-width:768px) and (max-width:1024px) {
   .warriors-synopsis {
     img {
       width: 80%;
@@ -125,7 +125,7 @@ export default {
     align-items: center;
   }
   }
-} */
+}
 
 @media (max-width: 767px) {
   .warriors-synopsis .info-container .text-container {

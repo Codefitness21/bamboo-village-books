@@ -493,7 +493,7 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #000;
+  background-color: var(--secondary);
   padding: 0 64px 96px 64px;
   gap: 32px;
 

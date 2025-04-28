@@ -266,7 +266,8 @@ export default {
   p {
     font-size: 20px;
     border-radius: 8px;
-    background-color: rgb(255, 255, 255, 0.8);
+    background-color: rgba(0, 0, 0, 0.4);
+    color: var(--secondary);
     padding: 15px;
   }
 

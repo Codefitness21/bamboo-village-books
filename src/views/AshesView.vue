@@ -187,13 +187,15 @@ export default {
   padding: 32px 64px 96px 64px;
 
   h2 {
+    color: var(--secondary);
     margin: 48px 0 48px 0;
   }
 
   p {
     font-size: 20px;
     border-radius: 8px;
-    background-color: rgb(255, 255, 255, 0.8);
+    background-color: rgba(0, 0, 0, 0.4);
+    color: var(--secondary);
     padding: 15px;
   }
 

@@ -196,7 +196,7 @@ export default {
         </div>
       </div>
       <div class="read-btn"><a
-          href="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/pdfs/The_Silent_Call_of_the_Lake.pdf"><button
+          href="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/pdfs/Eclipse_Dragons_The_Rogue_Mages+_Uprising_Book_2.pdf"><button
             class="read-sample-btn white-btn">READ
             SAMPLE</button></a></div>
     </div>

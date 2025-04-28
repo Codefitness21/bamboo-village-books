@@ -80,10 +80,6 @@
             friends and what kind of leader she truly wants to be.</p>
         </div>
       </div>
-      <div class="read-btn"><a
-          href="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/pdfs/Ashes_of_the_City.pdf"><button
-            class="read-sample-btn white-btn">READ
-            SAMPLE</button></a></div>
     </div>
   </section>
   <div class="cta-row">

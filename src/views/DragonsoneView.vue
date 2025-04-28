@@ -220,7 +220,7 @@ export default {
 </script>
 
 <style>
-/* Dragons Container  */
+/* Dragons One Container  */
 .dragonsone-book-container {
   display: flex;
   flex-direction: column;
@@ -240,7 +240,7 @@ export default {
   }
 }
 
-/* Section 1 - Silent Call Synopsis */
+/* Section 1 - Dragons One Synopsis */
 .dragonsone-synopsis {
   display: flex;
   flex-direction: column;

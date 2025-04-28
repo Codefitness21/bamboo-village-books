@@ -1,5 +1,5 @@
 <template>
-  <section class="ashes-book-container">
+  <!-- <section class="ashes-book-container">
     <div class="ashes-synopsis">
       <div class="white-arrow">
         <arrow-books />
@@ -31,7 +31,41 @@
           href="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/pdfs/Ashes_of_the_City.pdf"><button
             class="read-sample-btn white-btn">READ SAMPLE</button></a></div>
     </div>
+  </section> -->
+
+  <section class="silent-book-container">
+    <div class="silent-synopsis">
+      <div class="black-arrow">
+        <arrow-books />
+      </div>
+      <h2>THE SILENT CALL OF THE LAKE</h2>
+      <div class="info-container">
+        <div class="left-aligned-image-container">
+          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/silent_call.jpg"
+            alt="The Silent Call of the Lake Image">
+        </div>
+        <div class="text-container">
+          <p>"Reflections on the Ice: The Life and Legacy of JM" is an evocative and heartfelt journey through the life
+            of an elderly man named JM, whose profound connection to ice fishing and the natural world of Cuyahoga Falls
+            shapes his entire existence. From the crisp, frost-laden mornings on the frozen lake to the serene twilight
+            of his later years, this book weaves together the threads of passion, wisdom, and an unbreakable bond with
+            nature. Readers are invited to explore the depths of JM's love for ice fishing, his insights into life, and
+            the reflections of a man who has witnessed the beauty and challenges of a life spent in nature's embrace. As
+            JM's story unfolds from the eager steps of youth to the slower, more measured pace of later years, his
+            experiences resonate with profound lessons about patience, resilience, and the importance of living a life
+            connected to the world around us. Through intimate anecdotes and reflective passages, "Reflections on the
+            Ice" not only chronicles JM's journey but also serves as a timeless reminder of the enduring beauty of
+            following one's passion and living in harmony with the natural world. </p>
+        </div>
+      </div>
+      <div class="read-btn"><a
+          href="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/pdfs/The_Silent_Call_of_the_Lake.pdf"><button
+            class="read-sample-btn white-btn">READ
+            SAMPLE</button></a></div>
+    </div>
   </section>
+
+
   <section class="ashes-video-container">
     <h2>BOOK TRAILER</h2>
     <iframe width="1200" height="600" src="https://www.youtube.com/embed/xpuh84NO9e4?si=VQRV_KRrzSJRzgrm"
@@ -91,15 +125,15 @@ export default {
 
 <style>
 /* Ashes container  */
-.ashes-book-container {
+/* .ashes-book-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
+} */
 
 
 /* Section 1 - Ashes synopsis */
-.ashes-synopsis {
+/* .ashes-synopsis {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -123,6 +157,44 @@ export default {
   }
 
   .page-info-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .left-aligned-image-container {
+    align-items: center;
+  }
+
+  img {
+    border: 1px solid var(--quinary);
+    width: 60%;
+  }
+} */
+
+
+.silent-synopsis {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url('https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/silent-lake-bkgrd.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 32px 64px 96px 64px;
+
+  h2 {
+    margin: 48px 0 48px 0;
+  }
+
+  p {
+    font-size: 20px;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255, 0.8);
+    padding: 15px;
+  }
+
+  .info-container {
     display: flex;
     flex-direction: row;
     justify-content: center;

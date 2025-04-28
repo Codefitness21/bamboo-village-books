@@ -266,10 +266,20 @@ export default {
         </div>
       </div>
       <div class="read-btn"><a
-          href="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/pdfs/The_Last_Sunset-Journey_with_Myasthenia_Gravis.pdf"><button
+          href=""><button
             class="read-sample-btn white-btn">READ
             SAMPLE</button></a></div>
     </div>
+
+
+    <div class="cta-row">
+            <div class="read-btn"><a href="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/pdfs/The_Last_Sunset-Journey_with_Myasthenia_Gravis.pdf"><button class="read-sample-btn">READ
+                  SAMPLE</button></a></div>
+            <div class="read-btn">
+              <a href="https://www.amazon.com/Last-Sunset-Myasthenia-Embracing-Connection/dp/B0CN65MYL3/"><button
+                  class="cta-2">BUY BOOK</button></a>
+            </div>
+          </div>
   </section>
 </template>
 

@@ -144,9 +144,6 @@ export default {
       flex-direction: row;
       justify-content: center;
       align-items: center;
-      .left-aligned-image-container {
-        align-self: flex-start;
-      }
     }
 
     img {
@@ -154,5 +151,11 @@ export default {
       width: 60%;
     }
   }
+
+  .ashes-synopsis {
+    .info-container, .left-aligned-image-container {
+        align-items: center;
+    }
+}
 }
 </style>

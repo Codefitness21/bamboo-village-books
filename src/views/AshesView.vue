@@ -5,7 +5,7 @@
         <arrow-books />
       </div>
       <h2>ASHES OF THE CITY</h2>
-      <div class="info-container">
+      <div class="page-info-container">
         <div class="left-aligned-image-container">
           <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/ashes.jpg"
             alt="Ashes of the City Image">
@@ -120,7 +120,7 @@ export default {
     padding: 15px;
   }
 
-  .info-container {
+  .page-info-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -196,7 +196,7 @@ export default {
     p {
       font-size: 20px;
     }
-    .info-container {
+    .page-info-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -206,7 +206,7 @@ export default {
 }
 
 @media (max-width: 767px) {
-  .ashes-synopsis .info-container .text-container {
+  .ashes-synopsis .page-info-container .text-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -233,7 +233,7 @@ export default {
     h2 {
       margin: 32px 0 0px 0;
     }
-    .info-container {
+    .page-info-container {
       display: flex;
       flex-direction: column;
       align-items: center;

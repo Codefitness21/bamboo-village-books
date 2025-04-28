@@ -161,36 +161,40 @@ export default {
   }
 }
 </style> -->
-
-
 <template>
-  <section class="silent-book-container">
-    <div class="silent-synopsis">
-      <div class="black-arrow">
+  <section class="warriors-book-container">
+    <div class="warriors-synopsis">
+      <div class="white-arrow">
         <arrow-books />
       </div>
       <h2>THE SILENT CALL OF THE LAKE</h2>
       <div class="info-container">
         <div class="left-aligned-image-container">
-          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/silent_call.jpg"
-            alt="The Silent Call of the Lake Image">
+          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/warriors_heart.jpg" alt="Warrior's Heart Image">
         </div>
         <div class="text-container">
-          <p>"Reflections on the Ice: The Life and Legacy of JM" is an evocative and heartfelt journey through the life
-            of an elderly man named JM, whose profound connection to ice fishing and the natural world of Cuyahoga Falls
-            shapes his entire existence. From the crisp, frost-laden mornings on the frozen lake to the serene twilight
-            of his later years, this book weaves together the threads of passion, wisdom, and an unbreakable bond with
-            nature. Readers are invited to explore the depths of JM's love for ice fishing, his insights into life, and
-            the reflections of a man who has witnessed the beauty and challenges of a life spent in nature's embrace. As
-            JM's story unfolds from the eager steps of youth to the slower, more measured pace of later years, his
-            experiences resonate with profound lessons about patience, resilience, and the importance of living a life
-            connected to the world around us. Through intimate anecdotes and reflective passages, "Reflections on the
-            Ice" not only chronicles JM's journey but also serves as a timeless reminder of the enduring beauty of
-            following one's passion and living in harmony with the natural world. </p>
+          <p>Step into the world of brave soldiers, dedicated veterans, and resilient military families through the
+            power of poetry. "Warriors of Words" is a collection that weaves together the profound emotions,
+            experiences, and indomitable spirit of those who have served in the armed forces. These military poems offer
+            more than just verses; they provide hope and resilience in the face of adversity. </p><br>
+          <p>In this evocative anthology, you will encounter poignant verses that capture the unyielding determination
+            of warriors, their unwavering commitment to a cause, and the sacrifices they make for their countries. Each
+            poem serves as a testament to the strength of the human spirit when faced with the challenges of conflict
+            and duty. These military poems not only shed light on the trials and tribulations of military life but also
+            illuminate the moments of camaraderie, unity, and unwavering resolve that define the military community.
+            Through the art of poetry, you will discover how individuals find hope in the darkest of hours and emerge
+            from adversity with newfound resilience.</p>
+          <br>
+          <p>Whether you have a personal connection to the military or simply appreciate the power of poetry to inspire
+            and uplift, "Warriors of Words" will leave a lasting impact. It reminds us that even during chaos and
+            turmoil, there is room for hope, and the human spirit is capable of incredible resilience. As you delve into
+            these verses, prepare to be moved, inspired, and uplifted by the enduring spirit of those who serve and the
+            transformative power of poetry. "Warriors of Words" is a heartfelt tribute to our military heroes and a
+            celebration of the hope and resilience that unite us all.</p>
         </div>
       </div>
       <div class="read-btn"><a
-          href="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/pdfs/The_Silent_Call_of_the_Lake.pdf"><button
+          href="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/pdfs/Warrior's_Heart.pdf"><button
             class="read-sample-btn white-btn">READ
             SAMPLE</button></a></div>
     </div>
@@ -202,7 +206,7 @@ import ArrowBooks from '../components/ArrowBooks.vue'
 
 export default {
   components: { ArrowBooks },
-  name: 'SilentView',
+  name: 'WarriorsView',
   data() {
     return {
       currentLocation: null
@@ -222,8 +226,8 @@ export default {
 </script>
 
 <style>
-/* Silent container  */
-.silent-book-container {
+/* Warriors Container  */
+.warriors-book-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -242,12 +246,12 @@ export default {
   }
 }
 
-/* Section 1 - Silent Call Synopsis */
-.silent-synopsis {
+/* Section 1 - Warriors Synopsis */
+.warriors-synopsis {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: url('https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/silent-lake-bkgrd.jpg');
+  background-image: url('https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/battleground.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   padding: 32px 64px 96px 64px;
@@ -281,7 +285,7 @@ export default {
 }
 
 @media (min-width:768px) and (max-width:1024px) {
-  .silent-synopsis {
+  .warriors-synopsis {
     img {
       width: 80%;
       margin-bottom: 36px;
@@ -301,7 +305,7 @@ export default {
 }
 
 @media (max-width: 767px) {
-  .silent-synopsis .info-container .text-container {
+  .warriors-synopsis .info-container .text-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -323,7 +327,7 @@ export default {
     }
   }
 
-  .silent-synopsis {
+  .warriors-synopsis {
     padding: 32px 32px 96px 32px;
     h2 {
       margin: 32px 0 0px 0;

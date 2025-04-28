@@ -79,13 +79,13 @@ export default {
   async mounted() {
     this.currentLocation = this.$route.name
     window.scrollTo(0, 0)
+  },
+  methods: {
+    open(target) {
+      this.currentLocation = target
+      this.$router.push({ name: target })
+    }
   }
-  // methods: {
-  //   open(books) {
-  //     this.currentLocation = books
-  //     this.$router.push({ name: books })
-  //   }
-  // }
 }
 </script>
 
@@ -97,6 +97,7 @@ export default {
   justify-content: center;
 }
 
+
 /* Section 1 - Ashes synopsis */
 .ashes-synopsis {
   display: flex;
@@ -106,6 +107,7 @@ export default {
   background-size: cover;
   background-repeat: no-repeat;
   padding: 32px 64px 96px 64px;
+
 
   h2 {
     color: var(--secondary);
@@ -136,6 +138,7 @@ export default {
     width: 60%;
   }
 }
+
 
 /* Section 2 - Ashes video */
 .ashes-video-container {

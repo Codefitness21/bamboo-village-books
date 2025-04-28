@@ -1,5 +1,3 @@
-
-
 <template>
   <section class="silent-book-container">
     <div class="silent-synopsis">

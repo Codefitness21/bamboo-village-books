@@ -11,7 +11,7 @@
         </div>
       </div>
       <h2>ASHES OF THE CITY</h2>
-      <div class="info-container">
+      <div class="page-info-container">
         <div class="left-aligned-image-container">
           <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/ashes.jpg" alt="Ashes of the City Image">
         </div>
@@ -117,7 +117,7 @@ export default {
   a {
     color: var(--secondary);
   }
-  .info-container {
+  .page-info-container {
     display: flex;
     flex-direction: row;
     justify-content: center;

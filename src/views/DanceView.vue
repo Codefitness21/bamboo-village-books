@@ -240,7 +240,7 @@ export default {
     gap: 4px;
 
     a {
-      color: var(--quinary);
+      color: var(--secondary);
     }
   }
 }

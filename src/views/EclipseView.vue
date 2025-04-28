@@ -31,7 +31,10 @@
             views his kind as supreme, seeking to eradicate humans and fairies to establish draconian dominance. As he
             rallies a legion, Lysandra and her friends must counter with unity, forming an alliance of guilds inclusive
             of warriors, mages, and paladins—a testament to the story's overarching theme of coalition-building.</p>
-          <div class="cta-row">
+          
+        </div>
+      </div>
+      <div class="cta-row">
             <div class="read-btn"><a href="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/pdfs/Eclipse_Dragon_Book_1.pdf"><button class="read-sample-btn">READ
                   SAMPLE</button></a></div>
             <div class="read-btn">
@@ -39,8 +42,6 @@
                   class="cta-2">BUY BOOK</button></a>
             </div>
           </div>
-        </div>
-      </div>
     </div>
   </section>
   <section class="dragonstwo-book-container">
@@ -155,5 +156,13 @@ export default {
   a {
     color: var(--secondary);
   }
+}
+
+.dragonsone-synopsis {
+    .info-container, .left-aligned-image-container {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
 }
 </style>

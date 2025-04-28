@@ -119,13 +119,12 @@ export default {
     p {
       font-size: 20px;
     }
-  }
-
-  .info-container {
+    .info-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
   }
 }
 

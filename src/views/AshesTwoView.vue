@@ -13,7 +13,8 @@
       <h2>ASHES OF THE CITY</h2>
       <div class="info-container">
         <div class="left-aligned-image-container">
-          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/ashes.jpg" alt="Ashes of the City Image">
+          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/ashes.jpg"
+            alt="Ashes of the City Image">
         </div>
         <div class="text-container">
           <p>Ashes of the City is a gripping Young Adult dystopian novel that delves into the struggle for survival in a
@@ -31,7 +32,9 @@
             is fragile and survival comes at a price, Maya must decide how far she's willing to go to protect her
             friends and what kind of leader she truly wants to be.</p>
           <div class="cta-row">
-            <div class="read-btn"><a href="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/pdfs/Ashes_of_the_City.pdf"><button class="read-sample-btn white-btn">READ
+            <div class="read-btn"><a
+                href="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/pdfs/Ashes_of_the_City.pdf"><button
+                  class="read-sample-btn white-btn">READ
                   SAMPLE</button></a></div>
             <div class="read-btn">
               <div class="dropdown">
@@ -104,8 +107,7 @@ export default {
 </script>
 
 <style>
-.ashes-synopsis
-.arrow-container {
+.ashes-synopsis .arrow-container {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -114,38 +116,41 @@ export default {
   font-weight: bold;
   cursor: pointer;
   gap: 8px;
+
   a {
     color: var(--secondary);
   }
-  
- 
+
+
   .ashes-synopsis {
     display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-image: url("https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/dystopian-city.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding: 32px 64px 96px 64px;
-  p {
-    font-size: 20px;
-    border-radius: 8px;
-    background-color: rgba(0, 0, 0, 0.4);
-    color: var(--secondary);
-    padding: 15px;
-  }
-
-  .info-container {
-    display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
-  }
+    background-image: url("https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/dystopian-city.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 32px 64px 96px 64px;
 
-  img {
-    border: 1px solid var(--quinary);
-    width: 60%;
+    p {
+      font-size: 20px;
+      border-radius: 8px;
+      background-color: rgba(0, 0, 0, 0.4);
+      color: var(--secondary);
+      padding: 15px;
+    }
+
+    .info-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      align-self: flex-start;
+    }
+
+    img {
+      border: 1px solid var(--quinary);
+      width: 60%;
+    }
   }
-}
 }
 </style>

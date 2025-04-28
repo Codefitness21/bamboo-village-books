@@ -162,7 +162,6 @@ export default {
   }
 }
 </style> -->
-
 <template>
   <section class="dragonstwo-book-container">
     <div class="dragonstwo-synopsis">

@@ -127,55 +127,6 @@ export default {
 </script>
 
 <style>
-/* Ashes container  */
-/* .ashes-book-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-} */
-
-
-/* Section 1 - Ashes synopsis */
-/* .ashes-synopsis {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-image: url("https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/dystopian-city.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding: 32px 64px 96px 64px;
-
-
-  h2 {
-    color: var(--secondary);
-    margin: 48px 0 48px 0;
-  }
-
-  p {
-    font-size: 20px;
-    border-radius: 8px;
-    background-color: rgba(0, 0, 0, 0.4);
-    color: var(--secondary);
-    padding: 15px;
-  }
-
-  .page-info-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .left-aligned-image-container {
-    align-items: center;
-  }
-
-  img {
-    border: 1px solid var(--quinary);
-    width: 60%;
-  }
-} */
-
 /* Section 1 - Ashes synopsis */
 .ashes-synopsis {
   display: flex;

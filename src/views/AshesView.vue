@@ -1,5 +1,3 @@
-<!--- eslint-disable quotes, semi, comma-dangle -->
-
 <template>
   <section class="ashes-book-container">
     <div class="ashes-synopsis">

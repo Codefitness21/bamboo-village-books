@@ -117,5 +117,11 @@ export default {
   a {
     color: var(--secondary);
   }
+  .info-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
 }
 </style>

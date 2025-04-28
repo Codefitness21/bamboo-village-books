@@ -84,26 +84,28 @@
             is fragile and survival comes at a price, Maya must decide how far she's willing to go to protect her
             friends and what kind of leader she truly wants to be.</p>
         </div>
-        <div class="cta-row">
-    <div class="read-btn"><a
-        href="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/pdfs/Ashes_of_the_City.pdf"><button
-          class="read-sample-btn white-btn">READ
-          SAMPLE</button></a></div>
-    <div class="read-btn">
-      <div class="dropdown">
-        <button class="dropdown cta white-btn">BUY BOOK</button>
-        <div class="dropdown-content">
-          <a href="https://www.amazon.com/Ashes-City-Quinton-Taylor-Garcia/dp/B0DJZF3DM3">AMAZON</a>
-          <a href="https://www.barnesandnoble.com/w/ashes-of-the-city-quinton-taylor-garcia/1146717150">BARNES &
-            NOBLE</a>
+      
+      </div>
+      <div class="cta-row">
+          <div class="read-btn"><a
+              href="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/pdfs/Ashes_of_the_City.pdf"><button
+                class="read-sample-btn white-btn">READ
+                SAMPLE</button></a></div>
+          <div class="read-btn">
+            <div class="dropdown">
+              <button class="dropdown cta white-btn">BUY BOOK</button>
+              <div class="dropdown-content">
+                <a href="https://www.amazon.com/Ashes-City-Quinton-Taylor-Garcia/dp/B0DJZF3DM3">AMAZON</a>
+                <a href="https://www.barnesandnoble.com/w/ashes-of-the-city-quinton-taylor-garcia/1146717150">BARNES &
+                  NOBLE</a>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-  </div>
-      </div>
+
     </div>
   </section>
-  
+
 
   <section class="ashes-video-container">
     <h2>BOOK TRAILER</h2>

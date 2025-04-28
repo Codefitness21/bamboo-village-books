@@ -122,6 +122,13 @@ export default {
     padding: 15px;
   }
 
+  .info-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
   .left-aligned-image-container {
     align-items: center;
   }
@@ -192,14 +199,14 @@ export default {
     p {
       font-size: 20px;
     }
-  }
-
-  .info-container {
+    .info-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
+  }
+  
 }
 
 @media (max-width: 767px) {

@@ -118,6 +118,13 @@ export default {
     padding: 15px;
   }
 
+  .info-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
   .left-aligned-image-container {
     align-items: center;
   }

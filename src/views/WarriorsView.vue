@@ -167,7 +167,7 @@ export default {
       <div class="white-arrow">
         <arrow-books />
       </div>
-      <h2>THE SILENT CALL OF THE LAKE</h2>
+      <h2>WARRIOR'S HEART</h2>
       <div class="info-container">
         <div class="left-aligned-image-container">
           <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/warriors_heart.jpg" alt="Warrior's Heart Image">
@@ -241,7 +241,7 @@ export default {
     gap: 4px;
 
     a {
-      color: var(--quinary);
+      color: var(--secondary);
     }
   }
 }

@@ -110,15 +110,15 @@ export default {
   padding: 32px 64px 96px 64px;
 
   h2 {
-    margin: 48px 0 48px 0;
     color: var(--secondary);
+    margin: 48px 0 48px 0;
   }
 
   p {
     font-size: 20px;
     border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.4);
     color: var(--secondary);
-    background-color: rgb(0, 0, 0, 0.6);
     padding: 15px;
   }
 

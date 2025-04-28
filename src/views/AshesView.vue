@@ -176,7 +176,7 @@ export default {
   }
 } */
 
-
+/* Section 1 - Ashes synopsis */
 .ashes-synopsis {
   display: flex;
   flex-direction: column;

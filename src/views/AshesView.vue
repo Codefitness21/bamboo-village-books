@@ -195,7 +195,6 @@ export default {
       width: 80%;
       margin-bottom: 36px;
     }
-
     p {
       font-size: 20px;
     }

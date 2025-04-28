@@ -224,12 +224,12 @@ export default {
     gap: 4px;
 
     a {
-      color: var(--quinary);
+      color: var(--secondary);
     }
   }
 }
 
-/* Section 1 - Silent Call Synopsis */
+/* Section 1 - Chronicles Synopsis */
 .chronicles-synopsis {
   display: flex;
   flex-direction: column;
@@ -240,6 +240,7 @@ export default {
   padding: 32px 64px 96px 64px;
 
   h2 {
+    color: var(--secondary);
     margin: 48px 0 48px 0;
   }
 

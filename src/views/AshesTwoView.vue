@@ -54,8 +54,13 @@
 
   <section class="ashes-book-container">
     <div class="ashes-synopsis">
-      <div class="white-arrow">
-        <arrow-books />
+      <div class="arrow-container">
+        <div>
+          <a @click="open('home')"><i class="fa-solid fa-angle-left"></i> </a>
+        </div>
+        <div class="custom-text">
+          <a @click="open('home')">Back to Home</a>
+        </div>
       </div>
       <h2>ASHES OF THE CITY</h2>
       <div class="info-container">

@@ -276,7 +276,7 @@ export default {
     p {
       font-size: 20px;
     }
-    .page-info-container {
+    .info-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -313,7 +313,7 @@ export default {
     h2 {
       margin: 32px 0 0px 0;
     }
-    .page-info-container {
+    .info-container {
       display: flex;
       flex-direction: column;
       align-items: center;

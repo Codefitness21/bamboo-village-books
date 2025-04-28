@@ -1,4 +1,4 @@
-/* eslint-disable quotes, semi, comma-dangle */
+
 
 <template>
   <section class="silent-book-container">

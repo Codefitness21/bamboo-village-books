@@ -1,19 +1,9 @@
-/* eslint-disable quotes, semi, comma-dangle */
-
 <template>
   <section class="dance-book-container">
     <div class="dance-synopsis">
-      <!-- <div class="arrow-container">
-        <div>
-          <a @click="open('books')"><i class="fa-solid fa-angle-left"></i> </a>
-        </div>
-        <div class="custom-text">
-          <a @click="open('books')">Back to Books</a>
-        </div>
-      </div> -->
       <div class="white-arrow">
-      <arrow-books />
-    </div>
+        <arrow-books />
+      </div>
       <h2>THE DEVIL'S DANCE - A J'ouvert Tale </h2>
       <div class="info-container">
         <div class="left-aligned-image-container">
@@ -44,6 +34,7 @@
     </div>
   </section>
 </template>
+
 
 <script>
 import ArrowBooks from '../components/ArrowBooks.vue'
@@ -89,15 +80,13 @@ export default {
 
   h2 {
     margin: 48px 0 48px 0;
-    color: var(--secondary);
   }
 
   p {
     font-size: 20px;
     border-radius: 8px;
-    background-color: rgb(0, 0, 0, 0.6);
+    background-color: rgb(255, 255, 255, 0.8);
     padding: 15px;
-    color: var(--secondary);
   }
 
   .info-container {

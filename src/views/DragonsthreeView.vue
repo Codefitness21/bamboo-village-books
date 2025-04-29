@@ -1,12 +1,8 @@
-/* eslint-disable quotes, semi, comma-dangle */
+
 
 <template>
   <section class="dragonsthree-book-container">
-    <!-- <div class="video-background">
-    <video autoplay loop muted playsinline>
-      <source :src="videoUrl" type="video/mp4" />
-    </video>
-  </div> -->
+   
     <div class="dragonsthree-synopsis">
       <div class="white-arrow">
         <arrow-books />
@@ -77,14 +73,6 @@ export default {
 }
 }
 
-.video-background {
-  position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-     z-index:-1;
-}
 
 /* Section 1 - Dragons Three Synopsis */
 .dragonsthree-synopsis {

@@ -1,6 +1,4 @@
-/* eslint-disable quotes, semi, comma-dangle */
-
-<template>
+<!-- <template>
   <section class="dragonsone-book-container">
     <div class="dragonsone-synopsis">
       <div class="arrow-container">
@@ -120,12 +118,12 @@
           </div>
     </div>
   </section>
-</template>
+</template> -->
 
 <script>
 
 export default {
-  name: 'DragonsoneView',
+  name: 'EclipseView',
   data() {
     return {
       currentLocation: null
@@ -144,7 +142,7 @@ export default {
 }
 </script>
 
-<style>
+<!-- <style>
 .dragonsone-synopsis
 .arrow-container {
   display: flex;
@@ -183,4 +181,4 @@ export default {
         align-items: flex-start;
     }
 }
-</style>
+</style> -->

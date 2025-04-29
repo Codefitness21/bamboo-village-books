@@ -200,7 +200,7 @@ import ArrowBooks from '../components/ArrowBooks.vue'
 
 export default {
   components: { ArrowBooks },
-  name: 'DragonsoneView',
+  name: 'SilentView',
   data() {
     return {
       currentLocation: null
@@ -220,7 +220,7 @@ export default {
 </script>
 
 <style>
-/* Dragons One Container  */
+/* Dragons Container  */
 .dragonsone-book-container {
   display: flex;
   flex-direction: column;
@@ -240,7 +240,7 @@ export default {
   }
 }
 
-/* Section 1 - Dragons One Synopsis */
+/* Section 1 - Dragons Synopsis */
 .dragonsone-synopsis {
   display: flex;
   flex-direction: column;
@@ -258,8 +258,7 @@ export default {
   p {
     font-size: 20px;
     border-radius: 8px;
-    background-color: rgba(0, 0, 0, 0.4);
-    color: var(--secondary);
+    background-color: rgb(255, 255, 255, 0.8);
     padding: 15px;
   }
 
@@ -301,7 +300,7 @@ export default {
 }
 
 @media (max-width: 767px) {
-  .dragonsone .info-container .text-container {
+  .dragons-synopsis .info-container .text-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -336,3 +335,4 @@ export default {
   }
 }
 </style>
+

@@ -470,9 +470,6 @@ export default {
   flex-direction: column;
   justify-content: center;
   background-color: var(--secondary);
-  /* background-image: url("https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/left-bamboo-frame.png");
-  background-size: contain;
-  background-repeat: no-repeat; */
   padding: 0px 0px 64px 0px;
 
   h3 {

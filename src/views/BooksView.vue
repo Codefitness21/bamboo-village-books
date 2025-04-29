@@ -644,8 +644,8 @@ a {
       }
     }
     .book-1 img {
-      width: 236px;
-      height: 320px;
+      width: 223px;
+      height: 314px;
       margin: 24px;
     }
     .upcoming-cta {

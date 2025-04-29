@@ -1,8 +1,13 @@
 <template>
   <section class="gravis-book-container">
     <div class="gravis-synopsis">
-      <div class="white-arrow">
-        <arrow-books />
+      <div class="arrow-container">
+        <div>
+          <a @click="open('home')"><i class="fa-solid fa-angle-left"></i> </a>
+        </div>
+        <div class="custom-text">
+          <a @click="open('home')">Back to Home</a>
+        </div>
       </div>
       <h2>The Last Sunset:
         Journey with Myasthenia Gravis</h2>
@@ -38,10 +43,8 @@
 </template>
 
 <script>
-import ArrowBooks from '../components/ArrowBooks.vue'
 
 export default {
-  components: { ArrowBooks },
   name: 'GravisView',
   data() {
     return {

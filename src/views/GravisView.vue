@@ -179,7 +179,7 @@ export default {
             advocacy for MG awareness. Preparations for the end are detailed in Part IV, discussing the practicalities,
             emotional fortitude, farewells, and considerations of legacy. The narrative concludes in Part V with
             heartfelt reflections, the tranquility in acceptance, the metaphorical 'last sunset,' and the family's
-            continued journey post-loss. Each section underscores the emotional landscape</p>
+            continued journey post-loss. Each section underscores the emotional landscape.</p>
         </div>
       </div>
       <div class="read-btn"><a

@@ -31,6 +31,10 @@ button {
     gap: 16px;
 }
 
+.upcoming-cta-row {
+   margin-bottom: 64px;
+}
+
 .read-btn {
     display: flex;
     flex-direction: row;

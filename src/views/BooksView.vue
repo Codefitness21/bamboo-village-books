@@ -74,7 +74,8 @@
       <div class="all-books-grid">
         <!-- <h2>EXPLORE ALL BOOKS</h2> -->
         <div>
-          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/ashes.jpg" alt="Ashes of the City">
+          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/ashes.jpg"
+            alt="Ashes of the City book cover image">
           <h3>Ashes of the City</h3>
           <div class="cta-row">
             <a @click="open('ashes')"><button class="cta-1">LEARN MORE</button></a>
@@ -90,7 +91,7 @@
         </div>
         <div>
           <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/silent_call.jpg"
-            alt="The Silent Call of the Lake">
+            alt="The Silent Call of the Lake book cover image">
           <h3>The Silent Call of the Lake</h3>
           <div class="cta-row">
             <a @click="open('silent')"><button class="cta-1">LEARN MORE</button></a>
@@ -100,7 +101,7 @@
         </div>
         <div>
           <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/devils_dance.jpg"
-            alt="The Devil's Dance - A J'ouvert Tale">
+            alt="The Devil's Dance - A J'ouvert Tale book cover image">
           <h3>The Devil's Dance - A J'ouvert Tale</h3>
           <div class="cta-row">
             <a @click="open('dance')"><button class="cta-1">LEARN MORE</button></a>
@@ -110,7 +111,7 @@
         </div>
         <div>
           <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Eclipse_Dragons-3.jpg"
-            alt="Eclipse Dragons The Warlords's Awakening - Book 3">
+            alt="Eclipse Dragons The Warlords's Awakening - Book 3 book cover image">
           <h3>Eclipse Dragons - Book 3</h3>
           <div class="cta-row">
             <a @click="open('dragonsthree')"><button class="cta-1">LEARN MORE</button></a>
@@ -120,7 +121,7 @@
         </div>
         <div>
           <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Eclipse_Dragons-2.jpg"
-            alt="Eclipse Dragons The Rogue Mages Uprising - Book 2">
+            alt="Eclipse Dragons The Rogue Mages Uprising - Book 2 book cover image">
           <h3>Eclipse Dragons - Book 2</h3>
           <div class="cta-row">
             <a @click="open('dragonstwo')"><button class="cta-1">LEARN MORE</button></a>
@@ -130,7 +131,7 @@
         </div>
         <div>
           <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/warriors_heart.jpg"
-            alt="Warrior's Heart">
+            alt="Warrior's Heart book cover image">
           <h3>Warrior's Heart</h3>
           <div class="cta-row">
             <a @click="open('warriors')"><button class="cta-1">LEARN MORE</button></a>
@@ -140,7 +141,7 @@
         </div>
         <div>
           <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/chronicles.jpg"
-            alt="The Chronicles of the Gated Community">
+            alt="The Chronicles of the Gated Community book cover image">
           <h3>The Chronicles of the Gated Community</h3>
           <div class="cta-row">
             <a @click="open('chronicles')"><button class="cta-1">LEARN MORE</button></a>
@@ -150,7 +151,7 @@
         </div>
         <div>
           <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Eclipse_Dragons-1.jpg"
-            alt="Eclipse Dragons - Book 1">
+            alt="Eclipse Dragons - Book 1 book cover image">
           <h3>Eclipse Dragons - Book 1</h3>
           <div class="cta-row">
             <a @click="open('dragonsone')"><button class="cta-1">LEARN MORE</button></a>
@@ -160,7 +161,7 @@
         </div>
         <div>
           <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/MG.jpg"
-            alt="The Last Sunset: Journey with Myasthenia Gravis">
+            alt="The Last Sunset: Journey with Myasthenia Gravis book cover image">
           <h3>The Last Sunset: Journey with Myasthenia Gravis</h3>
           <div class="cta-row">
             <a @click="open('gravis')"><button class="cta-1">LEARN MORE</button></a>
@@ -173,7 +174,15 @@
     <section class="upcoming-releases-container">
       <h2>UPCOMING 2025 RELEASES...</h2>
       <div class="upcoming-books">
-        <div class="book book-1">
+        <div class="book-1">
+          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Under_Orders.jpg"
+            alt="Under Orders of Silence book cover image">
+          <div class="cta-row upcoming-cta-row">
+            <a @click="open('Orders')"><button class="cta-1">LEARN MORE</button></a>
+            <a
+              href="https://www.amazon.com/Under-Orders-Silence-Inspired-Book/dp/B0F66ZS35T/ref=sr_1_1?crid=2ZMVW1Y8RO1UO&dib=eyJ2IjoiMSJ9.9TLYcju_fs8qkHpmQ2gyEqSQohurVetJidAnsfFF4YPGjHj071QN20LucGBJIEps.cr_QAXTI_Q57GUa_AZeq4_p7zKZnWyerLlv9-6REqDo&dib_tag=se&keywords=under+orders+of+silence&qid=1745960528&s=books&sprefix=under+orders+of+silence%2Cstripbooks%2C113&sr=1-1"><button
+                class="cta-2">BUY BOOK</button></a>
+          </div>
         </div>
         <div class="book">
           <h2>The Silent Crown</h2>
@@ -561,6 +570,7 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  padding: 0 0 96px 0;
 }
 
 .book {
@@ -573,8 +583,8 @@ a {
   background-size: 70%;
   background-repeat: no-repeat;
   background-position: center;
-  height: 530px;
-  width: 400px;
+  height: 522px;
+  width: 380px;
   color: var(--secondary);
   font-weight: bold;
   padding: 56px;
@@ -585,10 +595,6 @@ a {
   }
 }
 
-.book-1 {
-  background-size: 100%;
-  background-image: url("https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Orders.jpg");
-}
 
 @media (min-width:768px) and (max-width:1024px) {
   .hero-book-image {
@@ -636,6 +642,11 @@ a {
       h2 {
         font-size: 16px;
       }
+    }
+    .book-1 img {
+      width: 236px;
+      height: 320px;
+      margin: 24px;
     }
   }
 
@@ -769,8 +780,12 @@ a {
 
   .book {
     height: 400px;
-    width: 300px;
-    margin-bottom: 56px;
+    width: 278px;
+  }
+
+  .book-1 img {
+    height: 400px;
+    width: 278px;
   }
 }
 </style>

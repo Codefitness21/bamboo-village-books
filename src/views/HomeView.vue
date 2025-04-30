@@ -171,6 +171,24 @@
           <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/TPR.png"
               alt="Texas Public Radio"></div>
         </div>
+        <div class=carousel-items>
+          <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/Navoba.png"
+              alt="Navoba"></div>
+          <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/AG.png"
+              alt="Author's Guild"></div>
+          <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/ibpa.png"
+              alt="Independent Book Publishers Association"></div>
+          <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/award-sticker.png"
+              alt="Award Digital Sticker"></div>
+          <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/US-Review.png"
+              alt="US Review"></div>
+          <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/Literary-Titan.png"
+              alt="Literary Titan"></div>
+          <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/Briscoe.png"
+              alt="Briscoe"></div>
+          <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/TPR.png"
+              alt="Texas Public Radio"></div>
+        </div>
       </div>
     </section>
   </div>
@@ -626,7 +644,7 @@ export default {
   padding-bottom: 64px;
 }
 
-.scrolling-carousel-items {
+/* .scrolling-carousel-items {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -643,6 +661,41 @@ export default {
   img {
     width: 80%;
   }
+} */
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.scroll {
+  display: inline-block;
+}
+
+.scrolling-carousel-items {
+  overflow: hidden;
+  padding: 60px 0;
+  white-space: nowrap;
+  display: inline-block;
+}
+
+.scrolling-carousel-items:hover .carousel-items {
+animation-play-state: paused;
+}
+
+.carousel-items {
+  display: inline-block;
+  animation: 25s slide infinite linear;
+}
+
+.carousel-items img {
+  height: 100px;
+  margin: 0 40px;
 }
 
 @media (min-width: 1610px) and (max-width: 1740px) {

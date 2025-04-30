@@ -469,7 +469,8 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: var(--secondary);
+  /* background-color: var(--secondary); */
+  background: url(https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/fantastic-blue-sky.jpg);
   padding: 0px 0px 64px 0px;
 
   h3 {

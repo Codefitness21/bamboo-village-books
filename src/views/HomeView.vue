@@ -673,7 +673,7 @@ export default {
   }
 
   to {
-    transform: translateX(-70%);
+    transform: translateX(-50%);
   }
 }
 
@@ -1022,11 +1022,6 @@ export default {
     h2 {
       margin: 40px 0px 24px 0px;
     }
-
-    .carousel-items {
-  display: inline-block;
-  animation: 15s slide infinite linear;
-}
 
     .carousel-items img {
   height: 50px;

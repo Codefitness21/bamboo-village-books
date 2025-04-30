@@ -1022,6 +1022,11 @@ export default {
     h2 {
       margin: 40px 0px 24px 0px;
     }
+
+    .carousel-items img {
+  height: 50px;
+  margin: 0 20px;
+}
   }
 }
 </style>

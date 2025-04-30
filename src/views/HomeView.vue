@@ -162,10 +162,12 @@
               alt="Independent Book Publishers Association"></div>
           <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/award-sticker.png"
               alt="Award Digital Sticker"></div>
+              <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/Literary-Titan.png"
+                alt="Literary Titan"></div>
           <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/US-Review.png"
               alt="US Review"></div>
-          <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/Literary-Titan.png"
-              alt="Literary Titan"></div>
+          <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/kirkus-logo-v3.png"
+              alt="Kirkus Review"></div>
           <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/Briscoe.png"
               alt="Briscoe"></div>
           <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/TPR.png"
@@ -180,10 +182,12 @@
               alt="Independent Book Publishers Association"></div>
           <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/award-sticker.png"
               alt="Award Digital Sticker"></div>
+              <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/Literary-Titan.png"
+                alt="Literary Titan"></div>
           <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/US-Review.png"
               alt="US Review"></div>
-          <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/Literary-Titan.png"
-              alt="Literary Titan"></div>
+              <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/kirkus-logo-v3.png"
+                alt="Kirkus Review"></div>
           <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/Briscoe.png"
               alt="Briscoe"></div>
           <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/TPR.png"
@@ -669,7 +673,7 @@ export default {
   }
 
   to {
-    transform: translateX(-70%);
+    transform: translateX(-60%);
   }
 }
 
@@ -679,13 +683,13 @@ export default {
 
 .scrolling-carousel-items {
   overflow: hidden;
-  padding: 60px 0;
+  padding: 50px 0;
   white-space: nowrap;
   display: inline-block;
 }
 
 .scrolling-carousel-items:hover .carousel-items {
-animation-play-state: paused;
+  animation-play-state: paused;
 }
 
 .carousel-items {
@@ -695,7 +699,7 @@ animation-play-state: paused;
 
 .carousel-items img {
   height: 100px;
-  margin: 0 40px;
+  margin: 0 20px;
 }
 
 @media (min-width: 1610px) and (max-width: 1740px) {

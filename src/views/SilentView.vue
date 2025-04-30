@@ -82,7 +82,7 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: url('https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/silent-lake-bkgrd.jpg');
+  background-image: url('https://bamboovillagebooks.s3.us-east-2.amazonaws.com/video/silent-lake-bkgrd.gif');
   background-size: cover;
   background-repeat: no-repeat;
   padding: 32px 64px 96px 64px;

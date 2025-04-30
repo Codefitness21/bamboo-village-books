@@ -188,10 +188,10 @@
               alt="US Review"></div>
               <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/kirkus-logo-v3.png"
                 alt="Kirkus Review"></div>
-          <!-- <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/Briscoe.png"
+          <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/Briscoe.png"
               alt="Briscoe"></div>
           <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/TPR.png"
-              alt="Texas Public Radio"></div> -->
+              alt="Texas Public Radio"></div>
         </div>
       </div>
     </section>
@@ -673,7 +673,7 @@ export default {
   }
 
   to {
-    transform: translateX(-60%);
+    transform: translateX(-70%);
   }
 }
 

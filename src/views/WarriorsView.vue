@@ -294,6 +294,8 @@ export default {
     p {
       font-size: 20px;
     }
+
+    h2 {color: var(--secondary);}
     
     .info-container {
     display: flex;
@@ -330,6 +332,7 @@ export default {
   .warriors-synopsis {
     padding: 32px 32px 96px 32px;
     h2 {
+      color: var(--secondary);
       margin: 32px 0 0px 0;
     }
     .info-container {

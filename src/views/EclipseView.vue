@@ -1,4 +1,4 @@
-<!-- <template>
+<template>
   <section class="dragonsone-book-container">
     <div class="dragonsone-synopsis">
       <div class="arrow-container">
@@ -118,7 +118,7 @@
           </div>
     </div>
   </section>
-</template> -->
+</template>
 
 <script>
 
@@ -142,7 +142,7 @@ export default {
 }
 </script>
 
-<!-- <style>
+<style>
 .dragonsone-synopsis
 .arrow-container {
   display: flex;
@@ -157,28 +157,4 @@ export default {
     color: var(--secondary);
   }
 }
-
-.dragonsone-synopsis {
-    .info-container, .left-aligned-image-container {
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-    }
-}
-
-.dragonstwo-synopsis {
-    .info-container, .left-aligned-image-container {
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-    }
-}
-
-.dragonsthree-synopsis {
-    .info-container, .left-aligned-image-container {
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-    }
-}
-</style> -->
+</style>

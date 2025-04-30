@@ -1,5 +1,3 @@
-
-
 <template>
   <section class="dragonsthree-book-container">
    
@@ -72,6 +70,7 @@ export default {
   color: var(--secondary);
 }
 }
+
 
 
 /* Section 1 - Dragons Three Synopsis */

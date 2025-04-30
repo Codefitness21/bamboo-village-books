@@ -1,12 +1,19 @@
 <template>
   <header class="nav-bar">
+
     <a @click="open('home')"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/bamboo-logo.png"
         alt="Bamboo Village Logo" /></a>
+    
+
+
     <div class="hamburger" @click="toggleMenu">
       <div class="bar"></div>
       <div class="bar"></div>
       <div class="bar"></div>
     </div>
+
+    
+
     <div class="menu-overlay" v-show="isMenuOpen">
       <div class="close-btn" @click="toggleMenu">&times;</div>
       <nav class="nav-items">
@@ -25,6 +32,8 @@
         <a @click="open('contact'); closeMenu()">Contact</a>
       </nav>
     </div>
+
+    
     <nav class="nav-menu-desktop">
       <a @click="open('home')">Home</a>
       <div class="nav-dropdown">
@@ -40,6 +49,13 @@
       <a @click="open('services')">Services</a>
       <a @click="open('contact')">Contact</a>
     </nav>
+
+    <div class="nav-player">
+      <audio controls autoplay="" preload="none"
+        src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/music/inspiring-cinematic-ambient-255033.mp3">
+        <source type="audio/mpeg">
+      </audio>
+    </div>
   </header>
 </template>
 
@@ -89,6 +105,14 @@ header {
   width: 100%;
 }
 
+.nav-player {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 14%;
+  margin-right: 24px;
+}
+
 .hamburger {
   display: none;
 }
@@ -119,6 +143,7 @@ header {
     cursor: pointer;
     margin-right: 24px;
   }
+
   a:hover {
     color: var(--quarternary);
   }
@@ -186,6 +211,10 @@ header {
 
 @media (min-width:768px) and (max-width:1024px) {
   .nav-menu-desktop {
+    display: none;
+  }
+
+  audio {
     display: none;
   }
 
@@ -288,6 +317,10 @@ header {
 }
 
 @media (max-width: 767px) {
+  audio {
+    display: none;
+  }
+
   .menu-overlay {
     .nav-items {
       .sub-menu-links {

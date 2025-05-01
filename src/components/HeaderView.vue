@@ -109,6 +109,7 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  border-radius: 0;
   width: 14%;
   margin-right: 24px;
 }

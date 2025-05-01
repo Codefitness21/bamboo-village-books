@@ -82,7 +82,10 @@
             <div class="dropdown">
               <button class="dropdown cta-2 ashes-cta">BUY BOOK</button>
               <div class="dropdown-content">
-                <a href="https://www.amazon.com/Ashes-City-Quinton-Taylor-Garcia/dp/B0DJZF3DM3">AMAZON</a>
+                <a href="https://amzn.to/44dQUHM"  onclick="gtag('event', 'click', {
+     'event_category': 'Amazon click',
+     'event_label': 'Ashes of the City'
+   });">AMAZON</a>
                 <a href="https://www.barnesandnoble.com/w/ashes-of-the-city-quinton-taylor-garcia/1146717150">BARNES &
                   NOBLE</a>
               </div>
@@ -471,6 +474,8 @@ export default {
   justify-content: center;
   /* background-color: var(--secondary); */
   background: url(https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/fantastic-blue-sky.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
   padding: 0px 0px 64px 0px;
 
   h3 {

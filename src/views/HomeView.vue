@@ -648,25 +648,6 @@ export default {
   padding-bottom: 64px;
 }
 
-/* .scrolling-carousel-items {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  white-space: nowrap;
-  animation: scroll-hortizontal 20s linear infinite;
-}
-
-.carousel-items {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-
-  img {
-    width: 80%;
-  }
-} */
-
 @keyframes slide {
   from {
     transform: translateX(0);

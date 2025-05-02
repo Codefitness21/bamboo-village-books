@@ -52,9 +52,11 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
 
-  h2 {
-    margin-bottom: 8px;
+.connect-statement {
+    h2 {
+    margin-bottom: 24px;
   }
 }
 

@@ -352,7 +352,7 @@ header {
 
         a {
           font-size: 16px;
-          /* color: var(--tertiary); */
+          color: var(--tertiary);
         }
       }
     }

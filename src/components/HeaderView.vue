@@ -248,6 +248,7 @@ header {
 
         a {
           font-size: 20px;
+          color: var(--tertiary);
         }
       }
     }
@@ -351,6 +352,7 @@ header {
 
         a {
           font-size: 16px;
+          /* color: var(--tertiary); */
         }
       }
     }
@@ -425,7 +427,7 @@ header {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      margin-top: 150px;
+      margin-top: 100px;
       gap: 30px;
       font-size: 30px;
 

@@ -99,7 +99,7 @@
           </p>
           <a @click="open('about')"><button class="read-bio-btn">READ FULL BIO</button></a>
         </div>
-        <div class="right-aligned-image-container">
+        <div class="right-aligned-image-container quinton-image">
           <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/author.jpg" alt="Author Image">
         </div>
       </div>
@@ -547,6 +547,8 @@ export default {
   }
 }
 
+
+
 .bamboo-image img {
   width: 45%;
   display: flex;
@@ -611,6 +613,11 @@ export default {
   flex-direction: row;
   align-items: flex-start;
   margin-bottom: 100px;
+  .quinton-image {
+  img {
+    width: 65%;
+}
+}
 }
 
 .text-container {

@@ -2,7 +2,7 @@
   <div class="services-page-container">
     <section class="services-packages-container">
       <div class="services-title">
-        <h1>SERVICES</h1>
+        <h1>SERVICE PACKAGES</h1>
       </div>
       <div class="services-intro">
         <h2>Why Choose Bamboo Village Books?</h2>

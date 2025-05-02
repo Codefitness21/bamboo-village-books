@@ -46,7 +46,18 @@
         </div>
       </div>
       <a @click="open('books')">Books</a>
-      <a @click="open('services')">Services</a>
+
+      <div class="nav-dropdown">
+        <a>Services</a>
+        <div class="nav-dropdown-content">
+          <a class="gold-space"></a>
+          <a @click="open('services')">Packages</a>
+          <a @click="open('connect')">Bamboo Connect</a>
+        </div>
+      </div>
+      <!-- <a @click="open('services')">Services</a> -->
+
+
       <a @click="open('contact')">Contact</a>
     </nav>
 

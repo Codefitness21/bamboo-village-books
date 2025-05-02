@@ -32,6 +32,7 @@ import PlanonethanksView from "@/views/PlanonethanksView.vue";
 import PlantwothanksView from "@/views/PlantwothanksView.vue";
 import PlanthreethanksView from "@/views/PlanthreethanksView.vue";
 import OrdersView from "@/views/OrdersView.vue";
+import ConnectView from "@/views/ConnectView.vue";
 
 const routes = [
   {
@@ -185,9 +186,14 @@ const routes = [
     component: PlanthreethanksView
   },
   {
-    path: "/Orders",
-    name: "Orders",
+    path: "/orders",
+    name: "orders",
     component: OrdersView
+  },
+  {
+    path: "/connect",
+    name: "connect",
+    component: ConnectView
   },
 ];
 

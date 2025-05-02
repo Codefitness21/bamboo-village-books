@@ -28,7 +28,15 @@
           </div>
         </div>
         <a @click="open('books'); closeMenu()">Books</a>
-        <a @click="open('services'); closeMenu()">Services</a>
+        <div class="nav-dropdown">
+        <a>Services</a>
+          <div class="sub-menu-links">
+            <a class="gold-space"></a>
+            <a @click="open('services'); toggleMenu()">Packages</a>
+            <a @click="open('connect'); toggleMenu()">Bamboo Connect</a>
+          </div>
+        </div>
+        <!-- <a @click="open('services'); closeMenu()">Services</a> -->
         <a @click="open('contact'); closeMenu()">Contact</a>
       </nav>
     </div>

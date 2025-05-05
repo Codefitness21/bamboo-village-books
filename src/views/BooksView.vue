@@ -82,7 +82,7 @@
             <div class="dropdown">
               <button class="dropdown cta-2 ashes-cta">BUY BOOK</button>
               <div class="dropdown-content">
-                <a href="https://amzn.to/44dQUHM"  onclick="gtag('event', 'click', {
+                <a href="https://amzn.to/44dQUHM" onclick="gtag('event', 'click', {
      'event_category': 'Amazon click',
      'event_label': 'Ashes of the City'
    });">AMAZON</a>
@@ -646,11 +646,13 @@ a {
         font-size: 16px;
       }
     }
+
     .book-1 img {
       width: 223px;
       height: 314px;
       margin: 24px;
     }
+
     .upcoming-cta {
       font-size: 8px;
     }

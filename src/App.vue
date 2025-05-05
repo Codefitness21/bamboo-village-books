@@ -1,10 +1,19 @@
 <template>
   <div class="wrapper">
-  <header-view />
-  <router-view/>
-  <mail-view />
-  <footer-view />
+    <header-view />
+    <router-view />
+    <mail-view />
+    <footer-view />
   </div>
+<!-- <div class="to-top-arrow" v-if="isVisible">
+  <a href="#" >
+    <i class="fa-solid fa-arrow-up"></i>
+  </a>
+</div> -->
+
+<button v-if="isVisible" @click="scrollToTop" class="back-to-top">
+  <i class="fa-solid fa-arrow-up"></i>
+</button>
 </template>
 
 <script>
@@ -13,7 +22,28 @@ import FooterView from '@/components/FooterView.vue'
 import MailView from './components/MailView.vue'
 
 export default {
-  components: { HeaderView, FooterView, MailView }
+  components: { HeaderView, FooterView, MailView },
+
+  data() {
+    return {
+      isVisible: false,
+    };
+  },
+  mounted() {
+    window.addEventListener('scroll', this.handleScroll);
+    this.handleScroll();
+  },
+  methods: {
+    handleScroll() {
+      this.isVisible = window.scrollY > 500;
+    },
+    scrollToTop() {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth',
+      });
+    }
+  }
 }
 </script>
 
@@ -24,7 +54,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: sans-serif, Helvetica, Arial,;
+  font-family: sans-serif, Helvetica, Arial, ;
 }
 
 :root {
@@ -52,6 +82,7 @@ body {
 * {
   margin: 0;
 }
+
 * {
   padding: 0;
   margin: 0;
@@ -89,7 +120,30 @@ p {
   text-align: left;
 }
 
+.fa-arrow-up {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 40px;
+  height: 40px;
+  font-size: 30px;
+  color: var(--secondary);
+  background-color: orange;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* transform: scale(0); */
+  transition: bottom 200ms, transform 200ms;
+}
 
+.fa-arrow-up:hover {
+  bottom: 35px;
+}
+
+/* #to-top.show {
+  transform: scale(1);
+} */
 </style>
 
 <!-- Rule of 8 is used for font-size and spacing. If that didn't work I scaled up or down, making sure to keep it close to that multiple of 8. -->

@@ -35,7 +35,7 @@ export default {
   },
   methods: {
     handleScroll() {
-      this.isVisible = window.scrollY > 500;
+      this.isVisible = window.scrollY > 1000;
     },
     scrollToTop() {
       window.scrollTo({

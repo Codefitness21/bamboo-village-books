@@ -77,6 +77,8 @@
         <div><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/QTG-books.jpg" alt=""></div>
         <div><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/QT-fan-plane.jpg" alt=""></div>
         <div><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/tiffanys-fan-1.jpg" alt=""></div>
+        <div><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/gala-v2.jpg" alt=""></div>
+        <div><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/school-v2.jpg" alt=""></div>
       </div>
     </section>
   </div>

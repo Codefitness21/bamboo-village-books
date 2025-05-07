@@ -55,6 +55,17 @@
       </div>
       <a @click="open('books')">Books</a>
 
+<!-- 
+      <div class="nav-dropdown">
+        <a>Books</a>
+        <div class="nav-dropdown-content">
+          <a class="gold-space"></a>
+          <a @click="open('books')">Bamboo Books</a>
+          <a @click="open('events')">Bamboo Events</a>
+        </div>
+      </div> -->
+
+
       <div class="nav-dropdown">
         <a>Services</a>
         <div class="nav-dropdown-content">

@@ -33,6 +33,7 @@ import PlantwothanksView from "@/views/PlantwothanksView.vue";
 import PlanthreethanksView from "@/views/PlanthreethanksView.vue";
 import OrdersView from "@/views/OrdersView.vue";
 import ConnectView from "@/views/ConnectView.vue";
+import EventView from "@/views/EventView.vue";
 
 const routes = [
   {
@@ -194,6 +195,11 @@ const routes = [
     path: "/connect",
     name: "connect",
     component: ConnectView
+  },
+  {
+    path: "/events",
+    name: "events",
+    component: EventView
   },
 ];
 

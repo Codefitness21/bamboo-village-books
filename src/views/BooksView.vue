@@ -187,8 +187,12 @@
                 class="cta-2 upcoming-cta">BUY BOOK</button></a>
           </div>
         </div>
-        <div class="book">
+        <!-- <div class="book">
           <h2>The Silent Crown</h2>
+        </div> -->
+        <div class="book-1">
+          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Silent-Crown.jpg"
+            alt="The Silent Crown book cover image">
         </div>
         <div class="book">
           <h2>Eclipse Dragons Dark Saga Trilogy</h2>
@@ -789,6 +793,7 @@ a {
   .book {
     height: 400px;
     width: 278px;
+    margin-top: 64px;
   }
 
   .book-1 img {

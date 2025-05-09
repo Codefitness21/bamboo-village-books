@@ -113,12 +113,12 @@
           </div>
         </div>
         <div>
-          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Eclipse_Dragons-3.jpg"
-            alt="Eclipse Dragons The Warlords's Awakening - Book 3 book cover image">
-          <h3>Eclipse Dragons - Book 3</h3>
+          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Eclipse_Dragons-1.jpg"
+            alt="Eclipse Dragons - Book 1 book cover image">
+          <h3>Eclipse Dragons - Book 1</h3>
           <div class="cta-row">
-            <a @click="open('dragonsthree')"><button class="cta-1">LEARN MORE</button></a>
-            <a href="https://www.amazon.com/Warlords-Awakening-Battles-Multiverse-Eclipse/dp/B0D91LXSWL/"><button
+            <a @click="open('dragonsone')"><button class="cta-1">LEARN MORE</button></a>
+            <a href="https://www.amazon.com/Eclipse-Dragons-Shadows-Faction-Origins/dp/B0CP4TG6T9/"><button
                 class="cta-2">BUY BOOK</button></a>
           </div>
         </div>
@@ -132,6 +132,17 @@
                 class="cta-2">BUY BOOK</button></a>
           </div>
         </div>
+        <div>
+          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Eclipse_Dragons-3.jpg"
+            alt="Eclipse Dragons The Warlords's Awakening - Book 3 book cover image">
+          <h3>Eclipse Dragons - Book 3</h3>
+          <div class="cta-row">
+            <a @click="open('dragonsthree')"><button class="cta-1">LEARN MORE</button></a>
+            <a href="https://www.amazon.com/Warlords-Awakening-Battles-Multiverse-Eclipse/dp/B0D91LXSWL/"><button
+                class="cta-2">BUY BOOK</button></a>
+          </div>
+        </div>
+       
         <div>
           <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/warriors_heart.jpg"
             alt="Warrior's Heart book cover image">
@@ -152,16 +163,7 @@
                 class="cta-2">BUY BOOK</button></a>
           </div>
         </div>
-        <div>
-          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Eclipse_Dragons-1.jpg"
-            alt="Eclipse Dragons - Book 1 book cover image">
-          <h3>Eclipse Dragons - Book 1</h3>
-          <div class="cta-row">
-            <a @click="open('dragonsone')"><button class="cta-1">LEARN MORE</button></a>
-            <a href="https://www.amazon.com/Eclipse-Dragons-Shadows-Faction-Origins/dp/B0CP4TG6T9/"><button
-                class="cta-2">BUY BOOK</button></a>
-          </div>
-        </div>
+       
         <div>
           <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/MG.jpg"
             alt="The Last Sunset: Journey with Myasthenia Gravis book cover image">

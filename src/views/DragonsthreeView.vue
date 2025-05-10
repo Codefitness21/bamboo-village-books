@@ -8,7 +8,7 @@
       <h2>Eclipse Dragons The Warlord's Awakening - Book 3</h2>
       <div class="info-container">
         <div class="left-aligned-image-container">
-          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Eclipse_Dragons-3.jpg"
+          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Eclipse-3.jpg"
             alt="Eclipse Dragons The Warlord's Awakening Image">
         </div>
         <div class="text-container">

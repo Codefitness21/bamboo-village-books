@@ -211,8 +211,8 @@ export default {
         {
           background: "https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/bamboo-fence-texture.jpg",
           title: "BAMBOO VILLAGE BOOKS",
-          image0: 'https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/staggard-books.png',
-          image1: 'https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/hero-book-grid.png',
+          image0: 'https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/staggard-books-v2.png',
+          image1: 'https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/hero-book-grid-v2.png',
         },
         {
           background: "https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/ashes-transparent-bkgrd.jpg",
@@ -233,7 +233,7 @@ export default {
         {
           background: "https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/dragon-transparency-bkgrd.png",
           subtitle: "Born of Imagination and Celestial Inspiration: The Eclipse Dragons Trilogy",
-          image3: 'https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/trilogy.png',
+          image3: 'https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/trilogy-v2.png',
           text: "In 2024, the Year of the Dragon, a series of breathtaking eclipses sparked the creation of this fantasy saga. The Eclipse Dragon Series channels the wonder of these celestial events into a rich, imaginative world of dragons, heroes, and epic battles. These stories represent the power of creativity to transform fleeting moments into enduring tales.",
           cta: "LEARN MORE",
           link: "eclipse"

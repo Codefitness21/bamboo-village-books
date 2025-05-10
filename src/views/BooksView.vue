@@ -113,7 +113,7 @@
           </div>
         </div>
         <div>
-          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Eclipse_Dragons-1.jpg"
+          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Eclipse-1.jpg"
             alt="Eclipse Dragons - Book 1 book cover image">
           <h3>Eclipse Dragons - Book 1</h3>
           <div class="cta-row">
@@ -123,7 +123,7 @@
           </div>
         </div>
         <div>
-          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Eclipse_Dragons-2.jpg"
+          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Eclipse-2.jpg"
             alt="Eclipse Dragons The Rogue Mages Uprising - Book 2 book cover image">
           <h3>Eclipse Dragons - Book 2</h3>
           <div class="cta-row">
@@ -133,7 +133,7 @@
           </div>
         </div>
         <div>
-          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Eclipse_Dragons-3.jpg"
+          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Eclipse-3.jpg"
             alt="Eclipse Dragons The Warlords's Awakening - Book 3 book cover image">
           <h3>Eclipse Dragons - Book 3</h3>
           <div class="cta-row">

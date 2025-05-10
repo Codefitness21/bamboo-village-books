@@ -12,7 +12,7 @@
       <h2>Eclipse Dragons - Book 1</h2>
       <div class="info-container">
         <div class="left-aligned-image-container">
-          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Eclipse_Dragons-1.jpg" alt="Eclipse Dragons Image">
+          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Eclipse-1.jpg" alt="Eclipse Dragons Image">
         </div>
         <div class="text-container">
           <p>"Shadows and Light: The Tale of the Eclipse Dragons" follows Lysandra, a resilient young woman whose
@@ -47,7 +47,7 @@
       <h2>Eclipse Dragons The Rogue Mages Uprising - Book 2</h2>
       <div class="info-container">
         <div class="left-aligned-image-container">
-          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Eclipse_Dragons-2.jpg" alt="Eclipse Dragons The Rogue Mages UprisingBook 2 Image">
+          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Eclipse-2.jpg" alt="Eclipse Dragons The Rogue Mages UprisingBook 2 Image">
         </div>
         <div class="text-container">
           <p>Step into a world where magic and dragons collide in "Eclipse Dragons: The Rogue Mages Uprising". Chapter 1
@@ -86,7 +86,7 @@
       <h2>Eclipse Dragons The Warlord's Awakening - Book 3</h2>
       <div class="info-container">
         <div class="left-aligned-image-container">
-          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Eclipse_Dragons-3.jpg" alt="Eclipse Dragons The Warlord's Awakening Image">
+          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Eclipse-3.jpg" alt="Eclipse Dragons The Warlord's Awakening Image">
         </div>
         <div class="text-container">
           <p>In the ancient realm of Eldoria, where magic and steel intermingle, a fierce and looming threat

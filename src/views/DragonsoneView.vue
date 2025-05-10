@@ -168,7 +168,7 @@ export default {
       <h2>Eclipse Dragons - Book 1</h2>
       <div class="info-container">
         <div class="left-aligned-image-container">
-          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Eclipse_Dragons-1.jpg" alt="Eclipse Dragons Image">
+          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Eclipse-1.jpg" alt="Eclipse Dragons Image">
         </div>
         <div class="text-container">
           <p>"Shadows and Light: The Tale of the Eclipse Dragons" follows Lysandra, a resilient young woman whose

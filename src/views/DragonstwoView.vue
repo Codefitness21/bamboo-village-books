@@ -172,7 +172,7 @@ export default {
       <h2>Eclipse Dragons The Rogue Mages Uprising - Book 2</h2>
       <div class="info-container">
         <div class="left-aligned-image-container">
-          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Eclipse_Dragons-2.jpg" alt="Eclipse Dragons The Rogue Mages UprisingBook 2 Image">
+          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Eclipse-2.jpg" alt="Eclipse Dragons The Rogue Mages UprisingBook 2 Image">
         </div>
         <div class="text-container">
           <p>Step into a world where magic and dragons collide in "Eclipse Dragons: The Rogue Mages Uprise." Chapter 1

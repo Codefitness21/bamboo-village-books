@@ -215,13 +215,13 @@ header {
 
 .nav-dropdown-content a {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   margin-top: 3px;
   color: var(--secondary);
-  padding: 12px 16px;
+  padding: 10px 10px;
   text-decoration: none;
-  font-size: 13px;
+  font-size: 15px;
 }
 
 .nav-dropdown-content .gold-space:hover {

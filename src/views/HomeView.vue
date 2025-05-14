@@ -1,6 +1,6 @@
 <!-- eslint-disable quotes, semi, comma-dangle -->
 <template>
-  <WelcomeView ref="welcomePopup" />
+  <!-- <WelcomeView ref="welcomePopup" /> -->
   <div class="home-page-container">
     <div class="hero-image-carousel-container">
       <div class="hero-carousel">
@@ -200,12 +200,12 @@
 </template>
 
 <script>
-import WelcomeView from './WelcomeView.vue';
+// import WelcomeView from './WelcomeView.vue';
 
 export default {
-  components: {
-    WelcomeView,
-  },
+  // components: {
+  //   WelcomeView,
+  // },
   name: 'HomeView',
 
   data() {

@@ -250,19 +250,19 @@ export default {
   async mounted() {
     this.currentLocation = this.$route.name
     window.scrollTo(0, 0)
-    {
-      // setTimeout(() => {
-      //   this.$refs.welcomePopup.openPopup();
-      // }, 3000);
-      const hasShownModal = localStorage.getItem('hasShownModal');
+    // {
+    //   // setTimeout(() => {
+    //   //   this.$refs.welcomePopup.openPopup();
+    //   // }, 3000);
+    //   const hasShownModal = localStorage.getItem('hasShownModal');
 
-      if (!hasShownModal) {
-        setTimeout(() => {
-          this.isVisible = true;
-          localStorage.setItem('hasShownModal', 'true');
-        }, 3000);
-      }
-    }
+    //   if (!hasShownModal) {
+    //     setTimeout(() => {
+    //       this.isVisible = true;
+    //       localStorage.setItem('hasShownModal', 'true');
+    //     }, 3000);
+    //   }
+    // }
   },
   methods: {
     showThankYou() {

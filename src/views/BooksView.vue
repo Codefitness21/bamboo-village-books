@@ -372,6 +372,7 @@ export default {
   flex-direction: row;
   justify-content: flex-end;
   font-size: 30px;
+  cursor: pointer;
 }
 
 /* Section 3 - Reviews section */

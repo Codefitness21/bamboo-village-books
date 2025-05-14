@@ -122,6 +122,7 @@ p {
 
 .fa-arrow-up {
   position: fixed;
+  z-index: 1000;
   bottom: 30px;
   right: 30px;
   width: 40px;

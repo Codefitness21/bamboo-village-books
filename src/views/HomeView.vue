@@ -1,6 +1,6 @@
 <!-- eslint-disable quotes, semi, comma-dangle -->
 <template>
-  <!-- <WelcomeView ref="welcomePopup" /> -->
+  <WelcomeView ref="welcomePopup" />
   <div class="home-page-container">
     <div class="hero-image-carousel-container">
       <div class="hero-carousel">
@@ -200,12 +200,12 @@
 </template>
 
 <script>
-// import WelcomeView from './WelcomeView.vue';
+import WelcomeView from './WelcomeView.vue';
 
 export default {
-  // components: {
-  //   WelcomeView,
-  // },
+  components: {
+    WelcomeView,
+  },
   name: 'HomeView',
 
   data() {
@@ -221,9 +221,9 @@ export default {
           image1: 'https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/hero-book-grid-v2.png',
         },
         {
-          background: "https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/ashes-transparent-bkgrd.jpg",
+          background: "https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/ashes-transparent-bkgrd-v3.jpg",
           subtitle: "NEW RELEASE! Quinton Taylor-Garcia presents ASHES OF THE CITY",
-          image2: 'https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/ashes-book-cover.png',
+          image2: 'https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/ashes-book-cover-v5.png',
           text: "Ashes of the City explores themes of leadership, morality, and the loss of innocence in a brutal, post-disaster world. Perfect for fans of The Hunger Games and Lord of the Flies, this powerful story will keep readers on the edge of their seats, questioning what it means to survive when everything you once knew is gone.",
           cta: "LEARN MORE",
           link: 'ashestwo'
@@ -250,19 +250,19 @@ export default {
   async mounted() {
     this.currentLocation = this.$route.name
     window.scrollTo(0, 0)
-    // {
-    //   // setTimeout(() => {
-    //   //   this.$refs.welcomePopup.openPopup();
-    //   // }, 3000);
-    //   const hasShownModal = localStorage.getItem('hasShownModal');
+    {
+      setTimeout(() => {
+        this.$refs.welcomePopup.openPopup();
+      }, 4000);
+      // const hasShownModal = localStorage.getItem('hasShownModal');
 
-    //   if (!hasShownModal) {
-    //     setTimeout(() => {
-    //       this.isVisible = true;
-    //       localStorage.setItem('hasShownModal', 'true');
-    //     }, 3000);
-    //   }
-    // }
+      // if (!hasShownModal) {
+      //   setTimeout(() => {
+      //     this.isVisible = true;
+      //     localStorage.setItem('hasShownModal', 'true');
+      //   }, 3000);
+      // }
+    }
   },
   methods: {
     showThankYou() {

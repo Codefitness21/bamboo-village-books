@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
     <div v-if="isVisible" class="popup-overlay">
         <div class="popup-content">
             <button class="close-button" @click="closePopup">&times;</button>
@@ -54,4 +54,4 @@
         background: rgba(0, 0, 0, 0.0);
     }
 }
-</style>
+</style> -->

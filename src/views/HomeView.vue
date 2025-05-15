@@ -1,6 +1,6 @@
 <!-- eslint-disable quotes, semi, comma-dangle -->
 <template>
-  <WelcomeView ref="welcomePopup" />
+  <!-- <WelcomeView ref="welcomePopup" /> -->
   <div class="home-page-container">
     <div class="hero-image-carousel-container">
       <div class="hero-carousel">
@@ -200,12 +200,12 @@
 </template>
 
 <script>
-import WelcomeView from './WelcomeView.vue';
+// import WelcomeView from './WelcomeView.vue';
 
 export default {
-  components: {
-    WelcomeView,
-  },
+  // components: {
+  //   WelcomeView,
+  // },
   name: 'HomeView',
 
   data() {
@@ -250,19 +250,19 @@ export default {
   async mounted() {
     this.currentLocation = this.$route.name
     window.scrollTo(0, 0)
-    {
-      setTimeout(() => {
-        this.$refs.welcomePopup.openPopup();
-      }, 4000);
-      // const hasShownModal = localStorage.getItem('hasShownModal');
+    // {
+    //   setTimeout(() => {
+    //     this.$refs.welcomePopup.openPopup();
+    //   }, 4000);
+    //   const hasShownModal = localStorage.getItem('hasShownModal');
 
-      // if (!hasShownModal) {
-      //   setTimeout(() => {
-      //     this.isVisible = true;
-      //     localStorage.setItem('hasShownModal', 'true');
-      //   }, 3000);
-      // }
-    }
+    //   if (!hasShownModal) {
+    //     setTimeout(() => {
+    //       this.isVisible = true;
+    //       localStorage.setItem('hasShownModal', 'true');
+    //     }, 3000);
+    //   }
+    // }
   },
   methods: {
     showThankYou() {

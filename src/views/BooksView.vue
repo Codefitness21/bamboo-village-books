@@ -10,7 +10,7 @@
       <h2>NEW RELEASE!<br>Quinton Taylor-Garcia presents ASHES OF THE CITY </h2>
       <div class="ashes-info-container">
         <div class="ashes-left-aligned-image-container">
-          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/ashes-book-cover.png"
+          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/ashes-book-cover-v5.png"
             alt="Author Image">
         </div>
         <div class="ashes-text-container">
@@ -65,14 +65,10 @@
       </div>
     </section>
     <section class="all-books-container">
-      <!-- <div class="left-stalk">
-      <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/left-bamboo-frame.png" alt="">
-    </div>  -->
       <div class="books-grid-title">
         <h2>EXPLORE ALL BOOKS</h2>
       </div>
       <div class="all-books-grid">
-        <!-- <h2>EXPLORE ALL BOOKS</h2> -->
         <div>
           <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/ashes.jpg"
             alt="Ashes of the City book cover image">
@@ -302,7 +298,7 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: url("https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/ashes-transparent-bkgrd.jpg");
+  background-image: url("https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/ashes-transparent-bkgrd-v3.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   padding: 0 64px 64px 64px;

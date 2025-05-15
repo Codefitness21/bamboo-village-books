@@ -6,7 +6,7 @@
         <h2>Your Story, Our Passion</h2>
       </div>
       <div class="author-image">
-        <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/author.png" alt="Author Image" />
+        <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/video/author-v6.png" alt="Author Image" />
       </div>
     </section>
     <section class="about-author">
@@ -117,7 +117,7 @@ export default {
 .hero-about-image {
   display: flex;
   flex-direction: row;
-  background-image: url('https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/author_hero_bkgrd_image.jpg');
+  background-image: url('https://bamboovillagebooks.s3.us-east-2.amazonaws.com/video/author_hero_bkgrd_image-v2.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   color: var(--quinary);

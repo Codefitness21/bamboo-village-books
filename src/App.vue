@@ -5,15 +5,10 @@
     <mail-view />
     <footer-view />
   </div>
-<!-- <div class="to-top-arrow" v-if="isVisible">
-  <a href="#" >
-    <i class="fa-solid fa-arrow-up"></i>
-  </a>
-</div> -->
 
-<button v-if="isVisible" @click="scrollToTop" class="back-to-top">
+<div v-if="isVisible" @click="scrollToTop" class="back-to-top">
   <i class="fa-solid fa-arrow-up"></i>
-</button>
+</div>
 </template>
 
 <script>
@@ -60,7 +55,7 @@ h6 {
 :root {
   --primary: #97865A;
   --secondary: #F9FAEA;
-  --tertiary: #FCC765;
+  --tertiary: #fcc765;
   --quarternary: #0C2A20;
   --quinary: #000000;
   --senary: #A7CC98;
@@ -69,7 +64,7 @@ h6 {
 
 html,
 body {
-  background-color: var(--quinary);
+  background-color: var(--secondary);
   width: 100vw;
   min-height: 100%;
   overflow-y: scroll;
@@ -77,7 +72,6 @@ body {
   margin: 0 auto;
   width: 100%;
 }
-
 
 * {
   margin: 0;
@@ -123,7 +117,7 @@ p {
 .fa-arrow-up {
   position: fixed;
   z-index: 1000;
-  bottom: 30px;
+  bottom: 20px;
   right: 30px;
   width: 40px;
   height: 40px;

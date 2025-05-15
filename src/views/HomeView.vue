@@ -229,15 +229,15 @@ export default {
           link: 'ashestwo'
         },
         {
-          background: "https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/MG-transparent-bkgrd.jpg",
+          background: "https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/MG-transparent-bkgrd-v2.jpg",
           subtitle: "A Personal Advocacy Story! The Last Sunset: Journey with Myasthenia Gravis (MG)",
-          image2: 'https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Gravis.png',
+          image2: 'https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Gravis-v2.png',
           text: "Since being diagnosed with MG in 2012, I've worked to raise awareness about this rare condition. Writing this book allowed me to share my journey and offer support to others living with a chronic illness. The narrative crafted within these pages serves as a fictional yet insightful exploration into the complexities of living with a chronic illness.",
           cta: "LEARN MORE",
           link: "gravistwo"
         },
         {
-          background: "https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/dragon-transparency-bkgrd.png",
+          background: "https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/dragon-transparency-bkgrd-v2.jpg",
           subtitle: "Born of Imagination and Celestial Inspiration: The Eclipse Dragons Trilogy",
           image3: 'https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/trilogy-v2.png',
           text: "In 2024, the Year of the Dragon, a series of breathtaking eclipses sparked the creation of this fantasy saga. The Eclipse Dragon Series channels the wonder of these celestial events into a rich, imaginative world of dragons, heroes, and epic battles. These stories represent the power of creativity to transform fleeting moments into enduring tales.",
@@ -336,7 +336,7 @@ export default {
       border-radius: 50%;
       width: 40px;
       height: 40px;
-      background-color: rgb(252, 199, 101, 0.5);
+      background-color: rgba(252, 239, 101, 0.6);
       color: var(--secondary);
     }
 

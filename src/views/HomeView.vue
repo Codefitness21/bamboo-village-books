@@ -1,12 +1,12 @@
 <!-- eslint-disable quotes, semi, comma-dangle -->
 <template>
-  <!-- <div v-if="isShown" class="popup-overlay">
+  <div v-if="isShown" class="popup-overlay">
     <div class="popup-content">
       <button class="close-button" @click="closePopup">&times;</button>
       <h2>New Release!</h2>
       <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/ashes.jpg">
     </div>
-  </div> -->
+  </div>
 
   <div class="home-page-container">
     <div class="hero-image-carousel-container">

@@ -1,6 +1,18 @@
 <!-- eslint-disable quotes, semi, comma-dangle -->
 <template>
-  <!-- <WelcomeView ref="welcomePopup" /> -->
+  <!-- <WelcomeView  /> -->
+
+
+  <div v-if="isShown" class="popup-overlay">
+    <div class="popup-content">
+      <button class="close-button" @click="closePopup">&times;</button>
+      <h2>New Release!</h2>
+      <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/ashes.jpg">
+    </div>
+  </div>
+
+
+
   <div class="home-page-container">
     <div class="hero-image-carousel-container">
       <div class="hero-carousel">
@@ -163,8 +175,8 @@
               alt="Independent Book Publishers Association"></div>
           <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/award-sticker.png"
               alt="Award Digital Sticker"></div>
-              <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/Literary-Titan.png"
-                alt="Literary Titan"></div>
+          <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/Literary-Titan.png"
+              alt="Literary Titan"></div>
           <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/US-Review.png"
               alt="US Review"></div>
           <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/kirkus-logo-v3.png"
@@ -183,12 +195,12 @@
               alt="Independent Book Publishers Association"></div>
           <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/award-sticker.png"
               alt="Award Digital Sticker"></div>
-              <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/Literary-Titan.png"
-                alt="Literary Titan"></div>
+          <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/Literary-Titan.png"
+              alt="Literary Titan"></div>
           <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/US-Review.png"
               alt="US Review"></div>
-              <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/kirkus-logo-v3.png"
-                alt="Kirkus Review"></div>
+          <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/kirkus-logo-v3.png"
+              alt="Kirkus Review"></div>
           <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/Briscoe.png"
               alt="Briscoe"></div>
           <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/TPR.png"
@@ -213,6 +225,7 @@ export default {
       thankyou: true,
       currentLocation: null,
       currentIndex: 0,
+      isShown: false,
       slides: [
         {
           background: "https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/bamboo-fence-texture.jpg",
@@ -247,22 +260,21 @@ export default {
       ],
     }
   },
-  async mounted() {
+  mounted() {
     this.currentLocation = this.$route.name
     window.scrollTo(0, 0)
-    // {
-    //   setTimeout(() => {
-    //     this.$refs.welcomePopup.openPopup();
-    //   }, 4000);
-    //   const hasShownModal = localStorage.getItem('hasShownModal');
 
-    //   if (!hasShownModal) {
-    //     setTimeout(() => {
-    //       this.isVisible = true;
-    //       localStorage.setItem('hasShownModal', 'true');
-    //     }, 3000);
-    //   }
-    // }
+    const welcomePop = localStorage.getItem('welcomePop');
+    console.log('welcomePop:', welcomePop); 
+
+    if (!welcomePop) {
+      setTimeout(() => {
+        this.isShown = true;
+         console.log('Popup is now visible')
+         localStorage.removeItem('welcomePop');
+        // localStorage.setItem('welcomePop', 'true');
+      }, 4000) ;
+    }
   },
   methods: {
     showThankYou() {
@@ -281,11 +293,48 @@ export default {
     changeSlide(index) {
       this.currentIndex = index
     },
+    openPopup() {
+      this.isShown = true;
+    },
+    closePopup() {
+      this.isShown = false;
+      localStorage.setItem('welcomePop', 'true');
+    },
   },
 }
 </script>
 
 <style>
+.popup-overlay {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  border-radius: 3px;
+
+  h2 {
+    margin: 0 0 32px 0;
+    font-size: 60px;
+  }
+
+  button {
+    background: rgba(0, 0, 0, 0.0);
+  }
+}
+
 /* Home page container and info pertaining to all sections. Padding - set to 64px r,b,l. for sections. */
 
 
@@ -632,11 +681,12 @@ export default {
   flex-direction: row;
   align-items: flex-start;
   margin-bottom: 100px;
+
   .quinton-image {
-  img {
-    width: 65%;
-}
-}
+    img {
+      width: 65%;
+    }
+  }
 }
 
 .text-container {
@@ -1029,13 +1079,15 @@ export default {
     h2 {
       margin: 40px 0px 24px 0px;
     }
+
     .carousel-items {
-  animation: 15s slide infinite linear;
-}
+      animation: 15s slide infinite linear;
+    }
+
     .carousel-items img {
-  height: 50px;
-  margin: 0 20px;
-}
+      height: 50px;
+      margin: 0 20px;
+    }
   }
 
 }

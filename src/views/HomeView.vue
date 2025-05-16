@@ -1075,15 +1075,13 @@ export default {
       margin: 40px 0px 24px 0px;
     }
 
-    .carousel-items {
-      animation: 15s slide infinite linear;
-    }
-
     .carousel-items img {
       height: 50px;
       margin: 0 20px;
     }
   }
-
+  .carousel-items {
+      animation: 15s slide infinite linear;
+    }
 }
 </style>

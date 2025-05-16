@@ -934,6 +934,12 @@ export default {
 @media (max-width:767px) {
 
   /* carousel */
+  .popup-content img{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 80%;
+  }
   .hero-image-carousel-container {
     h1 {
       margin-top: 120px;

@@ -385,7 +385,7 @@ export default {
       border-radius: 50%;
       width: 40px;
       height: 40px;
-      background-color: rgba(252, 239, 101, 0.6);
+      background-color: var(--primary);
       color: var(--secondary);
     }
 

@@ -34,7 +34,6 @@ import PlanthreethanksView from "@/views/PlanthreethanksView.vue";
 import OrdersView from "@/views/OrdersView.vue";
 import ConnectView from "@/views/ConnectView.vue";
 import EventView from "@/views/EventView.vue";
-// import WelcomeView from "@/views/WelcomeView.vue";
 
 const routes = [
   {
@@ -202,11 +201,6 @@ const routes = [
     name: "events",
     component: EventView
   },
-  // {
-  //   path: "/welcome",
-  //   name: "welcome",
-  //   component: WelcomeView
-  // },
 ];
 
 const router = createRouter({

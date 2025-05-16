@@ -1,8 +1,5 @@
 <!-- eslint-disable quotes, semi, comma-dangle -->
 <template>
-  <!-- <WelcomeView  /> -->
-
-
   <div v-if="isShown" class="popup-overlay">
     <div class="popup-content">
       <button class="close-button" @click="closePopup">&times;</button>
@@ -10,8 +7,6 @@
       <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/ashes.jpg">
     </div>
   </div>
-
-
 
   <div class="home-page-container">
     <div class="hero-image-carousel-container">
@@ -212,12 +207,8 @@
 </template>
 
 <script>
-// import WelcomeView from './WelcomeView.vue';
 
 export default {
-  // components: {
-  //   WelcomeView,
-  // },
   name: 'HomeView',
 
   data() {

@@ -416,6 +416,7 @@ export default {
   background-size: cover;
   background-repeat: no-repeat;
   min-width: 100%;
+ transition: opacity 0.5s ease-in-out;
 
   h2 {
     padding-top: 72px;

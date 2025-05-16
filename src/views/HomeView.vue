@@ -1,12 +1,12 @@
 <!-- eslint-disable quotes, semi, comma-dangle -->
 <template>
-  <div v-if="isShown" class="popup-overlay">
+  <!-- <div v-if="isShown" class="popup-overlay">
     <div class="popup-content">
       <button class="close-button" @click="closePopup">&times;</button>
       <h2>New Release!</h2>
       <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/ashes.jpg">
     </div>
-  </div>
+  </div> -->
 
   <div class="home-page-container">
     <div class="hero-image-carousel-container">
@@ -136,7 +136,7 @@
       <div class="information-container">
         <div class="text-container">
           <p>Our team, a collective of avid book enthusiasts,
-            is devoted to delivering outstanding customer service and guiding you to your ideal read. We pledge to
+            are devoted to delivering outstanding customer service and guiding you to your ideal read. We pledge to
             maintain
             a
             cozy and inviting atmosphere for all our customers, ensuring a pleasant and enriching experience in the
@@ -417,6 +417,9 @@ export default {
   background-repeat: no-repeat;
   min-width: 100%;
  transition: opacity 0.5s ease-in-out;
+ overflow-x: scroll;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
 
   h2 {
     padding-top: 72px;
@@ -714,6 +717,7 @@ export default {
   align-items: center;
   background-color: var(--secondary);
   padding-bottom: 64px;
+  overflow: hidden;
 }
 
 @keyframes slide {
@@ -731,7 +735,6 @@ export default {
 }
 
 .scrolling-carousel-items {
-  overflow: hidden;
   padding: 50px 0;
   white-space: nowrap;
   display: inline-block;

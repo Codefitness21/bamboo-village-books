@@ -124,12 +124,10 @@ export default {
   height: 75vh;
 
   h1 {
-    /* font-size: 88px; */
     margin: 72px 0 0 0;
   }
 
   h2 {
-    /* font-size: 48px; */
     font-style: italic;
     margin: 24px;
   }
@@ -169,10 +167,6 @@ export default {
     float: right;
     padding: 24px;
   }
-
-  /* h2 {
-    margin: 48px 0 48px 0;
-  } */
 
   p {
     text-align: justify;

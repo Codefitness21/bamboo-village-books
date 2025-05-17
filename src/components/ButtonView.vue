@@ -64,7 +64,7 @@ button {
     align-self: center;
     margin: 24px;
 
-    .submit {
+    .contact-submit-btn {
         background-color: var(--secondary);
         color: var(--quinary);
     }

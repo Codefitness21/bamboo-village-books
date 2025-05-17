@@ -42,7 +42,7 @@
               </div>
               <!-- <h3>Make sure all fields are completed. Please allow 24 - 48 hours response time.</h3> -->
               <div class="submit-btn">
-                <button type="submit" @click="onSubmit">SUBMIT</button>
+                <button class="contact-submit-btn" type="submit" @click="onSubmit">SUBMIT</button>
               </div>
             </div>
           </form>

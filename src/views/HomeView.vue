@@ -256,15 +256,14 @@ export default {
     window.scrollTo(0, 0)
 
     const welcomePop = localStorage.getItem('welcomePop');
-    console.log('welcomePop:', welcomePop); 
+    console.log('welcomePop:', welcomePop);
 
     if (!welcomePop) {
       setTimeout(() => {
         this.isShown = true;
-         console.log('Popup is now visible')
-         localStorage.removeItem('welcomePop');
-        // localStorage.setItem('welcomePop', 'true');
-      }, 4000) ;
+        console.log('Popup is now visible')
+        localStorage.removeItem('welcomePop');
+      }, 4000);
     }
   },
   methods: {
@@ -313,7 +312,7 @@ export default {
 .popup-content {
   display: flex;
   flex-direction: column;
-  color: white;
+  color: var(--secondary);
   border-radius: 3px;
 
   h2 {
@@ -416,8 +415,7 @@ export default {
   background-size: cover;
   background-repeat: no-repeat;
   min-width: 100%;
- transition: opacity 0.5s ease-in-out;
- overflow-x: scroll;
+  transition: opacity 0.5s ease-in-out;
   scroll-behavior: smooth;
   scroll-snap-type: x mandatory;
 
@@ -934,12 +932,13 @@ export default {
 @media (max-width:767px) {
 
   /* carousel */
-  .popup-content img{
+  .popup-content img {
     display: flex;
     flex-direction: column;
     align-self: center;
     width: 80%;
   }
+
   .hero-image-carousel-container {
     h1 {
       margin-top: 120px;
@@ -1086,8 +1085,9 @@ export default {
       margin: 0 20px;
     }
   }
+
   .carousel-items {
-      animation: 15s slide infinite linear;
-    }
+    animation: 15s slide infinite linear;
+  }
 }
 </style>

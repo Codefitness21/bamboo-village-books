@@ -10,7 +10,7 @@
 
   <div class="home-page-container">
     <div class="hero-image-carousel-container">
-      <div class="hero-carousel">
+      <div class="hero-carousel" ref="carousel">
 
         <div class="slide-hero-home-image" v-for="(slide, index) in slides" :key="index" v-show="currentIndex === index"
           :style="{ backgroundImage: `url(${slide.background})` }">
@@ -608,8 +608,6 @@ export default {
   }
 }
 
-
-
 .bamboo-image img {
   width: 45%;
   display: flex;
@@ -681,6 +679,17 @@ export default {
     }
   }
 }
+
+/* .scroll-text {
+  opacity: 1;
+  transition: all 0.5s;
+  transform: translateX(-10px);
+  }
+
+  .show {
+    opacity: 1;
+    transform: translateX(0);
+  } */
 
 .text-container {
   display: flex;

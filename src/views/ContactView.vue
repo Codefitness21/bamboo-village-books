@@ -7,7 +7,7 @@
             alt="Team award at ribbon cutting">
         </div>
         <div class="contact-form-container">
-          <form class="contact-form" action="https://formspree.io/f/xbldnbba" method="POST" autocomplete="off">
+          <form class="contact-form" action="https://formspree.io/f/xbldnbba" method="POST" @submit.prevent="checkForm" autocomplete="off">
             <div class="header">
               <h2>Contact For More Information</h2>
             </div>
@@ -15,34 +15,34 @@
               <div class="top-row">
                 <div class="left-container">
                   <div>
-                    <label class="title-input" for="first name">First Name</label>
-                    <input class="input-field" type="text" id="first name" name="first name" />
+                    <label class="title-input" for="first name">First Name*</label>
+                    <input class="input-field" type="text" id="firstname" name="firstname" v-model="firstname"/>
                   </div>
                   <div>
-                    <label class="title-input" for="email">Email</label>
-                    <input class="input-field" type="text" id="email" name="email"  />
+                    <label class="title-input" for="email">Email*</label>
+                    <input class="input-field" type="text" id="email" name="email" v-model="email" />
                   </div>
                 </div>
                 <div class="right-container">
                   <div>
-                    <label class="title-input" for="last name">Last Name</label>
-                    <input class="input-field" type="text" id="last name" name="last name" />
+                    <label class="title-input" for="last name">Last Name*</label>
+                    <input class="input-field" type="text" id="lastname" name="lastname" v-model="lastname"/>
                   </div>
                   <div>
-                    <label class="title-input" for="phone">Phone</label>
+                    <label class="title-input" for="phone">Phone*</label>
                     <input class="input-field" type="text" placeholder="(_ _ _) _ _ _ - _ _ _ _" id="phone"
-                      name="phone" />
+                      name="phone" v-model="phone"/>
                   </div>
                 </div>
               </div>
               <div class="bottom-row">
-                <label for="contact-message">Message</label>
+                <label for="contact-message">Message*</label>
                 <textarea class="text-area-contact" type="contact-message" id="contact-message"
-                  name="contact-message"></textarea>
+                  name="contact-message" v-model="completedField"></textarea>
               </div>
               <!-- <h3>Make sure all fields are completed. Please allow 24 - 48 hours response time.</h3> -->
               <div class="submit-btn">
-                <button class="submit" >SUBMIT</button>
+                <button type="submit">SUBMIT</button>
               </div>
             </div>
           </form>
@@ -60,21 +60,26 @@ export default {
   name: 'ContactView',
   data() {
     return {
-      // thankyou: false,
-      currentLocation: null,
+      firstname: null,
+      email: null,
+      lastname: null,
+      phone: null
     }
   },
   async mounted() {
     this.currentLocation = this.$route.name
-    // if(this.$route.query["thanks"]) {
-    //   this.thankyou = true
-    // }
-
   },
   methods: {
     open(target) {
       this.currentLocation = target
       this.$router.push({ name: target })
+    },
+   checkForm(event) {
+      if (!this.completedField) {
+        alert("Please fill out all required fields.");
+        return;
+      }
+      event.target.submit();
     }
   },
 };

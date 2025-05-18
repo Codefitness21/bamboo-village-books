@@ -136,7 +136,7 @@
       <div class="information-container">
         <div class="text-container">
           <p>Our team, a collective of avid book enthusiasts,
-            are devoted to delivering outstanding customer service and guiding you to your ideal read. We pledge to
+            is devoted to delivering outstanding customer service and guiding you to your ideal read. We pledge to
             maintain
             a
             cozy and inviting atmosphere for all our customers, ensuring a pleasant and enriching experience in the

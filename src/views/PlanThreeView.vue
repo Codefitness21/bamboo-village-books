@@ -11,7 +11,7 @@
       </div>
       <h2>Publishing Package: Bestseller Bound</h2>
       <div class="planthree-form-container">
-        <form class="planthree-form" action="https://formspree.io/f/xanewpod" method="POST" @submit=handleSubmit autocomplete="off">
+        <form class="planthree-form" action="https://formspree.io/f/xanewpod" method="POST" @submit.prevent=checkPlanthreeForm autocomplete="off">
           <div class="form-instructions">
             <h3>Please fill out every field.</h3>
           </div>
@@ -19,43 +19,43 @@
             <div class="top-left-container">
               <div>
                 <label class="title-input" for="first name">First Name *</label>
-                <input class="planthree-input-field" type="text" id="first name" name="first name" autocomplete="off"/>
+                <input class="planthree-input-field" type="text" id="first name" name="first name" v-model="firstname" autocomplete="off"/>
               </div>
               <div>
                 <label class="title-input" for="email">Email *</label>
-                <input class="planthree-input-field" type="text" id="email" name="email" autocomplete="off"/>
+                <input class="planthree-input-field" type="text" id="email" name="email" v-model="email" autocomplete="off"/>
               </div>
               <div>
                 <label class="title-input" for="address">Address *</label>
-                <input class="planthree-input-field" type="text" id="address" name="address" autocomplete="off"/>
+                <input class="planthree-input-field" type="text" id="address" name="address" v-model="address" autocomplete="off"/>
               </div>
               <div>
                 <label class="title-input" for="city">City *</label>
-                <input class="planthree-input-field" type="text" id="city" name="city" autocomplete="off"/>
+                <input class="planthree-input-field" type="text" id="city" name="city" v-model="city" autocomplete="off"/>
               </div>
             </div>
             <div class="top-right-container">
               <div>
                 <label class="title-input" for="last name">Last Name *</label>
-                <input class="planthree-input-field" type="text" id="last name" name="last name" autocomplete="off"/>
+                <input class="planthree-input-field" type="text" id="last name" name="last name" v-model="lastname" autocomplete="off"/>
               </div>
               <div>
                 <label class="title-input" for="phone">Phone *</label>
-                <input class="planthree-input-field" type="text" placeholder="(_ _ _) _ _ _ - _ _ _ _" id="phone" name="phone" autocomplete="off"/>
+                <input class="planthree-input-field" type="text" placeholder="(_ _ _) _ _ _ - _ _ _ _" id="phone" name="phone" v-model="phone" autocomplete="off"/>
               </div>
               <div>
                 <label class="title-input" for="zip">Zip Code *</label>
-                <input class="planthree-input-field" type="text" id="zip" name="zip" autocomplete="off"/>
+                <input class="planthree-input-field" type="text" id="zip" name="zip" v-model="zipcode" autocomplete="off"/>
               </div>
               <div>
                 <label class="title-input" for="state">State *</label>
-                <input class="planthree-input-field" type="text" id="state" name="state" autocomplete="off"/>
+                <input class="planthree-input-field" type="text" id="state" name="state" v-model="state" autocomplete="off"/>
               </div>
             </div>
           </div>
           <div class="middle-row-container">
             <label for="form-message">How can we support you? *</label>
-            <textarea class="text-area-plan" type="form-message" id="form-message" name="form-message" autocomplete="off"></textarea>
+            <textarea class="text-area-plan" type="form-message" id="form-message" name="form-message" v-model="message" autocomplete="off"></textarea>
             <h3>Make sure all fields are completed with correct information and click apply. Please allow 24 - 48 hours response time.</h3>
           </div>
           <div class="apply-btn">
@@ -73,7 +73,15 @@ export default {
   data() {
     return {
       currentLocation: null,
-      checkedBox: []
+      firstname: null,
+      email: null,
+      address: null,
+      city: null,
+      lastname: null,
+      phone: null,
+      zipcode: null,
+      state: null,
+      message: null
     }
   },
   async mounted() {
@@ -84,6 +92,45 @@ export default {
     open(target) {
       this.currentLocation = target
       this.$router.push({ name: target })
+    },
+    checkPlanthreeForm(event){
+      if(!this.firstname) {
+        alert("Please fill out all required fields.")
+        return;
+      }
+      if(!this.email) {
+        alert("Please fill out all required fields.")
+        return;
+      }
+      if(!this.address) {
+        alert("Please fill out all required fields.")
+        return;
+      }
+      if(!this.city) {
+        alert("Please fill out all required fields.")
+        return;
+      }
+      if(!this.lastname) {
+        alert("Please fill out all required fields.")
+        return;
+      }
+      if(!this.phone) {
+        alert("Please fill out all required fields.")
+        return;
+      }
+      if(!this.zipcode) {
+        alert("Please fill out all required fields.")
+        return;
+      }
+      if(!this.state) {
+        alert("Please fill out all required fields.")
+        return;
+      }
+      if(!this.message) {
+        alert("Please fill out all required fields.")
+        return;
+      }
+      event.target.submit();
     }
   }
 }

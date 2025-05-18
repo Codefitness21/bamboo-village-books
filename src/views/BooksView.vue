@@ -173,7 +173,9 @@
       </div>
     </section>
     <section class="upcoming-releases-container">
-      <h2>UPCOMING 2025 RELEASES...</h2>
+     <div class=slidetext>
+         <h2>UPCOMING 2025 RELEASES...</h2>
+     </div>
       <div class="upcoming-books">
         <div class="book-1">
           <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Under_Orders.jpg"
@@ -185,9 +187,6 @@
                 class="cta-2 upcoming-cta">BUY BOOK</button></a>
           </div>
         </div>
-        <!-- <div class="book">
-          <h2>The Silent Crown</h2>
-        </div> -->
         <div class="book-1">
           <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Silent-Crown.jpg"
             alt="The Silent Crown book cover image">
@@ -228,10 +227,22 @@ export default {
       ]
     }
   },
-  async mounted() {
+ mounted() {
     this.currentLocation = this.$route.name
     window.scrollTo(0, 0)
-  },
+
+     const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('show');
+      } else {
+        entry.target.classList.remove('show');
+      }
+    });
+  });
+const slidetextElements = document.querySelectorAll('.slidetext');
+  slidetextElements.forEach((el) => observer.observe(el));
+},
   methods: {
     open(target) {
       this.currentLocation = target
@@ -257,6 +268,17 @@ export default {
 </script>
 
 <style>
+.slidetext {
+  opacity: 0;
+  transition: all 0.8s;
+  transform: translateX(-100%);
+  }
+
+ .show {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
 /* Books Container */
 .books-page-container {
   display: flex;

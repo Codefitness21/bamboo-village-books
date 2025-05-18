@@ -96,7 +96,7 @@
       <h2>Meet The Author</h2>
       <!-- <div class="bamboo-image"><img src="../assets/bvb-circle-logo.png"></div> -->
       <div class="information-container">
-        <div class="text-container">
+        <div class="text-container slidetext">
           <p>Quinton Taylor-Garcia is an emerging voice in dystopian fiction, blending intense survival scenarios with
             deep character development and moral exploration. With a passion for storytelling that challenges societal
             norms, Quinton brings readers into complex worlds where humanity's true nature is tested. When not writing,
@@ -108,7 +108,7 @@
           <a @click="open('about')"><button class="read-bio-btn">READ FULL BIO</button></a>
         </div>
         <div class="right-aligned-image-container quinton-image">
-          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/author.jpg" alt="Author Image">
+          <img class="slideimage" src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/author.jpg" alt="Author Image">
         </div>
       </div>
       <!-- <section class="vision people"> -->
@@ -207,7 +207,6 @@
 </template>
 
 <script>
-
 export default {
   name: 'HomeView',
 
@@ -265,7 +264,31 @@ export default {
         localStorage.removeItem('welcomePop');
       }, 4000);
     }
-  },
+     {
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('show');
+      } else {
+        entry.target.classList.remove('show');
+      }
+    });
+  });
+  const slideimageElements = document.querySelectorAll('.slideimage');
+  slideimageElements.forEach((el) => observer.observe(el));
+}
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('show');
+      } else {
+        entry.target.classList.remove('show');
+      }
+    });
+  });
+const slidetextElements = document.querySelectorAll('.slidetext');
+  slidetextElements.forEach((el) => observer.observe(el));
+},
   methods: {
     showThankYou() {
       this.thankyou = false;
@@ -619,6 +642,23 @@ export default {
   top: 6%;
 }
 
+.slideimage {
+  opacity: 0;
+  transition: all 0.8s;
+  transform: translateX(100%);
+  }
+
+  .slidetext {
+  opacity: 0;
+  transition: all 0.8s;
+  transform: translateX(-100%);
+  }
+
+.show {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
 /* Section 5 - Our Vision */
 .vision {
   display: flex;
@@ -679,17 +719,6 @@ export default {
     }
   }
 }
-
-/* .scroll-text {
-  opacity: 1;
-  transition: all 0.5s;
-  transform: translateX(-10px);
-  }
-
-  .show {
-    opacity: 1;
-    transform: translateX(0);
-  } */
 
 .text-container {
   display: flex;

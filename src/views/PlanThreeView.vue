@@ -11,7 +11,7 @@
       </div>
       <h2>Publishing Package: Bestseller Bound</h2>
       <div class="planthree-form-container">
-        <form class="planthree-form" action="https://formspree.io/f/xanewpod" method="POST" @submit.prevent=checkPlanthreeForm autocomplete="off">
+        <form class="planthree-form" action="https://formspree.io/f/mzzepjro" method="POST" @submit.prevent=checkPlanthreeForm autocomplete="off">
           <div class="form-instructions">
             <h3>Please fill out every field.</h3>
           </div>

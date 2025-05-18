@@ -13,54 +13,58 @@
       <div class="planone-form-container">
         <form class="planone-form" action="https://formspree.io/f/xkgjwqrw" method="POST" @submit.prevent=checkPlanoneForm
           autocomplete="off">
+          <div class="form-instructions">
+            <h3>Please fill out every field.</h3>
+          </div>
+          
           <div class="top-row-container">
             <div class="top-left-container">
               <div>
-                <label class="title-input" for="first name">First Name</label>
+                <label class="title-input" for="first name">First Name *</label>
                 <input class="planone-input-field" type="text" id="first name" name="first name" v-model="firstname"
                   autocomplete="off" />
               </div>
               <div>
-                <label class="title-input" for="email">Email</label>
+                <label class="title-input" for="email">Email *</label>
                 <input class="planone-input-field" type="text" id="email" name="email" v-model="email"
                   autocomplete="off" />
               </div>
               <div>
-                <label class="title-input" for="address">Address</label>
+                <label class="title-input" for="address">Address *</label>
                 <input class="planone-input-field" type="text" id="address" name="address" v-model="address"
                   autocomplete="off" />
               </div>
               <div>
-                <label class="title-input" for="city">City</label>
+                <label class="title-input" for="city">City *</label>
                 <input class="planone-input-field" type="text" id="city" name="city" v-model="city"
                   autocomplete="off" />
               </div>
             </div>
             <div class="top-right-container">
               <div>
-                <label class="title-input" for="last name">Last Name</label>
+                <label class="title-input" for="last name">Last Name *</label>
                 <input class="planone-input-field" type="text" id="last name" name="last name" v-model="lastname"
                   autocomplete="off" />
               </div>
               <div>
-                <label class="title-input" for="phone">Phone</label>
+                <label class="title-input" for="phone">Phone *</label>
                 <input class="planone-input-field" type="text" placeholder="(_ _ _) _ _ _ - _ _ _ _" id="phone"
                   name="phone" v-model="phone" autocomplete="off" />
               </div>
               <div>
-                <label class="title-input" for="zip">Zip Code</label>
+                <label class="title-input" for="zip">Zip Code *</label>
                 <input class="planone-input-field" type="text" id="zip" name="zip" v-model="zipcode"
                   autocomplete="off" />
               </div>
               <div>
-                <label class="title-input" for="state">State</label>
+                <label class="title-input" for="state">State *</label>
                 <input class="planone-input-field" type="text" id="state" name="state" v-model="state"
                   autocomplete="off" />
               </div>
             </div>
           </div>
           <div class="middle-row-container">
-            <label for="form-message">How can we support you?</label>
+            <label for="form-message">How can we support you? *</label>
             <textarea class="text-area-plan" type="form-message" id="form-message" name="form-message" v-model="message"
               autocomplete="off"></textarea>
             <h3>Make sure all fields are completed with correct information and click apply. Please allow 24 - 48 hours
@@ -171,7 +175,15 @@ export default {
   }
 
   h3 {
+    
     margin: 16px 0 32px 0;
+  }
+}
+.form-instructions {
+  h3 {
+    color: var(--secondary);
+    font-size: 32px;
+    margin-bottom: 48px;
   }
 }
 
@@ -181,7 +193,7 @@ export default {
   align-self: center;
   background-color: var(--quarternary);
   margin: 0 0 90px 0;
-  padding: 48px;
+  padding: 16px 48px;
 
   planone-form {
     margin: 0;

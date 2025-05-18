@@ -15,28 +15,28 @@
               <div class="top-row">
                 <div class="left-container">
                   <div>
-                    <label class="title-input" for="first name">First Name*</label>
+                    <label class="title-input" for="first name">First Name *</label>
                     <input class="input-field" type="text" id="firstname" name="firstname" v-model="firstname"/>
                   </div>
                   <div>
-                    <label class="title-input" for="email">Email*</label>
+                    <label class="title-input" for="email">Email *</label>
                     <input class="input-field" type="text" id="email" name="email" v-model="email" />
                   </div>
                 </div>
                 <div class="right-container">
                   <div>
-                    <label class="title-input" for="last name">Last Name*</label>
+                    <label class="title-input" for="last name">Last Name *</label>
                     <input class="input-field" type="text" id="lastname" name="lastname" v-model="lastname"/>
                   </div>
                   <div>
-                    <label class="title-input" for="phone">Phone*</label>
+                    <label class="title-input" for="phone">Phone *</label>
                     <input class="input-field" type="text" placeholder="(_ _ _) _ _ _ - _ _ _ _" id="phone"
                       name="phone" v-model="phone"/>
                   </div>
                 </div>
               </div>
               <div class="bottom-row">
-                <label for="contact-message">Message*</label>
+                <label for="contact-message">Message *</label>
                 <textarea class="text-area-contact" type="contact-message" id="contact-message"
                   name="contact-message" v-model="message"></textarea>
               </div>

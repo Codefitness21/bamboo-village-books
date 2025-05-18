@@ -82,6 +82,7 @@ button {
     flex-direction: row;
     justify-content: center;
     align-self: center;
+    margin-bottom: 48px;
 
     .apply {
         background-color: var(--primary);

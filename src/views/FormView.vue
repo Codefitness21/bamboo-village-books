@@ -12,58 +12,61 @@
       <h2>Internship Application Form</h2>
       <h3>Sign up for more information about becoming an intern at Bamboo Village Books.</h3>
       <div class="intern-form-container">
-        <form class="intern-form" action="https://formspree.io/f/meoeydbj" method="POST" autocomplete="off">
+        <form class="intern-form" action="https://formspree.io/f/meoeydbj" method="POST" @submit.prevent="checkInternForm" autocomplete="off">
+          <div class="form-instructions">
+            <h3>Please fill out every field.</h3>
+          </div>
           <div class="top-row-container">
             <div class="top-left-container">
               <div>
-                <label class="title-input" for="first name">First Name</label>
-                <input class="input-field" type="text" id="first name" name="first name" autocomplete="off"/>
+                <label class="title-input" for="first name">First Name *</label>
+                <input class="input-field" type="text" id="first name" name="first name" v-model="firstname" autocomplete="off"/>
               </div>
               <div>
-                <label class="title-input" for="email">Email</label>
-                <input class="input-field" type="text" id="email" name="email" autocomplete="off"/>
+                <label class="title-input" for="email">Email *</label>
+                <input class="input-field" type="text" id="email" name="email"  v-model="email" autocomplete="off"/>
               </div>
               <div>
-                <label class="title-input" for="date">Date of Birth</label>
-                <input class="input-field" type="text" placeholder="MM/DD/YYYY" id="date" name="date" autocomplete="off"/>
+                <label class="title-input" for="date">Date of Birth *</label>
+                <input class="input-field" type="text" placeholder="MM/DD/YYYY" id="date" name="date" v-model="date" autocomplete="off"/>
               </div>
               <div>
-                <label class="title-input" for="address">Address</label>
-                <input class="input-field" type="text" id="address" name="address" autocomplete="off"/>
+                <label class="title-input" for="address">Address *</label>
+                <input class="input-field" type="text" id="address" name="address" v-model="address" autocomplete="off"/>
               </div>
               <div>
-                <label class="title-input" for="city">City</label>
-                <input class="input-field" type="text" id="city" name="city" autocomplete="off"/>
+                <label class="title-input" for="city">City *</label>
+                <input class="input-field" type="text" id="city" name="city" v-model="city" autocomplete="off"/>
               </div>
             </div>
             <div class="top-right-container">
               <div>
-                <label class="title-input" for="last name">Last Name</label>
-                <input class="input-field" type="text" id="last name" name="last name" autocomplete="off"/>
+                <label class="title-input" for="last name">Last Name *</label>
+                <input class="input-field" type="text" id="last name" name="last name" v-model="lastname" autocomplete="off"/>
               </div>
               <div>
-                <label class="title-input" for="phone">Phone</label>
-                <input class="input-field" type="text" placeholder="(_ _ _) _ _ _ - _ _ _ _" id="phone" name="phone" autocomplete="off"/>
+                <label class="title-input" for="phone">Phone *</label>
+                <input class="input-field" type="text" placeholder="(_ _ _) _ _ _ - _ _ _ _" id="phone" name="phone" v-model="phone" autocomplete="off"/>
               </div>
               <div>
-                <label class="title-input" for="school">School Name</label>
-                <input class="input-field" type="text" id="school" name="school" autocomplete="off"/>
+                <label class="title-input" for="school">School Name *</label>
+                <input class="input-field" type="text" id="school" name="school" v-model="school" autocomplete="off"/>
               </div>
               <div>
-                <label class="title-input" for="zip">Zip Code</label>
-                <input class="input-field" type="text" id="zip" name="zip" autocomplete="off"/>
+                <label class="title-input" for="zip">Zip Code *</label>
+                <input class="input-field" type="text" id="zip" name="zip" v-model="zipcode" autocomplete="off"/>
               </div>
               <div>
-                <label class="title-input" for="state">State</label>
-                <input class="input-field" type="text" id="state" name="state" autocomplete="off"/>
+                <label class="title-input" for="state">State *</label>
+                <input class="input-field" type="text" id="state" name="state" v-model="state" autocomplete="off"/>
               </div>
             </div>
           </div>
           <div class="middle-row-container">
-            <label for="form-message">Tell us how you found us:</label>
-            <textarea class="text-area-intern" type="form-message" id="form-message" name="form-message" autocomplete="off"></textarea>
+            <label for="form-message">Tell us how you found us: *</label>
+            <textarea class="text-area-intern" type="form-message" id="form-message" name="form-message" v-model="message" autocomplete="off"></textarea>
             <h3>Select the day(s) you're available for work and fill in your available hours next to the corresponding
-              weekday:</h3>
+              weekday: *</h3>
           </div>
           <div class="bottom-row-container">
             <div class="bottom-left-container">
@@ -94,16 +97,16 @@
                   name="monday" autocomplete="off"/>
               </div>
               <div>
-                <input class="time-input-field" type="text" id="tuesday" name="tuesday" autocomplete="off" />
+                <input class="time-input-field" type="text" id="tuesday" name="tuesday"  autocomplete="off" />
               </div>
               <div>
-                <input class="time-input-field" type="text" id="wednesday" name="wednesday" autocomplete="off"/>
+                <input class="time-input-field" type="text" id="wednesday" name="wednesday"   autocomplete="off"/>
               </div>
               <div>
-                <input class="time-input-field" type="text" id="thursday" name="thursday" autocomplete="off"/>
+                <input class="time-input-field" type="text" id="thursday" name="thursday"  autocomplete="off"/>
               </div>
               <div>
-                <input class="time-input-field" type="text" id="friday" name="friday" autocomplete="off"/>
+                <input class="time-input-field" type="text" id="friday" name="friday"   autocomplete="off"/>
               </div>
             </div>
           </div>
@@ -122,6 +125,17 @@ export default {
   data() {
     return {
       currentLocation: null,
+      firstname: null,
+      email: null,
+      date: null,
+      address: null,
+      city: null,
+      lastname: null,
+      phone: null,
+      school: null,
+      zipcode: null,
+      state: null,
+      message: null,
       checkedBox: []
     }
   },
@@ -133,6 +147,57 @@ export default {
     open(target) {
       this.currentLocation = target
       this.$router.push({ name: target })
+    },
+    checkInternForm(event) {
+      if(!this.firstname) {
+        alert("Please fill out all required fields.");
+        return;
+      }
+      if(!this.email) {
+        alert("Please fill out all required fields.");
+        return;
+      }
+      if(!this.date) {
+        alert("Please fill out all required fields.");
+        return;
+      }
+      if(!this.address) {
+        alert("Please fill out all required fields.");
+        return;
+      }
+      if(!this.city) {
+        alert("Please fill out all required fields.");
+        return;
+      }
+      if(!this.lastname) {
+        alert("Please fill out all required fields.");
+        return;
+      }
+      if(!this.phone) {
+        alert("Please fill out all required fields.");
+        return;
+      }
+      if(!this.school) {
+        alert("Please fill out all required fields.");
+        return;
+      }
+      if(!this.zipcode) {
+        alert("Please fill out all required fields.");
+        return;
+      }
+      if(!this.state) {
+        alert("Please fill out all required fields.");
+        return;
+      }
+      if(!this.message) {
+        alert("Please fill out all required fields.");
+        return;
+      }
+      if(!this.ischecked) {
+        alert("Please check all boxes that apply.");
+        return;
+      }
+      event.target.submit();
     }
   }
 }
@@ -180,13 +245,21 @@ for other devices. */
     }
   }
 
+  .form-instructions {
+  h3 {
+    color: var(--secondary);
+    font-size: 32px;
+    margin-bottom: 48px;
+  }
+}
+
 .intern-form-container {
   display: flex;
   flex-direction: row;
   align-self: center;
   background-color: var(--quarternary);
   margin: 0 0 90px 0;
-  padding: 48px;
+  padding: 16px 48px;
 
   intern-form {
     margin: 0;

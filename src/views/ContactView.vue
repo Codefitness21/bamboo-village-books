@@ -38,7 +38,7 @@
               <div class="bottom-row">
                 <label for="contact-message">Message*</label>
                 <textarea class="text-area-contact" type="contact-message" id="contact-message"
-                  name="contact-message" v-model="completedField"></textarea>
+                  name="contact-message" v-model="message"></textarea>
               </div>
               <!-- <h3>Make sure all fields are completed. Please allow 24 - 48 hours response time.</h3> -->
               <div class="submit-btn">
@@ -63,7 +63,8 @@ export default {
       firstname: null,
       email: null,
       lastname: null,
-      phone: null
+      phone: null,
+      message: null
     }
   },
   async mounted() {
@@ -75,7 +76,23 @@ export default {
       this.$router.push({ name: target })
     },
    checkForm(event) {
-      if (!this.completedField) {
+      if (!this.firstname) {
+        alert("Please fill out all required fields.");
+        return;
+      }
+       if (!this.email) {
+        alert("Please fill out all required fields.");
+        return;
+      }
+      if (!this.lastname) {
+        alert("Please fill out all required fields.");
+        return;
+      }
+      if (!this.phone) {
+        alert("Please fill out all required fields.");
+        return;
+      }
+      if (!this.message) {
         alert("Please fill out all required fields.");
         return;
       }

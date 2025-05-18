@@ -200,7 +200,7 @@ export default {
   }
 
   .planone-input-field {
-    width: 30vw;
+    width: 33vw;
     margin-bottom: 16px;
     font-family: sans-serif;
   }

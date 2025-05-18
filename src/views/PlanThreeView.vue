@@ -12,46 +12,49 @@
       <h2>Publishing Package: Bestseller Bound</h2>
       <div class="planthree-form-container">
         <form class="planthree-form" action="https://formspree.io/f/xanewpod" method="POST" @submit=handleSubmit autocomplete="off">
+          <div class="form-instructions">
+            <h3>Please fill out every field.</h3>
+          </div>
           <div class="top-row-container">
             <div class="top-left-container">
               <div>
-                <label class="title-input" for="first name">First Name</label>
+                <label class="title-input" for="first name">First Name *</label>
                 <input class="planthree-input-field" type="text" id="first name" name="first name" autocomplete="off"/>
               </div>
               <div>
-                <label class="title-input" for="email">Email</label>
+                <label class="title-input" for="email">Email *</label>
                 <input class="planthree-input-field" type="text" id="email" name="email" autocomplete="off"/>
               </div>
               <div>
-                <label class="title-input" for="address">Address</label>
+                <label class="title-input" for="address">Address *</label>
                 <input class="planthree-input-field" type="text" id="address" name="address" autocomplete="off"/>
               </div>
               <div>
-                <label class="title-input" for="city">City</label>
+                <label class="title-input" for="city">City *</label>
                 <input class="planthree-input-field" type="text" id="city" name="city" autocomplete="off"/>
               </div>
             </div>
             <div class="top-right-container">
               <div>
-                <label class="title-input" for="last name">Last Name</label>
+                <label class="title-input" for="last name">Last Name *</label>
                 <input class="planthree-input-field" type="text" id="last name" name="last name" autocomplete="off"/>
               </div>
               <div>
-                <label class="title-input" for="phone">Phone</label>
+                <label class="title-input" for="phone">Phone *</label>
                 <input class="planthree-input-field" type="text" placeholder="(_ _ _) _ _ _ - _ _ _ _" id="phone" name="phone" autocomplete="off"/>
               </div>
               <div>
-                <label class="title-input" for="zip">Zip Code</label>
+                <label class="title-input" for="zip">Zip Code *</label>
                 <input class="planthree-input-field" type="text" id="zip" name="zip" autocomplete="off"/>
               </div>
               <div>
-                <label class="title-input" for="state">State</label>
+                <label class="title-input" for="state">State *</label>
                 <input class="planthree-input-field" type="text" id="state" name="state" autocomplete="off"/>
               </div>
             </div>
           </div>
           <div class="middle-row-container">
-            <label for="form-message">How can we support you?</label>
+            <label for="form-message">How can we support you? *</label>
             <textarea class="text-area-plan" type="form-message" id="form-message" name="form-message" autocomplete="off"></textarea>
             <h3>Make sure all fields are completed with correct information and click apply. Please allow 24 - 48 hours response time.</h3>
           </div>
@@ -117,20 +120,28 @@ for other devices. */
   }
 }
 
+.form-instructions {
+  h3 {
+    color: var(--secondary);
+    font-size: 32px;
+    margin-bottom: 48px;
+  }
+}
+
 .planthree-form-container {
   display: flex;
   flex-direction: row;
   align-self: center;
   background-color: var(--quarternary);
   margin: 0 0 90px 0;
-  padding: 48px;
+  padding: 16px 48px;
 
   planthree-form {
     margin: 0;
   }
 
   .planthree-input-field {
-    width: 30vw;
+    width: 33vw;
     margin-bottom: 16px;
   }
 }

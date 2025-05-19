@@ -266,7 +266,7 @@ for other devices. */
   }
 
   .input-field {
-    width: 28vw;
+    width: 31vw;
   }
 }
 

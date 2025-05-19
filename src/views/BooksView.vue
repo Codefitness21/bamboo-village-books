@@ -173,10 +173,10 @@
       </div>
     </section>
     <section class="upcoming-releases-container">
-     <div class=slidetext>
+     <div >
          <h2>UPCOMING 2025 RELEASES...</h2>
      </div>
-      <div class="upcoming-books">
+      <div class="upcoming-books slidebooks">
         <div class="book-1">
           <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Under_Orders.jpg"
             alt="Under Orders of Silence book cover image">
@@ -240,8 +240,8 @@ export default {
       }
     });
   });
-const slidetextElements = document.querySelectorAll('.slidetext');
-  slidetextElements.forEach((el) => observer.observe(el));
+const slidebooksElements = document.querySelectorAll('.slidebooks');
+  slidebooksElements.forEach((el) => observer.observe(el));
 },
   methods: {
     open(target) {
@@ -268,7 +268,7 @@ const slidetextElements = document.querySelectorAll('.slidetext');
 </script>
 
 <style>
-.slidetext {
+.slidebooks {
   opacity: 0;
   transition: all 0.8s;
   transform: translateX(-100%);

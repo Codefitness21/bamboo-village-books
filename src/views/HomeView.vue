@@ -482,6 +482,7 @@ const slidetextElements = document.querySelectorAll('.slidetext');
 }
 
 .hero-slide-1 {
+  background-color: var(--quarternary);
   background-image: url("https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/bamboo-fence-texture.jpg");
 }
 
@@ -490,10 +491,12 @@ const slidetextElements = document.querySelectorAll('.slidetext');
 }
 
 .hero-slide-3 {
+  background-color: #BDE3FF;
   background-image: url("https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Gravis.png");
 }
 
 .hero-slide-4 {
+  background-color: #E4A1A1;
   background-image: url("https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/dragon-transparency-bkgrd.png");
 }
 

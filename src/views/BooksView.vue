@@ -181,7 +181,7 @@
           <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Under_Orders.jpg"
             alt="Under Orders of Silence book cover image">
           <div class="cta-row upcoming-cta-row">
-            <a @click="open('Orders')"><button class="cta-1 upcoming-cta">LEARN MORE</button></a>
+            <a @click="open('orders')"><button class="cta-1 upcoming-cta">LEARN MORE</button></a>
             <a
               href="https://www.amazon.com/Under-Orders-Silence-Inspired-Book/dp/B0F66ZS35T/ref=sr_1_1?crid=2ZMVW1Y8RO1UO&dib=eyJ2IjoiMSJ9.9TLYcju_fs8qkHpmQ2gyEqSQohurVetJidAnsfFF4YPGjHj071QN20LucGBJIEps.cr_QAXTI_Q57GUa_AZeq4_p7zKZnWyerLlv9-6REqDo&dib_tag=se&keywords=under+orders+of+silence&qid=1745960528&s=books&sprefix=under+orders+of+silence%2Cstripbooks%2C113&sr=1-1"><button
                 class="cta-2 upcoming-cta">BUY BOOK</button></a>
@@ -291,6 +291,7 @@ const slidetextElements = document.querySelectorAll('.slidetext');
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  background-color: var(--quarternary);
   background-image: url("https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/bamboo-fence-texture.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -497,7 +498,7 @@ const slidetextElements = document.querySelectorAll('.slidetext');
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* background-color: var(--secondary); */
+  background-color: #BDE3FF;
   background: url(https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/fantastic-blue-sky.jpg);
   background-size: cover;
   background-repeat: no-repeat;

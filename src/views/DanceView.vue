@@ -89,6 +89,7 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-color: var(--quinary);
   background-image: url('https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/celebration.jpg');
   background-size: cover;
   background-repeat: no-repeat;

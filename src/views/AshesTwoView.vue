@@ -1,57 +1,5 @@
 /* eslint-disable quotes, semi, comma-dangle */
 <template>
-  <!-- <section class="ashes-book-container">
-    <div class="ashes-synopsis">
-      <div class="arrow-container">
-        <div>
-          <a @click="open('home')"><i class="fa-solid fa-angle-left"></i> </a>
-        </div>
-        <div class="custom-text">
-          <a @click="open('home')">Back to Home</a>
-        </div>
-      </div>
-      <h2>ASHES OF THE CITY</h2>
-      <div class="info-container">
-        <div class="left-aligned-image-container">
-          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/ashes.jpg"
-            alt="Ashes of the City Image">
-        </div>
-        <div class="text-container">
-          <p>Ashes of the City is a gripping Young Adult dystopian novel that delves into the struggle for survival in a
-            city shattered by disaster. When a massive earthquake devastates their urban home, a group of high school
-            students is left stranded in the ruins, cut off from rescue and forced to confront a new reality where the
-            old rules no longer apply.</p><br>
-          <p>Maya, a responsible and compassionate leader, steps up to guide the group, clinging to her belief in unity
-            and hope. But her vision is challenged by Jace, a charismatic rebel who believes in a more ruthless
-            approach—one where only the strongest survive. As their differing philosophies clash, the group fractures
-            into factions, with the city's remaining resources becoming the center of a dangerous power struggle.</p>
-          <br>
-          <p>As Maya battles to hold onto her humanity, Jace's tactics grow increasingly harsh, leading to violent
-            confrontations and impossible choices. Amidst collapsing buildings, dwindling supplies, and the ever-present
-            danger of aftershocks, both leaders are forced to face the cost of their decisions. In a world where trust
-            is fragile and survival comes at a price, Maya must decide how far she's willing to go to protect her
-            friends and what kind of leader she truly wants to be.</p>
-          <div class="cta-row">
-            <div class="read-btn"><a
-                href="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/pdfs/Ashes_of_the_City.pdf"><button
-                  class="read-sample-btn white-btn">READ
-                  SAMPLE</button></a></div>
-            <div class="read-btn">
-              <div class="dropdown">
-                <button class="dropdown cta white-btn">BUY BOOK</button>
-                <div class="dropdown-content">
-                  <a href="https://www.amazon.com/Ashes-City-Quinton-Taylor-Garcia/dp/B0DJZF3DM3">AMAZON</a>
-                  <a href="https://www.barnesandnoble.com/w/ashes-of-the-city-quinton-taylor-garcia/1146717150">BARNES &
-                    NOBLE</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section> -->
-
   <section class="ashes-book-container">
     <div class="ashes-synopsis">
       <div class="arrow-container">
@@ -182,6 +130,7 @@ export default {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: var(--quinary);
     background-image: url("https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/dystopian-city.jpg");
     background-size: cover;
     background-repeat: no-repeat;

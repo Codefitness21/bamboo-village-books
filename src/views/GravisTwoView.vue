@@ -90,6 +90,7 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-color: #2086d1;
   background-image: url('https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/sunset-v2.jpg');
   background-size: cover;
   background-repeat: no-repeat;

@@ -14,7 +14,7 @@
         <form class="planone-form" action="https://formspree.io/f/xkgjwqrw" method="POST" @submit.prevent=checkPlanoneForm
           autocomplete="off">
           <div class="form-instructions">
-            <h3>Please fill out every field.</h3>
+            <h3>Please complete every field.</h3>
           </div>
           
           <div class="top-row-container">

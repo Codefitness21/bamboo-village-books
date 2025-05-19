@@ -13,7 +13,7 @@
       <div class="planthree-form-container">
         <form class="planthree-form" action="https://formspree.io/f/mzzepjro" method="POST" @submit.prevent=checkPlanthreeForm autocomplete="off">
           <div class="form-instructions">
-            <h3>Please fill out every field.</h3>
+            <h3>Please complete every field.</h3>
           </div>
           <div class="top-row-container">
             <div class="top-left-container">

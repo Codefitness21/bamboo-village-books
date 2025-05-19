@@ -743,6 +743,7 @@ const slidetextElements = document.querySelectorAll('.slidetext');
 }
 
 .people {
+  background-color: var(--quinary);
   background-image: url("https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/bamboo-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;

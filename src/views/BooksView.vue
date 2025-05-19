@@ -73,7 +73,7 @@
           <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/ashes.jpg"
             alt="Ashes of the City book cover image">
           <h3>Ashes of the City</h3>
-          <div class="cta-row">
+          <!-- <div class="cta-row">
             <a @click="open('ashes')"><button class="cta-1">LEARN MORE</button></a>
             <div class="dropdown">
               <button class="dropdown cta-2 ashes-cta">BUY BOOK</button>
@@ -86,6 +86,11 @@
                   NOBLE</a>
               </div>
             </div>
+          </div> -->
+          <div class="cta-row">
+            <a @click="open('ashes')"><button class="cta-1">LEARN MORE</button></a>
+            <a href="https://www.amazon.com/Ashes-City-Quinton-Taylor-Garcia/dp/B0DJZF3DM3"><button class="cta-2">BUY
+                BOOK</button></a>
           </div>
         </div>
         <div>

@@ -40,14 +40,16 @@
                 class="read-sample-btn white-btn">READ
                 SAMPLE</button></a></div>
           <div class="read-btn">
-            <div class="dropdown">
+            <a href="https://www.amazon.com/Ashes-City-Quinton-Taylor-Garcia/dp/B0DJZF3DM3"><button class="cta-2 white-btn">BUY
+                BOOK</button></a>
+            <!-- <div class="dropdown">
               <button class="dropdown cta white-btn">BUY BOOK</button>
               <div class="dropdown-content">
                 <a href="https://www.amazon.com/Ashes-City-Quinton-Taylor-Garcia/dp/B0DJZF3DM3">AMAZON</a>
                 <a href="https://www.barnesandnoble.com/w/ashes-of-the-city-quinton-taylor-garcia/1146717150">BARNES &
                   NOBLE</a>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
 

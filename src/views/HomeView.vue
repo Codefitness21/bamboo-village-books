@@ -4,7 +4,7 @@
     <div class="popup-content">
       <button class="close-button" @click="closePopup">&times;</button>
       <h2>New Release!</h2>
-      <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/ashes.jpg">
+      <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/ashes.jpg" alt="New Release Ashes book cover image">
     </div>
   </div>
 

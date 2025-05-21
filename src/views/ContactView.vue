@@ -33,6 +33,7 @@
                     <input class="input-field" type="text" placeholder="(_ _ _) _ _ _ - _ _ _ _" id="phone"
                       name="phone" v-model="phone"/>
                   </div>
+                  
                 </div>
               </div>
               <div class="bottom-row">

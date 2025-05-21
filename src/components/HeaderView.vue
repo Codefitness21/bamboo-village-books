@@ -79,13 +79,6 @@
 
       <a @click="open('contact')">Contact</a>
     </nav>
-
-    <!-- <div class="nav-player">
-      <audio controls autoplay="" preload="none"
-        src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/music/inspiring-cinematic-ambient-255033.mp3">
-        <source type="audio/mpeg">
-      </audio>
-    </div> -->
   </header>
 </template>
 
@@ -245,10 +238,6 @@ header {
     display: none;
   }
 
-  audio {
-    display: none;
-  }
-
   .menu-overlay {
     .nav-items {
       .sub-menu-links {
@@ -349,10 +338,6 @@ header {
 }
 
 @media (max-width: 767px) {
-  audio {
-    display: none;
-  }
-
   .menu-overlay {
     .nav-items {
       .sub-menu-links {

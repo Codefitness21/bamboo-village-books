@@ -904,26 +904,6 @@ const slidetextElements = document.querySelectorAll('.slidetext');
     .desktop-read-bio-btn {
       display: none;
     }
-
-    /* .dragons-book-image-container {
-      display: flex;
-      flex-direction: row;
-      justify-content: flex-end;
-      align-self: flex-start;
-      margin-top: 24px;
-    }
-
-    .vision {
-      img {
-        width: 90%;
-      }
-    }
-
-    .team {
-      img {
-        width: 90%;
-      }
-    } */
   }
 
   .meet-author {

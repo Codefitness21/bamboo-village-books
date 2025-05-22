@@ -6,7 +6,7 @@
         <h2>Your Story, Our Passion</h2>
       </div>
       <div class="author-image">
-        <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/video/author-v6.png" alt="Author Image" />
+        <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/author-v7.webp" alt="Author Image" />
       </div>
     </section>
     <section class="about-author">

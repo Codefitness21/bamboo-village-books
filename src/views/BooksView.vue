@@ -193,13 +193,18 @@
           </div>
         </div>
         <div class="book-1">
+          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Ember.webp"
+            alt="The Ember Experiment book cover image">
+            <h2>Coming July 4th</h2>
+        </div>
+        <div class="book-1">
           <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Silent-Crown.jpg"
             alt="The Silent Crown book cover image">
             <h2>Coming Soon</h2>
         </div>
-        <div class="book">
+        <!-- <div class="book">
           <h2>Eclipse Dragons Dark Saga Trilogy</h2>
-        </div>
+        </div> -->
       </div>
     </section>
   </div>

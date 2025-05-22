@@ -1,42 +1,40 @@
 <template>
-    <div class="main">
-  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    </div>
-  </template>
-  
+  <div class="promo-container">
+    <h2>Support @Boltzdameek - Claim Your Bonus!</h2>
+  </div>
+</template>
 
-  <script>
-  export default {
-    name: 'ConnectView',
-    data() {
-      return {
-        currentLocation: null
-      }
-    },
-    async mounted() {
-      this.currentLocation = this.$route.name
-    },
-    methods: {
-      open(target) {
-        this.currentLocation = target
-        this.$router.push({ name: target })
-      }
+
+<script>
+export default {
+  name: 'ConnectView',
+  data() {
+    return {
+      currentLocation: null
+    }
+  },
+  async mounted() {
+    this.currentLocation = this.$route.name
+  },
+  methods: {
+    open(target) {
+      this.currentLocation = target
+      this.$router.push({ name: target })
     }
   }
-  </script>
-  
-  
-  <style>
-.main {
-    display: flex;
+}
+</script>
+
+
+<style>
+.promo-container {
+  display: flex;
   flex-direction: column;
-  justify-content: center;
- 
+  width: 100%;
+  padding: 0 64px 96px 64px;
   background-color: var(--secondary);
-  background-image: url("https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/event-bkgrd-bamboo-logo-v3.png");
-  background-size: 50%;
-  background-position: center;
-  background-repeat: no-repeat;
+  h2 {
+    margin-top: 124px;
   }
-  
-  </style>
+}
+</style>

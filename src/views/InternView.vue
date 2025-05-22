@@ -1,4 +1,3 @@
-<!-- eslint-disable quotes, semi, comma-dangle -->
 <template>
   <div class="intern-page-container">
     <div class="intern-title">

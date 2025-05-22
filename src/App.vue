@@ -65,12 +65,10 @@ h6 {
 html,
 body {
   background-color: var(--secondary);
-  width: 100vw;
   min-height: 100%;
   overflow-y: scroll;
-  max-width: 2000px;
+  max-width: 100%;
   margin: 0 auto;
-  width: 100%;
 }
 
 * {

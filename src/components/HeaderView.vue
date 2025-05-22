@@ -4,8 +4,6 @@
     <a @click="open('home')"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/bamboo-logo.png"
         alt="Bamboo Village Logo" /></a>
     
-
-
     <div class="hamburger" @click="toggleMenu">
       <div class="bar"></div>
       <div class="bar"></div>
@@ -55,8 +53,8 @@
       </div>
       <a @click="open('books')">Books</a>
 
-<!-- 
-      <div class="nav-dropdown">
+
+      <!-- <div class="nav-dropdown">
         <a>Books</a>
         <div class="nav-dropdown-content">
           <a class="gold-space"></a>

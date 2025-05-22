@@ -1,4 +1,3 @@
-<!-- eslint-disable quotes, semi, comma-dangle -->
 <template>
   <div v-if="isShown" class="popup-overlay">
     <div class="popup-content">
@@ -94,7 +93,6 @@
     </section>
     <section class="meet-author people view">
       <h2>Meet The Author</h2>
-      <!-- <div class="bamboo-image"><img src="../assets/bvb-circle-logo.png"></div> -->
       <div class="information-container">
         <div class="text-container slidetext">
           <p>Quinton Taylor-Garcia is an emerging voice in dystopian fiction, blending intense survival scenarios with
@@ -156,8 +154,7 @@
         </div>
       </div>
     </section>
-    <!-- </section>
-</section> -->
+
     <section class="achievements-carousel-container">
       <h2>Achievements and Acknowledgments</h2>
       <div class="scrolling-carousel-items">
@@ -220,7 +217,7 @@ export default {
         {
           background: "https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/bamboo-fence-texture.jpg",
           title: "BAMBOO VILLAGE BOOKS",
-          image0: 'https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/staggard-books-v2.png',
+          image0: 'https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/staggard-books-v3.webp',
           image1: 'https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/hero-book-grid-v2.png',
         },
         {
@@ -682,7 +679,6 @@ const slidetextElements = document.querySelectorAll('.slidetext');
   width: 50%;
 
   img {
-    /* padding: 0 48px 0 0; */
     width: 80%;
   }
 }

@@ -3,7 +3,7 @@
     <section class="contact-us-container">
       <div class="contact-information-container">
         <div class="contact-image-container">
-          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/team-award.jpg"
+          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/team-award-v1.webp"
             alt="Team award at ribbon cutting">
         </div>
         <div class="contact-form-container">

@@ -261,19 +261,6 @@ export default {
         localStorage.removeItem('welcomePop');
       }, 4000);
     }
-     {
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('show');
-      } else {
-        entry.target.classList.remove('show');
-      }
-    });
-  });
-  const slideimageElements = document.querySelectorAll('.slideimage');
-  slideimageElements.forEach((el) => observer.observe(el));
-}
   const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
@@ -642,11 +629,11 @@ const slidetextElements = document.querySelectorAll('.slidetext');
   top: 6%;
 }
 
-.slideimage {
+/* .slideimage {
   opacity: 0;
   transition: all 0.8s;
   transform: translateX(100%);
-  }
+  } */
 
   .slidetext {
   opacity: 0;

@@ -178,7 +178,7 @@
       </div>
     </section>
     <section class="upcoming-releases-container">
-     <div >
+     <div>
          <h2>UPCOMING 2025 RELEASES...</h2>
      </div>
       <div class="upcoming-books slidebooks">
@@ -195,6 +195,7 @@
         <div class="book-1">
           <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Silent-Crown.jpg"
             alt="The Silent Crown book cover image">
+            <h2>Coming Soon</h2>
         </div>
         <div class="book">
           <h2>Eclipse Dragons Dark Saga Trilogy</h2>
@@ -607,9 +608,14 @@ a {
   padding: 0 0 96px 0;
 }
 
+.book-1 h2 {
+  margin: 30px 0;
+  color: var(--secondary);
+}
+
 .book {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: var(--quinary);
@@ -682,6 +688,11 @@ a {
       width: 223px;
       height: 314px;
       margin: 24px;
+    }
+
+    .book-1 h2 {
+      margin: 8px 0;
+      font-size: 38px;
     }
 
     .upcoming-cta {
@@ -826,6 +837,13 @@ a {
   .book-1 img {
     height: 400px;
     width: 278px;
+  }
+
+  .book-1 h2 {
+   
+      font-size: 46px;
+      color: var(--quinary);
+    
   }
 }
 </style>

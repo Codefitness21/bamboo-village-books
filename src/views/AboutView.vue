@@ -63,6 +63,7 @@
         a symbol of resilience, sustainability, and limitless potential, creating stories that leave a lasting impact.
       </p>
     </section>
+    
     <section class="photo-gallery-container">
       <!-- <h2>Bamboo Village Books Gallery</h2> -->
       <div class="photo-gallery-carousel">

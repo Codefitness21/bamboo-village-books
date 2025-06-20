@@ -182,7 +182,7 @@
          <h2>UPCOMING 2025 RELEASES...</h2>
      </div>
       <div class="upcoming-books slidebooks">
-        <div class="book-1">
+        <div class="book">
           <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Under_Orders.jpg"
             alt="Under Orders of Silence book cover image">
           <div class="cta-row upcoming-cta-row">
@@ -192,12 +192,12 @@
                 class="cta-2 upcoming-cta">BUY BOOK</button></a>
           </div>
         </div>
-        <div class="book-1">
+        <div class="book">
           <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Ember.webp"
             alt="The Ember Experiment book cover image">
             <h2>Coming July 4th</h2>
         </div>
-        <div class="book-1">
+        <div class="book">
           <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Silent-Crown.jpg"
             alt="The Silent Crown book cover image">
             <h2>Coming Soon</h2>
@@ -613,12 +613,12 @@ a {
   padding: 0 0 96px 0;
 }
 
-.book-1 h2 {
+.book h2 {
   margin: 30px 0;
   color: var(--secondary);
 }
 
-.book {
+/* .book {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -638,7 +638,7 @@ a {
   h2 {
     font-size: 32px;
   }
-}
+} */
 
 
 @media (min-width:768px) and (max-width:1024px) {
@@ -689,13 +689,13 @@ a {
       }
     }
 
-    .book-1 img {
+    .book img {
       width: 223px;
       height: 314px;
       margin: 24px;
     }
 
-    .book-1 h2 {
+    .book h2 {
       margin: 8px 0;
       font-size: 38px;
     }
@@ -839,16 +839,14 @@ a {
     margin-top: 64px;
   }
 
-  .book-1 img {
-    height: 400px;
-    width: 278px;
-  }
-
-  .book-1 h2 {
-   
+  .book h2 {
       font-size: 46px;
       color: var(--quinary);
-    
   }
+
+  /* .book-1 img {
+    height: 400px;
+    width: 278px;
+  } */
 }
 </style>

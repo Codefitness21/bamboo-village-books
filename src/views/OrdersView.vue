@@ -24,10 +24,24 @@
                         When words are no longer yours, how do you hold on to your soul?</p>
                 </div>
             </div>
-            <div class="read-btn"><a
-                    href="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/pdfs/Under+Orders+of+Silence+Inspired+by+the+Book+of+Job.pdf"><button
-                        class="read-sample-btn white-btn">READ
-                        SAMPLE</button></a></div>
+            <div class="cta-row">
+                <div class="read-btn"><a
+                        href="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/pdfs/Under+Orders+of+Silence+Inspired+by+the+Book+of+Job.pdf"><button
+                            class="read-sample-btn white-btn">READ
+                            SAMPLE</button></a>
+                </div>
+                <div class="read-btn"><button class="white-btn" @click="openModal">VIEW TRAILER</button>
+                    <div class="modal-overlay" v-if="showModal">
+                        <div class="modal-content">
+                            <button class="close-button" @click="closeModal">&times;</button>
+                            <iframe src="https://www.youtube.com/embed/_x6kMysI4-c?si=81ske092ouTwQ-hm"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 </template>
@@ -40,6 +54,7 @@ export default {
     name: 'OrdersView',
     data() {
         return {
+            showModal: false,
             currentLocation: null
         }
     },
@@ -47,12 +62,27 @@ export default {
         this.currentLocation = this.$route.name
         window.scrollTo(0, 0)
     },
-    methods: {
-        open(target) {
-            this.currentLocation = target
-            this.$router.push({ name: target })
-        }
-    }
+     methods: {
+    open(target) {
+      this.currentLocation = target
+      this.$router.push({ name: target })
+    },
+    openModal() {
+      this.showModal = true
+    },
+    closeModal() {
+      this.showModal = false
+    },
+    nextReview() {
+      this.currentIndex = (this.currentIndex + 1) % this.reviews.length;
+    },
+    prevReview() {
+      this.currentIndex = (this.currentIndex - 1 + this.reviews.length) % this.reviews.length;
+    },
+    changeReview(index) {
+      this.currentIndex = index
+    },
+  }
 }
 </script>
 

@@ -40,7 +40,7 @@
     </section>
     <div class="promo-form-container">
       <form class="promo-form" action="https://formspree.io/f/xzzgaajz" method="POST" @submit.prevent="checkPromoForm"
-        enctype="multipart/form-data" autocomplete="off">
+        autocomplete="off">
         <div class="promo-form-instructions">
           <h3>Please complete every field</h3>
         </div>
@@ -246,17 +246,17 @@ export default {
 /* Top Left */
 .top-left-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: flex-start;
-  width: 50%;
+  margin-left: 16px;
 }
 
 /* Top Right */
 .top-right-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: flex-end;
-  width: 50%;
+  margin-left: 16px;
 }
 
 /* Sapcing allowed between the input fields */
@@ -269,6 +269,7 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 16px;
 
   h3 {
     color: var(--secondary);
@@ -379,10 +380,6 @@ export default {
         align-items: center;
       }
 
-      .promo-form-container {
-        padding: 32px 32px 32px 32px;
-      }
-
       .top-left-container {
         align-items: center;
       }
@@ -390,12 +387,8 @@ export default {
       .top-right-container {
         align-items: center;
       }
-
       .middle-row-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding: 16px;
+        padding: 22px;
       }
     }
   }

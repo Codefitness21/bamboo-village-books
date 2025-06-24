@@ -3,7 +3,8 @@
     <div class="popup-content">
       <button class="close-button" @click="closePopup">&times;</button>
       <h2>New Release!</h2>
-      <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/ashes.jpg" alt="New Release Ashes book cover image">
+      <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/ashes.jpg"
+        alt="New Release Ashes book cover image">
     </div>
   </div>
 
@@ -30,8 +31,13 @@
             </div>
             <div class="book-text-container" v-if="slide.text">
               <p v-if="slide.text">{{ slide.text }}</p>
-              <div class="cta-row" v-if="slide.link">
+              <div class="cta-row">
+              <div class="cta" v-if="slide.link">
                 <router-link :to="{ name: slide.link }"><button>LEARN MORE</button></router-link>
+              </div>
+              <div class="cta" v-if="slide.link1">
+                <router-link :to="{ name: slide.link1 }"><button>CLAIM BONUS</button></router-link>
+              </div>
               </div>
             </div>
           </div>
@@ -106,7 +112,8 @@
           <a @click="open('about')"><button class="read-bio-btn">READ FULL BIO</button></a>
         </div>
         <div class="right-aligned-image-container quinton-image">
-          <img class="slideimage" src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/author.jpg" alt="Author Image">
+          <img class="slideimage" src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/author.jpg"
+            alt="Author Image">
         </div>
       </div>
       <!-- <section class="vision people"> -->
@@ -226,7 +233,9 @@ export default {
           image2: 'https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/ashes-book-cover-v5.png',
           text: "Ashes of the City explores themes of leadership, morality, and the loss of innocence in a brutal, post-disaster world. Perfect for fans of The Hunger Games and Lord of the Flies, this powerful story will keep readers on the edge of their seats, questioning what it means to survive when everything you once knew is gone.",
           cta: "LEARN MORE",
-          link: 'ashestwo'
+          cta1: "CLAIM BONUS",
+          link: 'ashestwo',
+          link1: 'promotwo',
         },
         {
           background: "https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/MG-transparent-bkgrd-v2.jpg",
@@ -261,18 +270,18 @@ export default {
         localStorage.removeItem('welcomePop');
       }, 4000);
     }
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('show');
-      } else {
-        entry.target.classList.remove('show');
-      }
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('show');
+        } else {
+          entry.target.classList.remove('show');
+        }
+      });
     });
-  });
-const slidetextElements = document.querySelectorAll('.slidetext');
-  slidetextElements.forEach((el) => observer.observe(el));
-},
+    const slidetextElements = document.querySelectorAll('.slidetext');
+    slidetextElements.forEach((el) => observer.observe(el));
+  },
   methods: {
     showThankYou() {
       this.thankyou = false;
@@ -435,6 +444,11 @@ const slidetextElements = document.querySelectorAll('.slidetext');
 
 .hero-books-grid {
   display: none;
+}
+
+.book-text-container {
+  display: flex;
+  flex-direction: row;
 }
 
 .cta-row {
@@ -635,16 +649,16 @@ const slidetextElements = document.querySelectorAll('.slidetext');
   transform: translateX(100%);
   } */
 
-  .slidetext {
+.slidetext {
   opacity: 0;
   transition: all 0.8s;
   transform: translateX(-100%);
-  }
+}
 
 .show {
-    opacity: 1;
-    transform: translateX(0);
-  }
+  opacity: 1;
+  transform: translateX(0);
+}
 
 /* Section 5 - Our Vision */
 .vision {

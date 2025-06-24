@@ -20,10 +20,7 @@
             is gone.
           </p>
           <div class="cta-row">
-            <div class="read-btn"><a
-                href="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/pdfs/Ashes_of_the_City.pdf"><button
-                  class="read-sample-btn">READ
-                  SAMPLE</button></a></div>
+
             <div class="read-btn"><button @click="openModal">VIEW TRAILER</button>
               <div class="modal-overlay" v-if="showModal">
                 <div class="modal-content">
@@ -34,6 +31,8 @@
                     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
               </div>
+            </div>
+            <div class="read-btn"><a @click="open('promo')"><button class="read-sample-btn">CLAIM BONUS</button></a>
             </div>
           </div>
         </div>
@@ -143,7 +142,7 @@
                 class="cta-2">BUY BOOK</button></a>
           </div>
         </div>
-       
+
         <div>
           <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/warriors_heart.jpg"
             alt="Warrior's Heart book cover image">
@@ -164,7 +163,7 @@
                 class="cta-2">BUY BOOK</button></a>
           </div>
         </div>
-       
+
         <div>
           <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/MG.jpg"
             alt="The Last Sunset: Journey with Myasthenia Gravis book cover image">
@@ -178,9 +177,9 @@
       </div>
     </section>
     <section class="upcoming-releases-container">
-     <div>
-         <h2>UPCOMING 2025 RELEASES...</h2>
-     </div>
+      <div>
+        <h2>UPCOMING 2025 RELEASES...</h2>
+      </div>
       <div class="upcoming-books slidebooks">
         <div class="book">
           <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Under_Orders.jpg"
@@ -195,12 +194,12 @@
         <div class="book">
           <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Ember.webp"
             alt="The Ember Experiment book cover image">
-            <h2>Coming July 4th</h2>
+          <h2>Coming July 4th</h2>
         </div>
         <div class="book">
           <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Silent-Crown.jpg"
             alt="The Silent Crown book cover image">
-            <h2>Coming Soon</h2>
+          <h2>Coming Soon</h2>
         </div>
         <!-- <div class="book">
           <h2>Eclipse Dragons Dark Saga Trilogy</h2>
@@ -238,22 +237,22 @@ export default {
       ]
     }
   },
- mounted() {
+  mounted() {
     this.currentLocation = this.$route.name
     window.scrollTo(0, 0)
 
-     const observer = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('show');
-      } else {
-        entry.target.classList.remove('show');
-      }
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('show');
+        } else {
+          entry.target.classList.remove('show');
+        }
+      });
     });
-  });
-const slidebooksElements = document.querySelectorAll('.slidebooks');
-  slidebooksElements.forEach((el) => observer.observe(el));
-},
+    const slidebooksElements = document.querySelectorAll('.slidebooks');
+    slidebooksElements.forEach((el) => observer.observe(el));
+  },
   methods: {
     open(target) {
       this.currentLocation = target
@@ -283,12 +282,12 @@ const slidebooksElements = document.querySelectorAll('.slidebooks');
   opacity: 0;
   transition: all 0.8s;
   transform: translateX(-100%);
-  }
+}
 
- .show {
-    opacity: 1;
-    transform: translateX(0);
-  }
+.show {
+  opacity: 1;
+  transform: translateX(0);
+}
 
 /* Books Container */
 .books-page-container {
@@ -840,8 +839,8 @@ a {
   }
 
   .book h2 {
-      font-size: 46px;
-      color: var(--quinary);
+    font-size: 46px;
+    color: var(--quinary);
   }
 
   /* .book-1 img {

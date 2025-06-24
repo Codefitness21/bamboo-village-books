@@ -122,6 +122,7 @@ header {
   align-items: center;
   background-color: var(--primary);
   position: fixed;
+  top: 0;
   z-index: 100;
   width: 100%;
 }

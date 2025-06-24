@@ -68,6 +68,10 @@ button {
         background-color: var(--secondary);
         color: var(--quinary);
     }
+
+    .gold-submit-btn {
+        background-color: var(--primary);
+    }
 }
 
 .sign-up-btn {

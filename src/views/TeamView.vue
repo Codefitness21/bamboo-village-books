@@ -18,7 +18,7 @@
         <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Kelly.jpg" alt="Kelly">
         <h3>Kelly Hill</h3>
         <h4>Frontend Web Developer</h4>
-        <p>Kelly Hill is a frontend web developer for the sports technology company, Digital Seat Media. With over six 
+        <p>Kelly Hill is a frontend web developer. With over six 
           years of frontend experience, Kelly uses a customer first approach when designing and developing interactive platforms.
         </p>
       </div>

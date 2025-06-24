@@ -148,7 +148,7 @@ export default {
   display: flex;
   flex-direction: column;
   margin: auto 0;
-  padding: 32px 40px 0 40px;
+  padding: 32px 64px 0 64px;
   background-color: var(--secondary);
 
   p {

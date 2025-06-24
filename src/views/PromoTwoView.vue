@@ -324,6 +324,10 @@ export default {
 }
 
 @media (max-width: 767px) {
+    .arrow-container {
+        margin-bottom: 0;
+    }
+
     .promo-container {
         display: flex;
         flex-direction: column;

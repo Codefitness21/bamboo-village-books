@@ -48,7 +48,7 @@
             </div>
         </section>
         <div class="promo-form-container">
-            <form class="promo-form" action="https://formspree.io/f/xblyzbdy"
+            <form class="promo-form" action=""
                 method="POST" @submit.prevent="checkPromotwoForm" enctype="multipart/form-data" autocomplete="off">
                 <div class="promo-form-instructions">
                     <h3>Please complete every field</h3>
@@ -105,6 +105,7 @@
 
 <script>
 export default {
+
   name: 'PromoTwoView',
   data() {
     return {
@@ -123,7 +124,7 @@ export default {
       this.currentLocation = target
       this.$router.push({ name: target })
     },
-    checkPromotwoForm(event) {
+    checkPromoForm(event) {
       if (!this.firstname) {
         alert("Please fill out all required fields.");
         return;
@@ -152,256 +153,252 @@ export default {
 
 <style>
 .promo-container {
-  display: flex;
-  flex-direction: column;
-  margin: auto 0;
-  padding: 32px 40px 0 40px;
-  background-color: var(--secondary);
-
-  p {
-    font-size: 24px;
-  }
-
-  h4 {
-    font-size: 32px;
-    text-align: left;
-    margin: 32px 0;
-  }
-
-  ol {
-    list-style: none;
-    font-family: sans-serif;
-    font-weight: none;
     display: flex;
     flex-direction: column;
-    text-align: left;
-  }
+    margin: auto 0;
+    padding: 32px 64px 0 64px;
+    background-color: var(--secondary);
 
-  ul {
-    list-style: none;
-  }
-
-  li {
-    margin-bottom: 24px;
-
-    a {
-      color: blue;
-      font-weight: bold;
+    p {
+        font-size: 24px;
     }
-  }
+
+    h4 {
+        font-size: 32px;
+        text-align: left;
+        margin: 32px 0;
+    }
+
+    ol {
+        list-style: none;
+        font-family: sans-serif;
+        font-weight: none;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    li {
+        font-size: 24px;
+        margin-bottom: 24px;
+
+        a {
+            color: blue;
+            font-weight: bold;
+        }
+    }
 }
 
 .promotion-content {
-  display: flex;
-  flex-direction: row;
-  padding: 0;
+    display: flex;
+    flex-direction: row;
 }
 
 .text-content {
-  display: flex;
-  flex-direction: column;
-  width: 50%;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
 }
 
 .image-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
 
-  img {
-    width: 70%;
-  }
+    img {
+        width: 70%;
+    }
 }
 
 .promo-form-instructions {
-  h3 {
-    color: var(--quinary);
-    font-size: 32px;
-    margin-bottom: 48px;
-  }
+    h3 {
+        color: var(--quinary);
+        font-size: 32px;
+        margin-bottom: 48px;
+    }
 }
 
 .promo-form-container {
-  display: flex;
-  flex-direction: row;
-  align-self: center;
-  margin: 56px 0 90px 0;
-  padding: 24px;
-  /* border: 1px solid #000000; */
-
-  label {
     display: flex;
-    flex-direction: column;
-    margin-bottom: 8px;
-    text-align: left;
-    color: var(--quinary);
-    font-weight: bold;
-  }
+    flex-direction: row;
+    align-self: center;
+    margin: 56px 0 90px 0;
+    padding: 24px;
+    /* border: 1px solid #000000; */
 
-  .input-field {
-    width: 45vw;
-    margin-bottom: 24px;
-    font-family: sans-serif;
-  }
+    label {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 8px;
+        text-align: left;
+        color: var(--quinary);
+        font-weight: bold;
+    }
+
+    .input-field {
+        width: 45vw;
+        margin-bottom: 24px;
+        font-family: sans-serif;
+    }
 }
 
 /* Top Row */
 .top-row-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 /* Top Left */
 .top-left-container {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  margin-left: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
 }
 
 /* Top Right */
 .top-right-container {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-  margin-left: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 50%;
 }
 
 /* Sapcing allowed between the input fields */
 .promo-input-field {
-  padding: 16px;
+    padding: 16px;
 }
 
 /* Middle Row */
 .middle-row-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
-  h3 {
-    color: var(--secondary);
-    margin-top: 32px;
-    text-align: left;
-  }
+    h3 {
+        color: var(--secondary);
+        margin-top: 32px;
+        text-align: left;
+    }
 
-  input[type="file"]::file-selector-button {
-    padding: 10px 25px;
-  }
+    input[type="file"]::file-selector-button {
+        padding: 10px 25px;
+    }
 }
 
 .text-area-plan {
-  width: 100%;
-  height: 24vh;
-  padding: 8px;
-  line-height: 1.6;
-  font-family: sans-serif;
+    width: 100%;
+    height: 24vh;
+    padding: 8px;
+    line-height: 1.6;
+    font-family: sans-serif;
 }
 
 @media (min-width:768px) and (max-width:1024px) {
-  .promotion-content {
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .image-content {
-    width: 100%;
-
-    img {
-      margin: 32px;
-      width: 50%;
-    }
-  }
-
-  .text-content {
-    width: 100%;
-  }
-}
-
-@media (max-width: 767px) {
-  .promo-container {
-    display: flex;
-    flex-direction: column;
-    margin: auto 0;
-    padding: 32px 40px 0 40px;
-    background-color: var(--secondary);
-
-    p {
-      font-size: 16px;
-    }
-
-    h2 {
-      margin-bottom: 32px;
-    }
-
-    h4 {
-      font-size: 32px;
-      text-align: left;
-      margin: 32px 0;
-    }
-
-    ol {
-      display: flex;
-      flex-direction: column;
-      text-align: left;
-    }
-
-    li {
-      font-size: 16px;
-    }
-  }
-
-  .promotion-content {
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
-
-    p {
-      font-size: 16px;
-    }
-
-    .text-content {
-      width: 100%;
+    .promotion-content {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
     }
 
     .image-content {
-      width: 100%;
+        width: 100%;
 
-      img {
-        margin: 32px;
-        width: 50%;
-      }
-    }
-  }
-
-  .promo-form-container {
-    .input-field {
-      width: 64vw;
+        img {
+            margin: 32px;
+            width: 50%;
+        }
     }
 
-    .promo-form {
-      .top-row-container {
+    .text-content {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .promo-container {
+        display: flex;
         flex-direction: column;
-        align-items: center;
-      }
+        margin: auto 0;
+        padding: 32px 40px 0 40px;
+        background-color: var(--secondary);
 
-      .top-left-container {
-        align-items: center;
-      }
+        p {
+            font-size: 16px;
+        }
 
-      .top-right-container {
-        align-items: center;
-      }
-      .middle-row-container {
-        padding: 22px;
-      }
+        h2 {
+            margin-bottom: 32px;
+        }
+
+        h4 {
+            font-size: 32px;
+            text-align: left;
+            margin: 32px 0;
+        }
+
+        ol {
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+        }
+
+        li {
+            font-size: 16px;
+        }
     }
-  }
+
+    .promotion-content {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+
+        p {
+            font-size: 16px;
+        }
+
+        .text-content {
+            width: 100%;
+        }
+
+        .image-content {
+            width: 100%;
+
+            img {
+                margin: 32px;
+                width: 50%;
+            }
+        }
+    }
+
+    .promo-form-container {
+        .input-field {
+            width: 64vw;
+        }
+
+        .promo-form {
+            .top-row-container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .top-left-container {
+                align-items: center;
+            }
+
+            .top-right-container {
+                align-items: center;
+            }
+        }
+    }
 }
 </style>

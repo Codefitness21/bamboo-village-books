@@ -246,7 +246,7 @@ export default {
 /* Top Left */
 .top-left-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: flex-start;
   margin-left: 16px;
 }
@@ -254,7 +254,7 @@ export default {
 /* Top Right */
 .top-right-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: flex-end;
   margin-left: 16px;
 }
@@ -269,7 +269,7 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 16px;
+  margin-left: 16px;
 
   h3 {
     color: var(--secondary);
@@ -388,7 +388,7 @@ export default {
         align-items: center;
       }
       .middle-row-container {
-        padding: 22px;
+        padding: 16px;
       }
     }
   }

@@ -53,19 +53,20 @@
                 autocomplete="off" />
             </div>
             <div>
-              <label class="title-input" for="email">Email *</label>
-              <input class="input-field" type="text" id="email" name="email" v-model="email" autocomplete="off" />
-            </div>
-            <div>
-              <label class="title-input" for="code">Promo Code *</label>
-              <input class="input-field" type="text" id="code" name="code" v-model="code" autocomplete="off" />
-            </div>
-          </div>
-          <div class="top-right-container">
-            <div>
               <label class="title-input" for="last name">Last Name *</label>
               <input class="input-field" type="text" id="last name" name="last name" v-model="lastname"
                 autocomplete="off" />
+            </div>
+            <div>
+              <label class="title-input" for="email">Email *</label>
+              <input class="input-field" type="text" id="email" name="email" v-model="email" autocomplete="off" />
+            </div>
+
+          </div>
+          <div class="top-right-container">
+            <div>
+              <label class="title-input" for="code">Promo Code *</label>
+              <input class="input-field" type="text" id="code" name="code" v-model="code" autocomplete="off" />
             </div>
             <div>
               <label class="title-input" for="book">Book Title Purchased *</label>
@@ -77,7 +78,7 @@
             </div>
           </div>
         </div>
-        <div class="middle-row-container">
+        <div class="upload-container">
           <label for="form-message">Upload Screenshot</label>
           <input class="file-input-field" type="file" name="upload">
         </div>
@@ -171,6 +172,7 @@ export default {
   }
 
   li {
+    font-size: 24px;
     margin-bottom: 24px;
 
     a {
@@ -218,7 +220,6 @@ export default {
   align-self: center;
   margin: 56px 0 90px 0;
   padding: 24px;
-  /* border: 1px solid #000000; */
 
   label {
     display: flex;
@@ -248,7 +249,8 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-left: 16px;
+  margin-right: 10px;
+
 }
 
 /* Top Right */
@@ -256,38 +258,19 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  margin-left: 16px;
-}
+  margin-left: 10px;
 
-/* Sapcing allowed between the input fields */
-.promo-input-field {
-  padding: 16px;
 }
 
 /* Middle Row */
-.middle-row-container {
+.upload-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 16px;
-
-  h3 {
-    color: var(--secondary);
-    margin-top: 32px;
-    text-align: left;
-  }
 
   input[type="file"]::file-selector-button {
     padding: 10px 25px;
   }
-}
-
-.text-area-plan {
-  width: 100%;
-  height: 24vh;
-  padding: 8px;
-  line-height: 1.6;
-  font-family: sans-serif;
 }
 
 @media (min-width:768px) and (max-width:1024px) {
@@ -313,6 +296,10 @@ export default {
 }
 
 @media (max-width: 767px) {
+  .arrow-container {
+    margin-bottom: 0;
+  }
+
   .promo-container {
     display: flex;
     flex-direction: column;
@@ -381,14 +368,17 @@ export default {
       }
 
       .top-left-container {
+        margin: 0;
         align-items: center;
       }
 
       .top-right-container {
+        margin: 0;
         align-items: center;
       }
-      .middle-row-container {
-        padding: 16px;
+
+      .upload-container {
+        padding: 20px;
       }
     }
   }

@@ -17,7 +17,7 @@
       <div class="text-content">
         <h4>How to Claim Your Reward</h4>
         <ol>
-          <li>1. Buy <a href="https://www.amazon.com/Ashes-City-Quinton-Taylor-Garcia/dp/B0DJZF3DM3">
+          <li>1. Purchase <a href="https://www.amazon.com/Ashes-City-Quinton-Taylor-Garcia/dp/B0DJZF3DM3">
               "<u>Ashes
                 of the City</u>" </a> from Amazon.</li>
           <li>2. Enter the promo code SUPPORT-BOLTZ in the form below.</li>

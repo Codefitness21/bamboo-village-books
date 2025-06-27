@@ -8,20 +8,33 @@ This website showcases the brilliant work of Quinton Taylor-Garcia, featuring hi
 ## How It's Made 
 **Tech used:** HTML, CSS, JavaScript, Vue
 
-The creation of this website began in Figma, starting with a mood board to establish the overall design direction, including layout, color palette, and structure. I then developed a sitemap to define the site's flow and navigation. With that foundation in place, I moved on to creating both low and high fidelity mockups, ultimately building a prototype for the client to review and provide feedback prior to coding. The use of AI videoes on the Books page were integrated in the background for Ashes of the City, The Silent of the Lake, Eclipse Dragons-Book 2, and Chronicles of the Gated Community.
+The creation of this website began in Figma, starting with a mood board to establish the overall design direction, including layout, color palette, and structure. I then developed a sitemap to define the site's flow and navigation. With that foundation in place, I moved on to creating both low and high-fidelity mockups, ultimately building a prototype for the client to review and provide feedback prior to coding. The use of AI videos on the Books page was integrated in the background for Ashes of the City, The Silent of the Lake, Eclipse Dragons-Book 2, and Chronicles of the Gated Community.
 
 ## Optimizations
-Initially, all images and pdfs were in an assets folder in my vscode. I later noticed that my work wasn't saving as quickly and several of my pdf files weren't deploying. Due to this issue, I transferred my images and pdfs to an s3 bucket in AWS to host my large files, which resulted in a faster deployment time. Several images were also saved as a webp instead of a jpeg, resulting in faster loading times. I will eventually refactor the code to remove any repeats by implementing Sass libraries for better organization. I will make updates and improvements as my skillset continues to improve.
+Initially, all images and pdfs were in an assets folder in my vscode. I later noticed that my work wasn't saving as quickly, and several of my pdf files weren't deploying. Due to this issue, I transferred my images and pdfs to an s3 bucket in AWS to host my large files, which resulted in a faster deployment time. Several images were also saved as a webp instead of a jpeg, resulting in faster loading times. I will eventually refactor the code to remove any repeats by implementing Sass libraries for better organization. I will make updates and improvements as my skill set continues to improve.
 
 ## Lessons Learned 
-This was my first professional freelancing job so there was some added pressure I placed upon myself to enure it was completed in a timely manner. More time could have been spent structuring and organizing the code in designated files and folders. Now that I have a better understanding regarding the freelance process I'm in a better position to execute a better code outline for future projects. 
+This was my first professional freelancing job, so there was some added pressure I placed upon myself to ensure it was completed in a timely manner. More time could have been spent structuring and organizing the code in designated files and folders. Now that I have a better understanding regarding the freelance process, I'm in a better position to execute a better code outline for future projects. 
 
 ## Examples
-Check out some of my other work that I have in my github:
+Check out some of my other work that I have in GitHub. Click on each image to see more:
 
-**Portfolio:** https://codefitness21.github.io/Portfolio/
+<div style="display: flex; flex-direction: row; justify-content: center;">
+  <div style="display: flex; flex-direction: column; align-items: center; margin: 10px;">
+    <p><strong>Portfolio</strong></p>
+    <a href="https://codefitness21.github.io/Portfolio/"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Screenshot+2025-06-26+at+6.04.39%E2%80%AFPM.png" width="200"></a>
+  </div>
+  <div style="display: flex; flex-direction: column; align-items: center; margin: 10px;">
+    <p><strong>Extrahands</strong></p>
+    <a href="https://main.d1aa7jmphrn7j7.amplifyapp.com/"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Extrahands_Desktop.jpg" width="200"></a>
+  </div>
+  <div style="display: flex; flex-direction: column; align-items: center; margin: 10px;">
+    <p><strong>Sports Betting App</strong></p>
+    <a href="https://codefitness21.github.io/Sports-Betting-App/"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/SB_Card_Stub.jpg" width="200"></a>
+  </div>
+</div>
 
-**Extrahands:** https://main.d1aa7jmphrn7j7.amplifyapp.com/
 
-**Sports Betting:** https://codefitness21.github.io/Sports-Betting-App/
+
+
 

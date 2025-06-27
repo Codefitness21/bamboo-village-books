@@ -1,7 +1,7 @@
 # Bamboo Village Books
 This website showcases the brilliant work of Quinton Taylor-Garcia, featuring his diverse collection of written genres and offering valuable services for first-time authors.
 
-<img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/BVB_Desktop.jpg" alt="Sports Betting Image" width="300" />
+<img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/BVB_Desktop.jpg" alt="Sports Betting Image" width="1000" />
 
 **Link to project:** https://www.bamboovillagebooks.com/
 

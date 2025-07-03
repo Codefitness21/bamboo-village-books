@@ -15,55 +15,56 @@
           autocomplete="off">
           <div class="form-instructions">
             <h3>Please complete every field.</h3>
+            <h5>* Indicates required field</h5>
           </div>
           <div class="top-row-container">
             <div class="top-left-container">
               <div>
-                <label class="title-input" for="first name">First Name *</label>
+                <label class="title-input" for="first name">First Name <span>*</span></label>
                 <input class="plantwo-input-field" type="text" id="first name" name="first name" v-model="firstname"
                   autocomplete="off" />
               </div>
               <div>
-                <label class="title-input" for="email">Email *</label>
+                <label class="title-input" for="email">Email <span>*</span></label>
                 <input class="plantwo-input-field" type="text" id="email" name="email" v-model="email"
                   autocomplete="off" />
               </div>
               <div>
-                <label class="title-input" for="address">Address *</label>
+                <label class="title-input" for="address">Address <span>*</span></label>
                 <input class="plantwo-input-field" type="text" id="address" name="address" v-model="address"
                   autocomplete="off" />
               </div>
               <div>
-                <label class="title-input" for="city">City *</label>
+                <label class="title-input" for="city">City <span>*</span></label>
                 <input class="plantwo-input-field" type="text" id="city" name="city" v-model="city"
                   autocomplete="off" />
               </div>
             </div>
             <div class="top-right-container">
               <div>
-                <label class="title-input" for="last name">Last Name *</label>
+                <label class="title-input" for="last name">Last Name <span>*</span></label>
                 <input class="plantwo-input-field" type="text" id="last name" name="last name" v-model="lastname"
                   autocomplete="off" />
               </div>
               <div>
-                <label class="title-input" for="phone">Phone *</label>
+                <label class="title-input" for="phone">Phone <span>*</span></label>
                 <input class="plantwo-input-field" type="text" placeholder="(_ _ _) _ _ _ - _ _ _ _" id="phone"
                   name="phone" v-model="phone" autocomplete="off" />
               </div>
               <div>
-                <label class="title-input" for="zip">Zip Code *</label>
+                <label class="title-input" for="zip">Zip Code <span>*</span></label>
                 <input class="plantwo-input-field" type="text" id="zip" name="zip" v-model="zipcode"
                   autocomplete="off" />
               </div>
               <div>
-                <label class="title-input" for="state">State *</label>
+                <label class="title-input" for="state">State <span>*</span></label>
                 <input class="plantwo-input-field" type="text" id="state" name="state" v-model="state"
                   autocomplete="off" />
               </div>
             </div>
           </div>
           <div class="middle-row-container">
-            <label for="form-message">How can we support you? *</label>
+            <label for="form-message">How can we support you? <span>*</span></label>
             <textarea class="text-area-plan" type="form-message" id="form-message" name="form-message" v-model="message"
               autocomplete="off"></textarea>
             <h3>Make sure all fields are completed with correct information and click apply. Please allow 24 - 48 hours

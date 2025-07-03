@@ -43,33 +43,34 @@
         autocomplete="off">
         <div class="promo-form-instructions">
           <h3>Please complete every field</h3>
+          <h5>* Indicates required field</h5>
         </div>
 
         <div class="top-row-container">
           <div class="top-left-container">
             <div>
-              <label class="title-input" for="first name">First Name *</label>
+              <label class="title-input" for="first name">First Name <span>*</span></label>
               <input class="input-field" type="text" id="first name" name="first name" v-model="firstname"
                 autocomplete="off" />
             </div>
             <div>
-              <label class="title-input" for="last name">Last Name *</label>
+              <label class="title-input" for="last name">Last Name <span>*</span></label>
               <input class="input-field" type="text" id="last name" name="last name" v-model="lastname"
                 autocomplete="off" />
             </div>
             <div>
-              <label class="title-input" for="email">Email *</label>
+              <label class="title-input" for="email">Email <span>*</span></label>
               <input class="input-field" type="text" id="email" name="email" v-model="email" autocomplete="off" />
             </div>
 
           </div>
           <div class="top-right-container">
             <div>
-              <label class="title-input" for="code">Promo Code *</label>
+              <label class="title-input" for="code">Promo Code <span>*</span></label>
               <input class="input-field" type="text" id="code" name="code" v-model="code" autocomplete="off" />
             </div>
             <div>
-              <label class="title-input" for="book">Book Title Purchased *</label>
+              <label class="title-input" for="book">Book Title Purchased <span>*</span></label>
               <input class="input-field" type="text" id="book" name="book" v-model="book" autocomplete="off" />
             </div>
             <div>
@@ -79,7 +80,7 @@
           </div>
         </div>
         <div class="upload-container">
-          <label for="form-message">Upload Screenshot</label>
+          <label for="form-message">Upload Screenshot<span>*</span></label>
           <input class="file-input-field" type="file" name="upload">
         </div>
         <div class="submit-btn">
@@ -210,7 +211,6 @@ export default {
   h3 {
     color: var(--quinary);
     font-size: 32px;
-    margin-bottom: 48px;
   }
 }
 

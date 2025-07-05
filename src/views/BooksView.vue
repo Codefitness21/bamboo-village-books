@@ -194,7 +194,12 @@
         <div class="book">
           <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Ember.webp"
             alt="The Ember Experiment book cover image">
-          <h2>Coming July 4th</h2>
+          <div class="cta-row upcoming-cta-row">
+            <a @click="open('ember')"><button class="cta-1 upcoming-cta">LEARN MORE</button></a>
+            <a
+              href="https://www.amazon.com/Ember-Experiment-Book-Ashes-Saga/dp/B0FDGVCBCC/ref=sr_1_1?crid=199WAOI1GCVIU&dib=eyJ2IjoiMSJ9.n96OpJj4ehKtma1aZgoUXWIJF4QPUdBuGl87llkWexpRB8LHRnXmUgjz32OHoQ7JiGDPIdnTJp906eRq3abI107D6UufpFOfCDfu1rMTyQX_TuPWmHkZ9z77W-efQgG4jWWi-dor8ZlYEYA4eMBZpUXalLE3y0kjNrER02AFHgzjqKJPuawWuho6hwswM3_ImY0dnsj3fc-la-VbThnr1KowtR2iVg4UNRzwNGpZ1uo.-a2x6U-uzqMoXN911jdn0bRON5gbywMUJlGzsO2dPCQ&dib_tag=se&keywords=the+ember+experiment&qid=1751742766&s=digital-text&sprefix=the+ember+experiment%2Cdigital-text%2C139&sr=1-1-catcorr"><button
+                class="cta-2 upcoming-cta">BUY BOOK</button></a>
+          </div>
         </div>
         <div class="book">
           <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Silent-Crown.jpg"

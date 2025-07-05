@@ -35,7 +35,7 @@ import OrdersView from "@/views/OrdersView.vue";
 import ConnectView from "@/views/ConnectView.vue";
 import PromoView from "@/views/PromoView.vue";
 import PromoTwoView from "@/views/PromoTwoView.vue";
-
+import EmberView from "@/views/EmberView.vue";
 
 const routes = [
   {
@@ -166,47 +166,52 @@ const routes = [
   {
     path: "/thanks",
     name: "thankyou",
-    component: ThankyouView
+    component: ThankyouView,
   },
   {
     path: "/internthanks",
     name: "internthanks",
-    component: InternthanksView
+    component: InternthanksView,
   },
   {
     path: "/planonethanks",
     name: "planonethanks",
-    component: PlanonethanksView
+    component: PlanonethanksView,
   },
   {
     path: "/plantwothanks",
     name: "plantwothanks",
-    component: PlantwothanksView
+    component: PlantwothanksView,
   },
   {
     path: "/planthreethanks",
     name: "planthreethanks",
-    component: PlanthreethanksView
+    component: PlanthreethanksView,
   },
   {
     path: "/orders",
     name: "orders",
-    component: OrdersView
+    component: OrdersView,
   },
   {
     path: "/connect",
     name: "connect",
-    component: ConnectView
+    component: ConnectView,
   },
   {
     path: "/promo",
     name: "promo",
-    component: PromoView
+    component: PromoView,
   },
   {
     path: "/promotwo",
     name: "promotwo",
-    component: PromoTwoView
+    component: PromoTwoView,
+  },
+  {
+    path: "/ember",
+    name: "ember",
+    component: EmberView,
   },
 ];
 

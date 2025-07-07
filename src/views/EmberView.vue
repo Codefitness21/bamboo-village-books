@@ -27,11 +27,11 @@
                 </div>
             </div>
             <div class="cta-row">
-                <!-- <div class="read-btn"><a
-                        href=""><button
+                <div class="read-btn"><a
+                        href="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/pdfs/The+Ember+Experiment.pdf"><button
                             class="read-sample-btn white-btn">READ
                             SAMPLE</button></a>
-                </div> -->
+                </div>
             </div>
         </div>
     </section>

@@ -838,14 +838,12 @@ a {
   }
 
   .book {
-    height: 400px;
-    width: 278px;
     margin-top: 64px;
   }
 
   .book h2 {
     font-size: 46px;
-    color: var(--quinary);
+    color: var(--secondary);
   }
 
   /* .book-1 img {

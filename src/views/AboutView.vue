@@ -250,7 +250,6 @@ li{
 
   .author-image img {
     margin-top: 80px;
-    width: 75%;
   }
 
   .about-author {

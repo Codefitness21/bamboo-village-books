@@ -684,8 +684,6 @@ a {
 
   .upcoming-books {
     .book {
-      width: 230px;
-      height: 310px;
       margin: 24px;
 
       h2 {

@@ -801,7 +801,6 @@ a {
   .upcoming-releases-container {
     h2 {
       font-size: 24px;
-      margin-bottom: 48px;
     }
   }
 

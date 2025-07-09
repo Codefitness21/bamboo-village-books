@@ -814,6 +814,9 @@ a {
 
   .book {
     margin-top: 64px;
+    img {
+      width: 300px;
+    }
   }
 
   .book h2 {

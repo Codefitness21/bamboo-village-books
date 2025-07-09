@@ -1001,7 +1001,7 @@ export default {
 
     h2 {
       font-size: 26px;
-      padding-top: 48px;
+      padding: 48px 10px;
     }
   }
 

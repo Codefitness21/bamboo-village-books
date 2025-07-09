@@ -622,28 +622,6 @@ a {
   color: var(--secondary);
 }
 
-/* .book {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--quinary);
-  background-image: url("https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/bamboo-transparent-logo.png");
-  background-size: 70%;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 522px;
-  width: 380px;
-  color: var(--secondary);
-  font-weight: bold;
-  padding: 56px;
-  margin-bottom: 96px;
-
-  h2 {
-    font-size: 32px;
-  }
-} */
-
 
 @media (min-width:768px) and (max-width:1024px) {
   .hero-book-image {
@@ -692,8 +670,7 @@ a {
     }
 
     .book img {
-      width: 223px;
-      height: 314px;
+      width: 80%;
       margin: 24px;
     }
 
@@ -707,10 +684,10 @@ a {
     }
   }
 
-  iframe {
+  /* iframe {
     height: 630px;
     width: 800px;
-  }
+  } */
 }
 
 @media (max-width: 767px) {

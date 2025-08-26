@@ -14,7 +14,7 @@ The creation of this website began in Figma, starting with a mood board to estab
 Initially, all images and pdfs were in an assets folder in my vscode. I later noticed that my work wasn't saving as quickly, and several of my pdf files weren't deploying. Due to this issue, I transferred my images and pdfs to an s3 bucket in AWS to host my large files, which resulted in a faster deployment time. Several images were also saved as a webp instead of a jpeg, resulting in faster loading times. I will eventually refactor the code to remove any repeats by implementing Sass libraries for better organization. I will make updates and improvements as my skill set continues to improve.
 
 ## Lessons Learned 
-This was my first professional freelancing job, so there was some added pressure I placed upon myself to ensure it was completed in a timely manner. More time could have been spent structuring and organizing the code in designated files and folders. Now that I have a better understanding regarding the freelance process, I'm in a better position to execute a better code outline for future projects. 
+This was my first professional freelancing job, so there was some added pressure I placed upon myself to ensure it was completed in a timely manner. More time could have been spent structuring and organizing the code in designated files and folders. Now that I have a better understanding of the freelance process, I'm in a better position to execute a better code outline for future projects. 
 
 ## Examples
 Check out some of my other work that I have in GitHub. Click on each image to see more:

@@ -6,7 +6,7 @@ This website showcases the brilliant work of Quinton Taylor-Garcia, featuring hi
 **Link to project:** https://www.bamboovillagebooks.com/
 
 ## How It's Made 
-**Tech used:** HTML, CSS, JavaScript, Vue
+**Tech used:** Vue.JS
 
 The creation of this website began in Figma, starting with a mood board to establish the overall design direction, including layout, color palette, and structure. I then developed a sitemap to define the site's flow and navigation. With that foundation in place, I moved on to creating both low and high-fidelity mockups, ultimately building a prototype for the client to review and provide feedback prior to coding. The use of AI videos on the Books page was integrated in the background for Ashes of the City, The Silent of the Lake, Eclipse Dragons-Book 2, and Chronicles of the Gated Community.
 

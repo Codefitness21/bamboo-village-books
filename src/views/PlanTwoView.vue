@@ -294,6 +294,9 @@ label {
 @media (max-width: 767px) {
   .plantwo-container {
     padding: 32px 40px 96px 40px;
+    .arrow-container {
+    margin-bottom: 24px;
+  }
   }
 
   h2 {
@@ -320,15 +323,19 @@ label {
 
   .plantwo-form {
     .top-row-container {
+      display: flex;
+      flex-direction: column;
       align-items: center;
     }
 
     .top-left-container {
       align-items: center;
+      margin: 0;
     }
 
     .top-right-container {
       align-items: center;
+      margin: 0;
     }
   }
 

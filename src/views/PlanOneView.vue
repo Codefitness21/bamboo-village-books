@@ -297,6 +297,9 @@ label {
 @media (max-width: 767px) {
   .planone-container {
     padding: 32px 40px 96px 40px;
+    .arrow-container {
+    margin-bottom: 24px;
+  }
   }
 
   h2 {
@@ -307,16 +310,8 @@ label {
     font-size: 19px;
   }
 
-  .top-row-container {
-    flex-direction: column;
-  }
-
   .form-container {
     padding: 32px 32px 32px 32px;
-  }
-
-  .arrow-container {
-    margin-bottom: 24px;
   }
 
   .planone-form-container {
@@ -327,15 +322,19 @@ label {
 
   .planone-form {
     .top-row-container {
+      display: flex;
+      flex-direction: column;
       align-items: center;
     }
 
     .top-left-container {
       align-items: center;
+      margin: 0;
     }
 
     .top-right-container {
       align-items: center;
+      margin: 0;
     }
   }
 }

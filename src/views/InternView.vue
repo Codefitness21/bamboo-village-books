@@ -185,6 +185,7 @@ export default {
       width: 200%;
       margin-bottom: 24px;
     }
+
     p {
       padding: 0;
       text-align: left;
@@ -266,5 +267,19 @@ export default {
       margin-bottom: 24px;
     }
   }
+
+  .top-row-container {
+.top-left-container {
+    align-items: center;
+    margin: 0;
+  }
+
+  .top-right-container {
+    align-items: center;
+    margin: 0;
+  }
+  }
+
+  
 }
 </style>

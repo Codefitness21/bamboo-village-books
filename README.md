@@ -10,9 +10,9 @@ This website showcases the brilliant work of Quinton Taylor-Garcia, featuring hi
 
 The creation of this website began in Figma, starting with a mood board to establish the overall design direction, including layout, color palette, and structure. I then developed a sitemap to define the site's flow and navigation. With that foundation in place, I moved on to creating both low and high-fidelity mockups, ultimately building a prototype for the client to review and provide feedback prior to coding. The use of AI videos on the Books page was integrated in the background for Ashes of the City, The Silent of the Lake, Eclipse Dragons-Book 2, and Chronicles of the Gated Community.
 <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Mood+Board.png" alt="Mood Board Image" width="1000" />
-<img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Site+Map.v2.png" alt="Site Map Image" width="1000" />
 ### Sketch
 <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Sketch.png" alt="Sketch Image" width="1000" />
+<img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Site+Map.v2.png" alt="Site Map Image" width="1000" />
 
 ### Lo-Fi Mock-up
 <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Lo-Fi_1.png" alt="Lo-Fi Mock Up Image" width="500" /> <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Lo-Fi_2.v2.png" alt="Lo-Fi Mock Up Image" width="500" />

@@ -19,6 +19,7 @@ The creation of this website began in Figma, starting with a mood board to estab
 
 ### Hi-Fi Mock-up
 <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Hi-Fi+Mock-Up.png" alt="Hi-Fi Mock Up Image" width="1000" />
+
 ### Hi-Fi Prototyped
 <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Hi-Fi+Mock-Up+Prototype.png" alt="Hi-Fi Prototype" width="1000" />
 

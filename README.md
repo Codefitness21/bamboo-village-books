@@ -12,7 +12,7 @@ The creation of this website began in Figma, starting with a mood board to estab
 <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Mood+Board.png" alt="Mood Board Image" width="1000" />
 <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Site+Map.v2.png" alt="Site Map Image" width="1000" />
 <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Sketch.png" alt="Sketch Image" width="1000" />
-[![Watch the video](./screenshot.png)](https://bamboovillagebooks.s3.us-east-2.amazonaws.com/video/Lo-Fi+Mock-Up+vid.mov)
+[![Watch the video](https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Screenshot+2025-09-03+at+9.44.50%E2%80%AFPM.png)](https://bamboovillagebooks.s3.us-east-2.amazonaws.com/video/Lo-Fi+Mock-Up+vid.mov)
 <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Hi-Fi+Mock-Up.png" alt="Hi-Fi Mock Up Image" width="1000" />
 <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Hi-Fi+Mock-Up+Prototype.png" alt="Hi-Fi Prototype" width="1000" />
 

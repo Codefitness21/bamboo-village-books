@@ -15,7 +15,9 @@ The creation of this website began in Figma, starting with a mood board to estab
 <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Site+Map.v2.png" alt="Site Map Image" width="1000" />
 
 ### Lo-Fi Mock-up
+<div style="display: flex; flex-direction: row; justify-content: center;">
 <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Lo-Fi_1.png" alt="Lo-Fi Mock Up Image" width="500" /> <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Lo-Fi_2.v2.png" alt="Lo-Fi Mock Up Image" width="500" />
+</div>
 
 ### Hi-Fi Mock-up
 <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Hi-Fi+Mock-Up.png" alt="Hi-Fi Mock Up Image" width="1000" />

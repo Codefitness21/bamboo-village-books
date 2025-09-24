@@ -683,16 +683,11 @@ a {
       font-size: 8px;
     }
   }
-
-  /* iframe {
-    height: 630px;
-    width: 800px;
-  } */
 }
 
 @media (max-width: 767px) {
   .hero-book-image {
-    height: 42vh;
+    height: 30vh;
 
     h1 {
       font-size: 35px;
@@ -822,10 +817,5 @@ a {
     font-size: 46px;
     color: var(--secondary);
   }
-
-  /* .book-1 img {
-    height: 400px;
-    width: 278px;
-  } */
 }
 </style>

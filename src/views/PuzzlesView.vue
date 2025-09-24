@@ -7,11 +7,11 @@
       </div>
     </section>
    
-    <section class="all-books-container">
-      <div class="books-grid-title">
+    <section class="all-puzzles-container">
+      <div class="puzzles-grid-title">
         <h2>EXPLORE ALL PUZZLES</h2>
       </div>
-      <div class="all-books-grid">
+      <div class="all-puzzles-grid">
         <div>
           <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Women+of+Valor+Word+Search-+Celebrating+Latina+Women+Veterans.webp"
             alt="Women of Valor Word Search Celebrating Latina Women Veterans book cover image">
@@ -256,184 +256,8 @@ export default {
   }
 }
 
-/* Section 2 - Ashes Container */
-.ashes-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-image: url("https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/ashes-transparent-bkgrd-v3.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding: 0 64px 64px 64px;
-  border-top: 1px solid var(--quinary);
-  border-bottom: 1px solid var(--quinary);
-  gap: 8px;
-
-  h2 {
-    color: var(--quinary);
-    line-height: 1.4;
-  }
-
-  p {
-    margin-top: 30px;
-    background-color: rgba(249, 250, 234, 0.6);
-    border-radius: 8px;
-    padding: 42px;
-  }
-
-  .ashes-info-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-
-    img {
-      width: 50%;
-    }
-  }
-
-  .ashes-left-aligned-image-container {
-    width: 50%;
-    align-items: center;
-  }
-
-  .ashes-text-container {
-    width: 50%;
-  }
-}
-
-.modal-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-top: 48px;
-
-  iframe {
-    width: 932px;
-    height: 600px;
-  }
-}
-
-.modal-overlay {
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.8);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.close-button {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  font-size: 30px;
-  cursor: pointer;
-}
-
-/* Section 3 - Reviews section */
-.reviews-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-color: var(--quarternary);
-  color: var(--secondary);
-}
-
-.reviews {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0 64px 64px 64px;
-  font-size: 25px;
-  font-family: sans-serif;
-
-  .image {
-    margin-top: 48px;
-    width: 12%;
-  }
-
-  .text {
-    text-align: center;
-    margin-bottom: 16px;
-  }
-
-  .name {
-    margin: 10px 0 24px 0;
-    color: var(--secondary);
-  }
-
-  a {
-    margin-top: 16px;
-    color: var(--secondary);
-  }
-}
-
-.navigate {
-  position: absolute;
-  z-index: 1;
-  margin-top: 85px;
-  padding: 0 16px;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  align-self: center;
-
-  .arrow {
-    display: flex;
-    flex: 1;
-  }
-
-  .right {
-    justify-content: flex-end;
-  }
-
-  i {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    background-color: rgb(252, 199, 101, 0.5);
-    color: var(--secondary);
-  }
-
-  i:hover {
-    color: var(--quarternary);
-  }
-}
-
-.review-indicator-btn {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  position: relative;
-  z-index: 2;
-
-  .btn {
-    width: 12px;
-    height: 12px;
-    margin: 8px;
-    border-radius: 15px;
-    border: 1px solid var(--secondary);
-    background-color: var(--quarternary);
-    cursor: pointer;
-  }
-
-  .active {
-    background-color: var(--secondary);
-  }
-}
-
-/* Sections 4 - All Books Container  */
-.all-books-container {
+/* Sections 2 - All Books Container  */
+.all-puzzles-container {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -449,11 +273,7 @@ export default {
   }
 }
 
-.left-stalk {
-  position: absolute;
-}
-
-.all-books-grid {
+.all-puzzles-grid {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -520,34 +340,6 @@ a {
   border-bottom-right-radius: 0;
 }
 
-/* Section 5 - Upcoming Releases */
-.upcoming-releases-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-image: url("https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/upcoming_releases.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-
-  h1 {
-    padding: 96px 0 96px 0;
-    color: var(--secondary);
-  }
-}
-
-.upcoming-books {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  padding: 0 0 96px 0;
-}
-
-.book h2 {
-  margin: 30px 0;
-  color: var(--secondary);
-}
-
-
 @media (min-width:768px) and (max-width:1024px) {
   .hero-book-image {
     height: 38vh;
@@ -556,68 +348,11 @@ a {
       font-size: 56px;
     }
   }
-
-  .ashes-container {
-    h2 {
-      font-size: 29px;
-    }
-
-    p {
-      font-size: 18px;
-      padding: 24px;
-    }
-
-    .ashes-info-container {
-      img {
-        width: 74%;
-      }
-    }
-  }
-
-  .reviews {
-    .text {
-      font-size: 24px;
-    }
-
-    .image {
-      height: 10%;
-      width: 10%;
-    }
-  }
-
-  .upcoming-books {
-    .book {
-      margin: 24px;
-
-      h2 {
-        font-size: 16px;
-      }
-    }
-
-    .book img {
-      width: 80%;
-      margin: 24px;
-    }
-
-    .book h2 {
-      margin: 8px 0;
-      font-size: 38px;
-    }
-
-    .upcoming-cta {
-      font-size: 8px;
-    }
-  }
-
-  /* iframe {
-    height: 630px;
-    width: 800px;
-  } */
 }
 
 @media (max-width: 767px) {
   .hero-book-image {
-    height: 42vh;
+    height: 30vh;
 
     h1 {
       font-size: 35px;
@@ -628,86 +363,19 @@ a {
     }
   }
 
-  .books-page-container {
-    .ashes-container {
-      padding: 0 32px 64px 32px;
-
-      .ashes-text-container {
-        width: 100%;
-      }
-
-      p {
-        padding: 18px;
-      }
-
-      .ashes-info-container {
-        flex-direction: column;
-
-        img {
-          width: 100%;
-          margin: 0;
-        }
-
-        .read-btn {
-          margin-top: 0;
-        }
-      }
-    }
-  }
-
-  .modal-content {
-    iframe {
-      width: 365px;
-      height: 400px;
-    }
-  }
-
   .hero-open-book {
     img {
       width: 48%;
     }
   }
 
-  .left-aligned-image-container {
-    img {
-      margin: 10px;
-    }
-  }
-
-  .reviews {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px 32px 40px 32px;
-    font-size: 16px;
-
-    .image {
-      margin-top: 0;
-      width: 24%;
-    }
-
-    a {
-      margin-top: 10px;
-    }
-
-    .text {
-      font-size: 16px;
-    }
-  }
-
-  .reviews-title {
-    h2 {
-      margin: 40px 0px 32px 0px;
-    }
-  }
-
-  .books-grid-title {
+  .puzzles-grid-title {
     h2 {
       margin-bottom: 32px;
     }
   }
 
-  .all-books-grid {
+  .all-puzzles-grid {
     gap: 80px;
 
     img {
@@ -722,35 +390,5 @@ a {
       margin: 0px 0 16px 0;
     }
   }
-
-  .upcoming-releases-container {
-    h2 {
-      font-size: 24px;
-    }
-  }
-
-  .upcoming-books {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-  }
-
-  .book {
-    margin-top: 64px;
-    img {
-      width: 300px;
-    }
-  }
-
-  .book h2 {
-    font-size: 46px;
-    color: var(--secondary);
-  }
-
-  /* .book-1 img {
-    height: 400px;
-    width: 278px;
-  } */
 }
 </style>

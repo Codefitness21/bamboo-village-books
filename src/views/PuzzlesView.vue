@@ -1,214 +1,139 @@
 <template>
   <div class="books-page-container">
     <section class="hero-book-image">
-      <h1>BAMBOO BOOKS</h1>
+      <h1>BAMBOO PUZZLES</h1>
       <div class="hero-open-book">
         <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/open-book.png" alt="Open Book" />
       </div>
     </section>
-    <section class="ashes-container">
-      <h2>NEW RELEASE!<br>Quinton Taylor-Garcia presents ASHES OF THE CITY </h2>
-      <div class="ashes-info-container">
-        <div class="ashes-left-aligned-image-container">
-          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/ashes-book-cover-v5.png"
-            alt="Author Image">
-        </div>
-        <div class="ashes-text-container">
-          <p><b>Ashes of the City</b> explores themes of leadership, morality, and the loss of innocence in a brutal,
-            post-disaster world. Perfect for fans of The Hunger Games and Lord of the Flies, this powerful story will
-            keep readers on the edge of their seats, questioning what it means to survive when everything you once knew
-            is gone.
-          </p>
-          <div class="cta-row">
-
-            <div class="read-btn"><button @click="openModal">VIEW TRAILER</button>
-              <div class="modal-overlay" v-if="showModal">
-                <div class="modal-content">
-                  <button class="close-button" @click="closeModal">&times;</button>
-                  <iframe src='https://www.youtube.com/embed/xpuh84NO9e4?si=jwlCOXPULDF-Lx9n'
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                </div>
-              </div>
-            </div>
-            <div class="read-btn"><a @click="open('promo')"><button class="read-sample-btn">CLAIM BONUS</button></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="reviews-container">
-      <div class="reviews-title">
-        <h2>Praises For Ashes</h2>
-        <div class="reviews" v-for="(review, index) in reviews" :key="index" v-show="currentIndex === index">
-          <div class="text"><i>"{{ review.text }}"</i></div>
-          <img class=image v-if="reviews[currentIndex].image" :src="reviews[currentIndex].image" />
-          <a class="name0" v-if="review.link" :href="review.link" target="_blank"><u>{{ review.name0 }}</u></a>
-          <a class="name1" v-if="review.link" :href="review.link" target="_blank"><u>{{ review.name1 }}</u></a>
-          <a class="name" v-if="review.link" :href="review.link" target="_blank"><u>{{ review.name }}</u></a>
-          <!-- <div class="name">{{ review.name }}</div> -->
-          <div class="review-indicator-btn">
-            <div class="btn" v-for="(review, index) in reviews" :key="index" :class="{ active: currentIndex === index }"
-              @click="changeReview(index)"></div>
-          </div>
-          <div class="navigate">
-            <div class="arrow left ">
-              <i @click="prevReview" class="fa-solid fa-chevron-left"></i>
-            </div>
-            <div class="arrow right">
-              <i @click="nextReview" class="fa-solid fa-chevron-right"></i>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+   
     <section class="all-books-container">
       <div class="books-grid-title">
-        <h2>EXPLORE ALL BOOKS</h2>
+        <h2>EXPLORE ALL PUZZLES</h2>
       </div>
       <div class="all-books-grid">
         <div>
-          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/ashes.jpg"
-            alt="Ashes of the City book cover image">
-          <h3>Ashes of the City</h3>
+          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Women+of+Valor+Word+Search-+Celebrating+Latina+Women+Veterans.webp"
+            alt="Women of Valor Word Search Celebrating Latina Women Veterans book cover image">
+          <h3>Women of Valor Word Search</h3>
           <div class="cta-row">
-            <a @click="open('ashes')"><button class="cta-1">LEARN MORE</button></a>
-            <div class="dropdown">
-              <button class="dropdown cta-2 ashes-cta">BUY BOOK</button>
-              <div class="dropdown-content">
-                <a href="https://amzn.to/44dQUHM" onclick="gtag('event', 'click', {
-     'event_category': 'Amazon click',
-     'event_label': 'Ashes of the City'
-   });">AMAZON</a>
-                <a href="https://www.barnesandnoble.com/w/ashes-of-the-city-quinton-taylor-garcia/1146717150">BARNES &
-                  NOBLE</a>
-              </div>
-            </div>
+            <a href="https://www.amazon.com/Women-Valor-Word-Search-Celebrating/dp/B0FQCHRG2M/ref=sr_1_2?crid=2DWLLEMXNL517&dib=eyJ2IjoiMSJ9.Jj7cya-2i_jnNPmycbcMfiwlwsJnX1wmdAWJG88gpkwEOvW9Wcu4hmyFpf8Dn8Ubm-p6TU25THRfiKfRVVnjCzsukJCPewSxo6JVplj5nNUtyEVF5HBtpOXhfXHFXkzo0Sju7oWnLzLwiAWSxkHn8A98BaEtmLL3B0aEDBXjqlN9Opts6V9pOtuHq9q-5EYqw8x3pXekLuQ3vCE4OXJ28qzSdJZpcGe7QHZJA5fY2ac.BCLvj68VwjvlJywNi_9CWx5fzD3oUp76jGvBuOXaM8w&dib_tag=se&keywords=quinton+taylor+garcia+books&qid=1758670538&sprefix=quinton+taylor+garcia%2Caps%2C177&sr=8-2"><button class="cta-2">BUY
+                PUZZLE</button></a>
           </div>
-          <!-- <div class="cta-row">
-            <a @click="open('ashes')"><button class="cta-1">LEARN MORE</button></a>
-            <a href="https://www.amazon.com/Ashes-City-Quinton-Taylor-Garcia/dp/B0DJZF3DM3"><button class="cta-2">BUY
-                BOOK</button></a>
-          </div>-->
         </div> 
         <div>
-          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/silent_call.jpg"
-            alt="The Silent Call of the Lake book cover image">
-          <h3>The Silent Call of the Lake</h3>
+          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Women-of-Valor-Word-Search-Celebrating-Asian-Women-Veterans.webp"
+            alt="Women of Valor Word Search Celebrating Asian Women Veterans book cover image">
+          <h3>Women of Valor Word Search</h3>
           <div class="cta-row">
-            <a @click="open('silent')"><button class="cta-1">LEARN MORE</button></a>
-            <a href="https://www.amazon.com/silent-Call-Lake-JMs-Story/dp/B0CR7KQZTW/"><button class="cta-2">BUY
-                BOOK</button></a>
+            <a href="https://www.amazon.com/Women-Valor-Word-Search-Celebrating/dp/B0FQCF2C6D/ref=sr_1_4?crid=2DWLLEMXNL517&dib=eyJ2IjoiMSJ9.Jj7cya-2i_jnNPmycbcMfiwlwsJnX1wmdAWJG88gpkwEOvW9Wcu4hmyFpf8Dn8Ubm-p6TU25THRfiKfRVVnjCzsukJCPewSxo6JVplj5nNUtyEVF5HBtpOXhfXHFXkzo0Sju7oWnLzLwiAWSxkHn8A98BaEtmLL3B0aEDBXjqlN9Opts6V9pOtuHq9q-5EYqw8x3pXekLuQ3vCE4OXJ28qzSdJZpcGe7QHZJA5fY2ac.BCLvj68VwjvlJywNi_9CWx5fzD3oUp76jGvBuOXaM8w&dib_tag=se&keywords=quinton+taylor+garcia+books&qid=1758670538&sprefix=quinton+taylor+garcia%2Caps%2C177&sr=8-4"><button class="cta-2">BUY
+                PUZZLE</button></a>
           </div>
         </div>
         <div>
-          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/devils_dance.jpg"
-            alt="The Devil's Dance - A J'ouvert Tale book cover image">
-          <h3>The Devil's Dance - A J'ouvert Tale</h3>
+          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Mazes.webp"
+            alt="Mazes book cover image">
+          <h3>Mazes for Adults</h3>
           <div class="cta-row">
-            <a @click="open('dance')"><button class="cta-1">LEARN MORE</button></a>
-            <a href="https://www.amazon.com/Devils-Dance-Jouvert-Tale/dp/B0DG8KH3B6/"><button class="cta-2">BUY
-                BOOK</button></a>
+            
+            <a href="https://www.amazon.com/Mazes-Adults-Puzzles-Mindful-Collection/dp/B0FQP7MJ4K/ref=sr_1_18?crid=2DWLLEMXNL517&dib=eyJ2IjoiMSJ9.Jj7cya-2i_jnNPmycbcMfiwlwsJnX1wmdAWJG88gpkwEOvW9Wcu4hmyFpf8Dn8Ubm-p6TU25THRfiKfRVVnjCzsukJCPewSxo6JVplj5nNUtyEVF5HBtpOXhfXHFXkzo0Sju7oWnLzLwiAWSxkHn8A98BaEtmLL3B0aEDBXjqlN9Opts6V9pOtuHq9q-5EYqw8x3pXekLuQ3vCE4OXJ28qzSdJZpcGe7QHZJA5fY2ac.BCLvj68VwjvlJywNi_9CWx5fzD3oUp76jGvBuOXaM8w&dib_tag=se&keywords=quinton+taylor+garcia+books&qid=1758670538&sprefix=quinton+taylor+garcia%2Caps%2C177&sr=8-18"><button class="cta-2">BUY
+                PUZZLE</button></a>
           </div>
         </div>
         <div>
-          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Eclipse-1.jpg"
-            alt="Eclipse Dragons - Book 1 book cover image">
-          <h3>Eclipse Dragons - Book 1</h3>
+          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Positive-Vibes-Word-Search.webp"
+            alt="Positive Vibes Word Search book cover image">
+          <h3>Positive Vibes Word Search</h3>
           <div class="cta-row">
-            <a @click="open('dragonsone')"><button class="cta-1">LEARN MORE</button></a>
-            <a href="https://www.amazon.com/Eclipse-Dragons-Shadows-Faction-Origins/dp/B0CP4TG6T9/"><button
-                class="cta-2">BUY BOOK</button></a>
+            
+            <a href="https://www.amazon.com/Positive-Vibes-Word-Search-Mindfulness/dp/B0FP8VHDKF/ref=sr_1_3?crid=2DWLLEMXNL517&dib=eyJ2IjoiMSJ9.Jj7cya-2i_jnNPmycbcMfiwlwsJnX1wmdAWJG88gpkwEOvW9Wcu4hmyFpf8Dn8Ubm-p6TU25THRfiKfRVVnjCzsukJCPewSxo6JVplj5nNUtyEVF5HBtpOXhfXHFXkzo0Sju7oWnLzLwiAWSxkHn8A98BaEtmLL3B0aEDBXjqlN9Opts6V9pOtuHq9q-5EYqw8x3pXekLuQ3vCE4OXJ28qzSdJZpcGe7QHZJA5fY2ac.BCLvj68VwjvlJywNi_9CWx5fzD3oUp76jGvBuOXaM8w&dib_tag=se&keywords=quinton+taylor+garcia+books&qid=1758670538&sprefix=quinton+taylor+garcia%2Caps%2C177&sr=8-3"><button
+                class="cta-2">BUY PUZZLE</button></a>
           </div>
         </div>
         <div>
-          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Eclipse-2.jpg"
-            alt="Eclipse Dragons The Rogue Mages Uprising - Book 2 book cover image">
-          <h3>Eclipse Dragons - Book 2</h3>
+          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Word-Search-Relaxation.webp"
+            alt="Word Search Relaxation book cover image">
+          <h3>Word Search for Relaxation</h3>
           <div class="cta-row">
-            <a @click="open('dragonstwo')"><button class="cta-1">LEARN MORE</button></a>
-            <a href="https://www.amazon.com/Eclipse-Dragons-Rogue-Mages-Uprising/dp/B0CZQ1HTT4/"><button
-                class="cta-2">BUY BOOK</button></a>
+            
+            <a href="https://www.amazon.com/Word-Search-Relaxation-Puzzles-Collection/dp/B0FQP8SG5H/ref=sr_1_6?crid=2DWLLEMXNL517&dib=eyJ2IjoiMSJ9.Jj7cya-2i_jnNPmycbcMfiwlwsJnX1wmdAWJG88gpkwEOvW9Wcu4hmyFpf8Dn8Ubm-p6TU25THRfiKfRVVnjCzsukJCPewSxo6JVplj5nNUtyEVF5HBtpOXhfXHFXkzo0Sju7oWnLzLwiAWSxkHn8A98BaEtmLL3B0aEDBXjqlN9Opts6V9pOtuHq9q-5EYqw8x3pXekLuQ3vCE4OXJ28qzSdJZpcGe7QHZJA5fY2ac.BCLvj68VwjvlJywNi_9CWx5fzD3oUp76jGvBuOXaM8w&dib_tag=se&keywords=quinton+taylor+garcia+books&qid=1758670538&sprefix=quinton+taylor+garcia%2Caps%2C177&sr=8-6"><button
+                class="cta-2">BUY PUZZLE</button></a>
           </div>
         </div>
         <div>
-          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Eclipse-3.jpg"
-            alt="Eclipse Dragons The Warlords's Awakening - Book 3 book cover image">
-          <h3>Eclipse Dragons - Book 3</h3>
+          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Spooky-Word-Hunt.webp"
+            alt="Spooky Word Hunt book cover image">
+          <h3>Spooky & Sweet October Word Hunts</h3>
           <div class="cta-row">
-            <a @click="open('dragonsthree')"><button class="cta-1">LEARN MORE</button></a>
-            <a href="https://www.amazon.com/Warlords-Awakening-Battles-Multiverse-Eclipse/dp/B0D91LXSWL/"><button
-                class="cta-2">BUY BOOK</button></a>
+            
+            <a href="https://www.amazon.com/Spooky-Sweet-October-Goodness-Collection/dp/B0FRZ7FL5Z/ref=sr_1_9?crid=2DWLLEMXNL517&dib=eyJ2IjoiMSJ9.Jj7cya-2i_jnNPmycbcMfiwlwsJnX1wmdAWJG88gpkwEOvW9Wcu4hmyFpf8Dn8Ubm-p6TU25THRfiKfRVVnjCzsukJCPewSxo6JVplj5nNUtyEVF5HBtpOXhfXHFXkzo0Sju7oWnLzLwiAWSxkHn8A98BaEtmLL3B0aEDBXjqlN9Opts6V9pOtuHq9q-5EYqw8x3pXekLuQ3vCE4OXJ28qzSdJZpcGe7QHZJA5fY2ac.BCLvj68VwjvlJywNi_9CWx5fzD3oUp76jGvBuOXaM8w&dib_tag=se&keywords=quinton+taylor+garcia+books&qid=1758670538&sprefix=quinton+taylor+garcia%2Caps%2C177&sr=8-9"><button
+                class="cta-2">BUY PUZZLE</button></a>
           </div>
         </div>
 
         <div>
-          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/warriors_heart.jpg"
-            alt="Warrior's Heart book cover image">
-          <h3>Warrior's Heart</h3>
+          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Grateful-Heart-Thoughtful-Words.webp"
+            alt="Grateful Hearts Thoughtful Words book cover image">
+          <h3>Grateful Hearts Thoughtful Words</h3>
           <div class="cta-row">
-            <a @click="open('warriors')"><button class="cta-1">LEARN MORE</button></a>
-            <a href="https://www.amazon.com/Warriors-Heart-Poems-Emotion-Valor/dp/B0CQP41713/"><button class="cta-2">BUY
-                BOOK</button></a>
+            <a href="https://www.amazon.com/Grateful-Hearts-Thoughtful-Words-Thanksgiving/dp/B0FRZ1HLTF/ref=sr_1_11?crid=2DWLLEMXNL517&dib=eyJ2IjoiMSJ9.Jj7cya-2i_jnNPmycbcMfiwlwsJnX1wmdAWJG88gpkwEOvW9Wcu4hmyFpf8Dn8Ubm-p6TU25THRfiKfRVVnjCzsukJCPewSxo6JVplj5nNUtyEVF5HBtpOXhfXHFXkzo0Sju7oWnLzLwiAWSxkHn8A98BaEtmLL3B0aEDBXjqlN9Opts6V9pOtuHq9q-5EYqw8x3pXekLuQ3vCE4OXJ28qzSdJZpcGe7QHZJA5fY2ac.BCLvj68VwjvlJywNi_9CWx5fzD3oUp76jGvBuOXaM8w&dib_tag=se&keywords=quinton+taylor+garcia+books&qid=1758670538&sprefix=quinton+taylor+garcia%2Caps%2C177&sr=8-11"><button class="cta-2">BUY
+                PUZZLE</button></a>
           </div>
         </div>
         <div>
-          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/chronicles.jpg"
-            alt="The Chronicles of the Gated Community book cover image">
-          <h3>The Chronicles of the Gated Community</h3>
+          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Joyful-Lights-and-Winter-Nights.webp"
+            alt="Joyful Lights and Winter Nights book cover image">
+          <h3>Joyful Lights and Winter Nights</h3>
           <div class="cta-row">
-            <a @click="open('chronicles')"><button class="cta-1">LEARN MORE</button></a>
-            <a href="https://www.amazon.com/Chronicles-Gated-Community-Shadows-Whispers/dp/B0CQ2WFQ99/"><button
-                class="cta-2">BUY BOOK</button></a>
+            <a href="https://www.amazon.com/dp/B0FS7LZK9Y/ref=sr_1_8?crid=2DWLLEMXNL517&dib=eyJ2IjoiMSJ9.Jj7cya-2i_jnNPmycbcMfiwlwsJnX1wmdAWJG88gpkwEOvW9Wcu4hmyFpf8Dn8Ubm-p6TU25THRfiKfRVVnjCzsukJCPewSxo6JVplj5nNUtyEVF5HBtpOXhfXHFXkzo0Sju7oWnLzLwiAWSxkHn8A98BaEtmLL3B0aEDBXjqlN9Opts6V9pOtuHq9q-5EYqw8x3pXekLuQ3vCE4OXJ28qzSdJZpcGe7QHZJA5fY2ac.BCLvj68VwjvlJywNi_9CWx5fzD3oUp76jGvBuOXaM8w&dib_tag=se&keywords=quinton+taylor+garcia+books&qid=1758670538&sprefix=quinton+taylor+garcia%2Caps%2C177&sr=8-8"><button
+                class="cta-2">BUY PUZZLE</button></a>
           </div>
         </div>
 
         <div>
-          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/MG.jpg"
-            alt="The Last Sunset: Journey with Myasthenia Gravis book cover image">
-          <h3>The Last Sunset: Journey with Myasthenia Gravis</h3>
+          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Sudoku-Begginers.webp"
+            alt="Sudoku Begginers book cover image">
+          <h3>Sudoku For Begginers: Easy Level</h3>
           <div class="cta-row">
-            <a @click="open('gravis')"><button class="cta-1">LEARN MORE</button></a>
-            <a href="https://www.amazon.com/Last-Sunset-Myasthenia-Embracing-Connection/dp/B0CN65MYL3/"><button
-                class="cta-2">BUY BOOK</button></a>
+            
+            <a href="https://www.amazon.com/Sudoku-Beginners-Easy-Level-Collection/dp/B0FQQRH2PV/ref=sr_1_14?crid=2DWLLEMXNL517&dib=eyJ2IjoiMSJ9.Jj7cya-2i_jnNPmycbcMfiwlwsJnX1wmdAWJG88gpkwEOvW9Wcu4hmyFpf8Dn8Ubm-p6TU25THRfiKfRVVnjCzsukJCPewSxo6JVplj5nNUtyEVF5HBtpOXhfXHFXkzo0Sju7oWnLzLwiAWSxkHn8A98BaEtmLL3B0aEDBXjqlN9Opts6V9pOtuHq9q-5EYqw8x3pXekLuQ3vCE4OXJ28qzSdJZpcGe7QHZJA5fY2ac.BCLvj68VwjvlJywNi_9CWx5fzD3oUp76jGvBuOXaM8w&dib_tag=se&keywords=quinton+taylor+garcia+books&qid=1758670538&sprefix=quinton+taylor+garcia%2Caps%2C177&sr=8-14"><button
+                class="cta-2">BUY PUZZLE</button></a>
           </div>
         </div>
-      </div>
-    </section>
-    <section class="upcoming-releases-container">
-      <div>
-        <h2>UPCOMING 2025 RELEASES...</h2>
-      </div>
-      <div class="upcoming-books slidebooks">
-        <div class="book">
-          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Under_Orders.jpg"
-            alt="Under Orders of Silence book cover image">
-          <div class="cta-row upcoming-cta-row">
-            <a @click="open('orders')"><button class="cta-1 upcoming-cta">LEARN MORE</button></a>
-            <a
-              href="https://www.amazon.com/Under-Orders-Silence-Inspired-Book/dp/B0F66ZS35T/ref=sr_1_1?crid=2ZMVW1Y8RO1UO&dib=eyJ2IjoiMSJ9.9TLYcju_fs8qkHpmQ2gyEqSQohurVetJidAnsfFF4YPGjHj071QN20LucGBJIEps.cr_QAXTI_Q57GUa_AZeq4_p7zKZnWyerLlv9-6REqDo&dib_tag=se&keywords=under+orders+of+silence&qid=1745960528&s=books&sprefix=under+orders+of+silence%2Cstripbooks%2C113&sr=1-1"><button
-                class="cta-2 upcoming-cta">BUY BOOK</button></a>
+
+         <div>
+          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Sudoku-Mixed-Puzzles.webp"
+            alt="Sudoku Mixed Puzzles book cover image">
+          <h3>Sudoku Mixed Puzzles: Easy to Hard</h3>
+          <div class="cta-row">
+            
+            <a href="https://www.amazon.com/Sudoku-Mixed-Puzzles-Mindful-Collection/dp/B0FQQV2VCM/ref=sr_1_16?crid=2DWLLEMXNL517&dib=eyJ2IjoiMSJ9.Jj7cya-2i_jnNPmycbcMfiwlwsJnX1wmdAWJG88gpkwEOvW9Wcu4hmyFpf8Dn8Ubm-p6TU25THRfiKfRVVnjCzsukJCPewSxo6JVplj5nNUtyEVF5HBtpOXhfXHFXkzo0Sju7oWnLzLwiAWSxkHn8A98BaEtmLL3B0aEDBXjqlN9Opts6V9pOtuHq9q-5EYqw8x3pXekLuQ3vCE4OXJ28qzSdJZpcGe7QHZJA5fY2ac.BCLvj68VwjvlJywNi_9CWx5fzD3oUp76jGvBuOXaM8w&dib_tag=se&keywords=quinton+taylor+garcia+books&qid=1758670538&sprefix=quinton+taylor+garcia%2Caps%2C177&sr=8-16"><button
+                class="cta-2">BUY PUZZLE</button></a>
           </div>
         </div>
-        <div class="book">
-          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Ember.webp"
-            alt="The Ember Experiment book cover image">
-          <div class="cta-row upcoming-cta-row">
-            <a @click="open('ember')"><button class="cta-1 upcoming-cta">LEARN MORE</button></a>
-            <a
-              href="https://www.amazon.com/Ember-Experiment-Book-Ashes-Saga/dp/B0FDGVCBCC/ref=sr_1_1?crid=199WAOI1GCVIU&dib=eyJ2IjoiMSJ9.n96OpJj4ehKtma1aZgoUXWIJF4QPUdBuGl87llkWexpRB8LHRnXmUgjz32OHoQ7JiGDPIdnTJp906eRq3abI107D6UufpFOfCDfu1rMTyQX_TuPWmHkZ9z77W-efQgG4jWWi-dor8ZlYEYA4eMBZpUXalLE3y0kjNrER02AFHgzjqKJPuawWuho6hwswM3_ImY0dnsj3fc-la-VbThnr1KowtR2iVg4UNRzwNGpZ1uo.-a2x6U-uzqMoXN911jdn0bRON5gbywMUJlGzsO2dPCQ&dib_tag=se&keywords=the+ember+experiment&qid=1751742766&s=digital-text&sprefix=the+ember+experiment%2Cdigital-text%2C139&sr=1-1-catcorr"><button
-                class="cta-2 upcoming-cta">BUY BOOK</button></a>
+
+         <div>
+          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Sudoku-Challenge.webp"
+            alt="Sudoku Challenge book cover image">
+          <h3>Sudoku Challenge: Medium Level</h3>
+          <div class="cta-row">
+            
+            <a href="https://www.amazon.com/Sudoku-Challenge-Puzzles-Mindful-Collection/dp/B0FQQFG6CW/ref=sr_1_13?crid=2DWLLEMXNL517&dib=eyJ2IjoiMSJ9.Jj7cya-2i_jnNPmycbcMfiwlwsJnX1wmdAWJG88gpkwEOvW9Wcu4hmyFpf8Dn8Ubm-p6TU25THRfiKfRVVnjCzsukJCPewSxo6JVplj5nNUtyEVF5HBtpOXhfXHFXkzo0Sju7oWnLzLwiAWSxkHn8A98BaEtmLL3B0aEDBXjqlN9Opts6V9pOtuHq9q-5EYqw8x3pXekLuQ3vCE4OXJ28qzSdJZpcGe7QHZJA5fY2ac.BCLvj68VwjvlJywNi_9CWx5fzD3oUp76jGvBuOXaM8w&dib_tag=se&keywords=quinton+taylor+garcia+books&qid=1758670538&sprefix=quinton+taylor+garcia%2Caps%2C177&sr=8-13"><button
+                class="cta-2">BUY PUZZLE</button></a>
           </div>
         </div>
-        <div class="book">
-          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Silent-Crown.jpg"
-            alt="The Silent Crown book cover image">
-          <h2>Coming Soon</h2>
+
+        <div>
+          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Sudoku-Brain-Training.webp"
+            alt="Sudoku Brain Training book cover image">
+          <h3>Sudoku Brain Training: Hard Level</h3>
+          <div class="cta-row">
+            
+            <a href="https://www.amazon.com/Sudoku-Brain-Training-Puzzles-Collection/dp/B0FQP7Q99Q/ref=sr_1_15?crid=2DWLLEMXNL517&dib=eyJ2IjoiMSJ9.Jj7cya-2i_jnNPmycbcMfiwlwsJnX1wmdAWJG88gpkwEOvW9Wcu4hmyFpf8Dn8Ubm-p6TU25THRfiKfRVVnjCzsukJCPewSxo6JVplj5nNUtyEVF5HBtpOXhfXHFXkzo0Sju7oWnLzLwiAWSxkHn8A98BaEtmLL3B0aEDBXjqlN9Opts6V9pOtuHq9q-5EYqw8x3pXekLuQ3vCE4OXJ28qzSdJZpcGe7QHZJA5fY2ac.BCLvj68VwjvlJywNi_9CWx5fzD3oUp76jGvBuOXaM8w&dib_tag=se&keywords=quinton+taylor+garcia+books&qid=1758670538&sprefix=quinton+taylor+garcia%2Caps%2C177&sr=8-15"><button
+                class="cta-2">BUY PUZZLE</button></a>
+          </div>
         </div>
-        <!-- <div class="book">
-          <h2>Eclipse Dragons Dark Saga Trilogy</h2>
-        </div> -->
+
       </div>
     </section>
   </div>

@@ -11,57 +11,12 @@
     </section>
     <section class="about-author">
       <h2>About the Author</h2>
-      <p>Quinton Taylor-Garcia, born in Trinidad and raised in Norfolk, Virginia, found his calling in writing after
-        retiring from the Army. His journey began in 2019 during college, inspired by local tales and shared passions
-        for
-        Urban Fantasy movies and games with friends. This creative exchange sparked his interest in weaving his own
-        stories. His work reflects a unique blend of his diverse background and his love for the fantastical, marking
-        his
-        exciting entry into the world of Urban Fantasy literature.</p>
+      <p>Quinton Taylor-Garcia is an award-winning author, publisher, and community leader dedicated to amplifying diverse voices and creating works that inspire, educate, and entertain. He is the Founder and CEO of Bamboo Village Books, a San Antonio-based publishing company established in 2023 to support independent and underrepresented authors.</p>
 
-      <p>Quinton is a disabled veteran, accomplished author, and the founder of Bamboo Village Books, an independent
-        publishing house based in San Antonio, Texas. The name “Bamboo Village” draws inspiration from Quinton's
-        cherished
-        memories of visiting Bamboo Village in Trinidad, where bamboo marked his path to happiness and community. This
-        resilient plant, known for its strength, flexibility, and rapid growth, reflects both the foundation of the
-        company and the stories it seeks to bring to life. Like bamboo, Bamboo Village Books thrives on:</p>
+      <p>His catalog includes the acclaimed novel Ashes of the City winner of the 2025 International Impact Book Award (Young Adult) and recipient of a 5 star review from Literary Titan as well as Under Orders of Silence, praised by Kirkus Reviews for its bold reimagining of faith and perseverance. Beyond fiction, Taylor-Garcia develops multiple puzzle and activity series, including the Mindful Puzzles Press Collection, a line of uplifting brain-boosting activity books designed to promote positivity, mindfulness, and stress relief, and the Women of Valor Word Search Puzzle Collection, which honors the strength and service of women veterans through culturally inspired word searches.</p>
 
-      <div class="bullet-points">
-        <ul>
-          <li>Strength and flexibility: Bamboo's steel-like strength and adaptability mirror the resilience of the many
-            authors supported by the company.</li>
-          <li>Rapid growth: Bamboo can grow up to 36 inches in a single day, symbolizing the swift nurturing of ideas
-            from
-            seed to publication.</li>
-          <li>Sustainability: Bamboo regenerates quickly, reflecting the company's commitment to fostering new talent
-            and
-            sustainable storytelling practices.</li>
-        </ul>
-      </div>
+      <p>Through Bamboo Village Books, Taylor-Garcia also donates puzzle and activity books to organizations that support military veterans and mental health programs, extending the impact of his work beyond publishing and into the community. He also founded the Founders of the Bamboo Flame Guild, a youth-focused literacy initiative that encourages creativity and storytelling through interactive activity booklets.</p>
 
-      <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/book-signing.jpg"
-        alt="Quinton Taylor-Garcia at a book signing event at the Texas Public Radio Merienda at Real Ale Brewing Co. & Real Spirits Distillery in Blanco, TX, on January 20, 2024 ">
-
-      <p>Quinton's works include The Silent Call of the Lake: JM's Story, the young adult dystopian novel Ashes of the
-        City, and the fantasy Eclipse Dragons series. Ashes of the City has been praised by Haley Koth of The US Review
-        of
-        Books as "fast-paced and quick-witted", appealing to fans of The Maze Runner and Divergent. The Eclipse Dragons
-        series delves into a rich fantasy world, captivating readers with its intricate storytelling and imaginative
-        scope.</p>
-
-      <p>Diagnosed with Myasthenia Gravis in 2012, Quinton also penned Myasthenia Gravis (MG): A Personal Advocacy
-        Story,
-        using his journey to raise awareness about this rare condition, inspire resilience, and celebrate the human
-        spirit's ability to thrive.</p>
-
-      <p>Through Bamboo Village Books, Quinton has created a haven for authors to grow their stories, much like bamboo
-        grows wild yet with purpose. Beyond publishing, he enjoys fishing, exploring cyber security innovations, and
-        serving as a public speaker and community ambassador.</p>
-
-      <p>Bamboo Village Books embodies the spirit of bamboo: strong yet flexible, grounded yet ever-growing. It serves
-        as
-        a symbol of resilience, sustainability, and limitless potential, creating stories that leave a lasting impact.
-      </p>
     </section>
     
     <section class="photo-gallery-container">
@@ -69,6 +24,8 @@
       <div class="photo-gallery-carousel">
         <div><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/bvb-ribbon-cutting-ceremony.jpg" alt=""></div>
         <div><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/bvb-award.jpg" alt=""></div>
+        <div> <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/book-signing.v1.jpg"
+        alt="Quinton Taylor-Garcia at a book signing event at the Texas Public Radio Merienda at Real Ale Brewing Co. & Real Spirits Distillery in Blanco, TX, on January 20, 2024 "></div>
         <div><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/book-signing-fan-2.jpg" alt=""></div>
         <div><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/book-signing-fan-1.jpg" alt=""></div>
         <div><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/ST.jpg" alt=""></div>

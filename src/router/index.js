@@ -4,6 +4,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
 import AboutView from "../views/AboutView.vue";
 import BooksView from "../views/BooksView.vue";
+import PuzzlesView from "../views/PuzzlesView.vue";
 import ServicesView from "../views/ServicesView.vue";
 import ContactView from "../views/ContactView.vue";
 import AshesView from "../views/AshesView.vue";
@@ -213,6 +214,11 @@ const routes = [
     name: "ember",
     component: EmberView,
   },
+  {
+     path: "/puzzles",
+    name: "puzzles",
+    component: PuzzlesView,
+  }
 ];
 
 const router = createRouter({

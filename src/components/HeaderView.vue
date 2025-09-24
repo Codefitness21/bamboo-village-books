@@ -51,17 +51,17 @@
           <a @click="open('intern')">Welcome Interns!</a>
         </div>
       </div>
-      <a @click="open('books')">Books</a>
+      <!-- <a @click="open('books')">Books</a> -->
 
 
-      <!-- <div class="nav-dropdown">
+      <div class="nav-dropdown">
         <a>Books</a>
         <div class="nav-dropdown-content">
           <a class="gold-space"></a>
           <a @click="open('books')">Bamboo Books</a>
-          <a @click="open('events')">Bamboo Events</a>
+          <a @click="open('puzzles')">Bamboo Puzzles</a>
         </div>
-      </div> -->
+      </div>
 
 
       <div class="nav-dropdown">

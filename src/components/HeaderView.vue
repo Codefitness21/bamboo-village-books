@@ -25,7 +25,18 @@
             <a @click="open('intern'); toggleMenu()">Welcome Interns!</a>
           </div>
         </div>
-        <a @click="open('books'); closeMenu()">Books</a>
+
+        <!-- <a @click="open('books'); closeMenu()">Books</a> -->
+
+         <div class="nav-dropdown">
+        <a>Books</a>
+          <div class="sub-menu-links">
+            <a class="gold-space"></a>
+            <a @click="open('books'); toggleMenu()">Bamboo Books</a>
+            <a @click="open('puzzles'); toggleMenu()">Bamboo Puzzles</a>
+          </div>
+        </div>
+
         <div class="nav-dropdown">
         <a>Services</a>
           <div class="sub-menu-links">

@@ -16,17 +16,13 @@
       <p>His catalog includes the acclaimed novel Ashes of the City winner of the 2025 International Impact Book Award (Young Adult) and recipient of a 5 star review from Literary Titan as well as Under Orders of Silence, praised by Kirkus Reviews for its bold reimagining of faith and perseverance. Beyond fiction, Taylor-Garcia develops multiple puzzle and activity series, including the Mindful Puzzles Press Collection, a line of uplifting brain-boosting activity books designed to promote positivity, mindfulness, and stress relief, and the Women of Valor Word Search Puzzle Collection, which honors the strength and service of women veterans through culturally inspired word searches.</p>
 
       <p>Through Bamboo Village Books, Taylor-Garcia also donates puzzle and activity books to organizations that support military veterans and mental health programs, extending the impact of his work beyond publishing and into the community. He also founded the Founders of the Bamboo Flame Guild, a youth-focused literacy initiative that encourages creativity and storytelling through interactive activity booklets.</p>
-
     </section>
-    
     <section class="photo-gallery-container">
       <!-- <h2>Bamboo Village Books Gallery</h2> -->
       <div class="photo-gallery-carousel">
         <div><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/bvb-ribbon-cutting-ceremony.jpg" alt=""></div>
         <div><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/bvb-award.jpg" alt=""></div>
-        <div> <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/book-signing.v1.jpg"
-        alt="Quinton Taylor-Garcia at a book signing event at the Texas Public Radio Merienda at Real Ale Brewing Co. & Real Spirits Distillery in Blanco, TX, on January 20, 2024 "></div>
-        <div><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/book-signing-fan-2.jpg" alt=""></div>
+        <div><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/book-signing.v1.jpg" alt=""></div>
         <div><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/book-signing-fan-1.jpg" alt=""></div>
         <div><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/ST.jpg" alt=""></div>
         <div><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/QT-book-signing-table-fan.jpg" alt=""></div>

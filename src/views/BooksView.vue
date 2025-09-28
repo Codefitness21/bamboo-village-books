@@ -202,8 +202,8 @@
           </div>
         </div>
         <div class="book">
-          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Silent-Crown.jpg"
-            alt="The Silent Crown book cover image">
+          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Divinity-of-the-Gods.v1.jpg"
+            alt="Divinity of the Gods book cover image">
           <h2>Coming Soon</h2>
         </div>
         <!-- <div class="book">

@@ -20,19 +20,19 @@
     <section class="photo-gallery-container">
       <!-- <h2>Bamboo Village Books Gallery</h2> -->
       <div class="photo-gallery-carousel">
-        <div><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/bvb-ribbon-cutting-ceremony.jpg" alt=""></div>
-        <div><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/bvb-award.jpg" alt=""></div>
-        <div><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/book-signing.v1.jpg" alt=""></div>
-        <div><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/book-signing-fan-1.jpg" alt=""></div>
-        <div><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/ST.jpg" alt=""></div>
-        <div><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/QT-book-signing-table-fan.jpg" alt=""></div>
-        <div><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/book-signing-HU.jpg" alt=""></div>
-        <div><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/book-signing-SA-1.jpg" alt=""></div>
-        <div><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/QTG-books.jpg" alt=""></div>
-        <div><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/QT-fan-plane.jpg" alt=""></div>
-        <div><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/tiffanys-fan-1.jpg" alt=""></div>
-        <div><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/gala-v2.jpg" alt=""></div>
-        <div><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/school-v2.jpg" alt=""></div>
+        <div><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/bvb-ribbon-cutting-ceremony.jpg" alt="Ribbon Cutting Ceremony."></div>
+        <div><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/bvb-award.jpg" alt="Bamboo Village Books Award Ceremony."></div>
+        <div><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/book-signing.v1.jpg" alt="Book signing at Texas Public Radio Merienda."></div>
+        <div><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/book-signing-fan-1.jpg" alt="Quinton taking a picture with gentlemen holding Ashes of the City Book."></div>
+        <div><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/ST.jpg" alt="Samone taking a picture at book signing table."></div>
+        <div><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/QT-book-signing-table-fan.jpg" alt="Quinton taking a picture with a fan at book signing table."></div>
+        <div><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/book-signing-HU.jpg" alt="Quinton taking a photo with a fan holding an Ashes of the City book at Howard University."></div>
+        <div><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/book-signing-SA-1.jpg" alt="Quinton taking photo with a fan at book signing event."></div>
+        <div><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/QTG-books.jpg" alt="Quinton taking a picture in front of his house holding his published books."></div>
+        <div><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/QT-fan-plane.jpg" alt="Quinton taking a photo with a fan holding an Ashes of the City book on the plane."></div>
+        <div><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/tiffanys-fan-1.jpg" alt="Quinton taking a photo with a fan holding a signed copy of Ashes of the City at Tiffanys."></div>
+        <div><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/gala-v2.jpg" alt="Quinton taking a photo with a fan at a Gala event."></div>
+        <div><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/school-v2.jpg" alt="Quinton taking a photo with a classroom of students."></div>
       </div>
     </section>
   </div>

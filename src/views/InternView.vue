@@ -7,8 +7,8 @@
       <div class="intern-information">
         <div class="intern-image">
           <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Samone.jpg" alt="Samone">
-
         </div>
+
         <div class=intern-text>
           <div class="name">
             <h3>Samone Edwards-Tran</h3>
@@ -35,11 +35,12 @@
             she will make in the world of communications.</p>
         </div>
       </div>
+      
       <div class="intern-information">
         <div class="intern-image">
           <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Alexia.jpg" alt="Alexis">
-
         </div>
+
         <div class=intern-text>
           <div class="name">
             <h3>Alexia Mitchell</h3>
@@ -56,11 +57,13 @@
             shape our global outreach initiatives and bring authentic voices to a wider audience.</p>
         </div>
       </div>
+
       <div class="intern-information">
-        <div class="intern-image">
-          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/image_placeholder.jpg" alt="Kaleigh">
+ <div class="intern-image">
+          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Ailene.jpg" alt="Ailene">
 
         </div>
+        
          <div class=intern-text>
           <div class="name">
             <h3>Ailene Hoang</h3>
@@ -68,10 +71,7 @@
           </div>
           <p>Ailene Hoang is a front-end web developer who has been creating and managing websites for small businesses since 2019. She helps her clients establish and enhance their online presence through user-friendly, visually appealing, and responsive web solutions. In addition to her technical expertise, Ailene brings over 20 years of business experience in the insurance and mortgage lending industries. Her background enables her to understand client needs and deliver tailored web solutions that align with business goals.</p>
         </div>
-        <div class="intern-image">
-          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Ailene.jpg" alt="Ailene">
-
-        </div>
+       
         <!-- <div class=intern-text>
           <div class="name">
             <h3>Kaleigh Hubbartt</h3>

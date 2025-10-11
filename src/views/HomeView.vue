@@ -16,7 +16,7 @@
           :style="{ backgroundImage: `url(${slide.background})` }">
           <h1 v-if="slide.title">{{ slide.title }}</h1>
           <div class="hero-staggered-books" v-if="slide.image0">
-            <img :src="slide.image0" /> 
+            <img :src="slide.image0" alt="Images of books"/> 
           </div>
           <span v-if="slide.caption">{{ slide.caption }}</span>
           <div class="hero-books-grid" v-if="slide.image1">

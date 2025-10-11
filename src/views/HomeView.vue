@@ -16,8 +16,9 @@
           :style="{ backgroundImage: `url(${slide.background})` }">
           <h1 v-if="slide.title">{{ slide.title }}</h1>
           <div class="hero-staggered-books" v-if="slide.image0">
-            <img :src="slide.image0" />
+            <img :src="slide.image0" /> 
           </div>
+          <span v-if="slide.caption">{{ slide.caption }}</span>
           <div class="hero-books-grid" v-if="slide.image1">
             <img :src="slide.image1" />
           </div>
@@ -224,6 +225,7 @@ export default {
         {
           background: "https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/bamboo-fence-texture.jpg",
           title: "BAMBOO VILLAGE BOOKS",
+          caption: "Empowering authors, publishing stories that inspire, and building communities through the power of books.",
           image0: 'https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/staggard-books-v3.webp',
           image1: 'https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/hero-book-grid-v2.png',
         },
@@ -440,6 +442,13 @@ export default {
     margin-bottom: 0;
     font-size: 40px;
   }
+
+  span {
+    font-size: 25px;
+    color: var(--secondary);
+    font-style: italic;
+  }
+
 }
 
 .hero-books-grid {

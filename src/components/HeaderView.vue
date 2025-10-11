@@ -57,9 +57,12 @@
         <a>About</a>
         <div class="nav-dropdown-content">
           <a class="gold-space"></a>
-          <a @click="open('about')">About The Author</a>
-          <a @click="open('team')">Meet The Team</a>
-          <a @click="open('intern')">Welcome Interns!</a>
+          <!-- <a @click="open('about')">About The Author</a> -->
+           <router-link to="/about">About The Author</router-link>
+          <!-- <a @click="open('team')">Meet The Team</a> -->
+          <router-link to="/team">Meet The Team</router-link>
+          <!-- <a @click="open('intern')">Welcome Interns!</a> -->
+          <router-link to="/intern">Welcome Interns!</router-link>
         </div>
       </div>
       <!-- <a @click="open('books')">Books</a> -->
@@ -69,8 +72,10 @@
         <a>Books</a>
         <div class="nav-dropdown-content">
           <a class="gold-space"></a>
-          <a @click="open('books')">Bamboo Books</a>
-          <a @click="open('puzzles')">Bamboo Puzzles</a>
+          <!-- <a @click="open('books')">Bamboo Books</a> -->
+           <router-link to="/books">Bamboo Books</router-link>
+          <!-- <a @click="open('puzzles')">Bamboo Puzzles</a> -->
+           <router-link to="/puzzles">Bamboo Puzzles</router-link>
         </div>
       </div>
 
@@ -79,14 +84,17 @@
         <a>Services</a>
         <div class="nav-dropdown-content">
           <a class="gold-space"></a>
-          <a @click="open('services')">Packages</a>
-          <a @click="open('connect')">Bamboo Connect</a>
+          <!-- <a @click="open('services')">Packages</a> -->
+           <router-link to="/services">Packages</router-link>
+          <!-- <a @click="open('connect')">Bamboo Connect</a> -->
+           <router-link to="/connect">Bamboo Connect</router-link>
         </div>
       </div>
       <!-- <a @click="open('services')">Services</a> -->
 
 
-      <a @click="open('contact')">Contact</a>
+      <!-- <a @click="open('contact')">Contact</a> -->
+      <router-link to="/contact">Contact</router-link>
     </nav>
   </header>
 </template>

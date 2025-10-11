@@ -89,7 +89,8 @@ export default {
   flex-direction: column;
   justify-content: center;
   background-color: var(--quinary);
-  background-image: url('https://bamboovillagebooks.s3.us-east-2.amazonaws.com/video/fantasy.gif');
+  background-image: url('https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/fantasy.jpg');
+  /* background-image: url('https://bamboovillagebooks.s3.us-east-2.amazonaws.com/video/fantasy.gif'); */
   background-size: cover;
   background-repeat: no-repeat;
   padding: 32px 64px 96px 64px;

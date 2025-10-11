@@ -20,7 +20,7 @@
           </div>
           <span v-if="slide.caption">{{ slide.caption }}</span>
           <div class="hero-books-grid" v-if="slide.image1">
-            <img :src="slide.image1" />
+            <img :src="slide.image1" alt="Images of books in mobile view"/>
           </div>
           <h2 v-if="slide.subtitle">{{ slide.subtitle }}</h2>
           <div class="book-info-container">

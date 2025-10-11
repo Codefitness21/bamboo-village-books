@@ -446,7 +446,6 @@ export default {
   span {
     font-size: 25px;
     color: var(--secondary);
-    font-style: italic;
   }
 
 }
@@ -1011,6 +1010,10 @@ export default {
     h2 {
       font-size: 26px;
       padding: 48px 10px;
+    }
+
+    span {
+      font-size: 14px;
     }
   }
 

@@ -393,7 +393,8 @@ export default {
       border-radius: 50%;
       width: 40px;
       height: 40px;
-      background-color: var(--primary);
+      /* background-color: var(--primary); */
+      background-color: #967f45;
       color: var(--secondary);
     }
 

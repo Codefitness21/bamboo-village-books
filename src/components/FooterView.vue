@@ -70,7 +70,8 @@ export default {
     flex-direction: column;
     align-content: center;
     padding: 32px;
-    background-color: var(--primary);
+    /* background-color: var(--primary); */
+    background-color: #967f45;
 }
 
 .top-info-row {

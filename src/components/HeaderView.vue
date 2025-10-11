@@ -131,7 +131,8 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--primary);
+  /* background-color: var(--primary); */
+  background-color: #967f45;
   position: fixed;
   top: 0;
   z-index: 100;
@@ -210,8 +211,9 @@ header {
 .nav-dropdown-content {
   display: none;
   position: absolute;
-  background-color: var(--primary);
+  /* background-color: var(--primary); */
   /* border: 1px solid var(--quarternary); */
+  background-color: #967f45;
   font-weight: bold;
   width: 165px;
 }
@@ -228,7 +230,8 @@ header {
 }
 
 .nav-dropdown-content .gold-space:hover {
-  background-color: var(--primary);
+  /* background-color: var(--primary); */
+  background-color: #967f45;
 }
 
 .nav-dropdown-content a:hover {

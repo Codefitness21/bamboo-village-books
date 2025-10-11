@@ -57,21 +57,6 @@
             shape our global outreach initiatives and bring authentic voices to a wider audience.</p>
         </div>
       </div>
-
-      <div class="intern-information">
- <div class="intern-image">
-          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Ailene.jpg" alt="Ailene">
-
-        </div>
-        
-         <div class=intern-text>
-          <div class="name">
-            <h3>Ailene Hoang</h3>
-            <h4>Frontend Web Developer</h4>
-          </div>
-          <p>Ailene Hoang is a front-end web developer who has been creating and managing websites for small businesses since 2019. She helps her clients establish and enhance their online presence through user-friendly, visually appealing, and responsive web solutions. In addition to her technical expertise, Ailene brings over 20 years of business experience in the insurance and mortgage lending industries. Her background enables her to understand client needs and deliver tailored web solutions that align with business goals.</p>
-        </div>
-       
         <!-- <div class=intern-text>
           <div class="name">
             <h3>Kaleigh Hubbartt</h3>
@@ -89,7 +74,7 @@
             through science and medicine, while still nurturing her artistic side. Her ability to balance both fields
             speaks to her drive, adaptability, and diverse skill set.</p>
         </div> -->
-      </div>
+      
     </section>
     <section>
       <div class="bottom-line">

@@ -55,6 +55,12 @@
           When she's not working in tech or bringing characters to life through illustration, Ashley enjoys reading,
           exploring creative projects, and staying ahead of trends in both cybersecurity and digital media. </p>
       </div>
+      <div>
+        <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Ailene.jpg" alt="Ailene">
+        <h3>Ailene Hoang</h3>
+        <h4>Frontend Web Developer</h4>
+        <p>Ailene Hoang is a front-end web developer who has been creating and managing websites for small businesses since 2019. She helps her clients establish and enhance their online presence through user-friendly, visually appealing, and responsive web solutions. In addition to her technical expertise, Ailene brings over 20 years of business experience in the insurance and mortgage lending industries. Her background enables her to understand client needs and deliver tailored web solutions that align with business goals. </p>
+      </div>
     </div>
   </div>
 </template>

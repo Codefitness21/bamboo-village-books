@@ -203,6 +203,7 @@ li{
 
   .author-image img {
     /* margin-top: 80px; */
+    width: 80%;
   }
 
   .about-author {

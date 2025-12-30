@@ -221,6 +221,12 @@ li{
 
 @media (max-width: 767px) {
   .hero-about-image {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: fit-content;
+    
     h1 {
       margin-top: 100px;
       font-size: 20px;
@@ -231,23 +237,16 @@ li{
       margin: 16px;
     }
 
-    height: 42vh;
-  }
-
-  .author-name {
-    width: 46%;
-  }
-
-  .author-image {
-    img {
-      margin-top: 100px;
-      
+    .author-image {
+      display: flex;
+      flex-direction: column;
+       
     }
-  }
+   
+}
 
   .about-author {
     padding: 0 32px 56px 32px;
-
     h2 {
       margin: 32px 0 32px 0;
     }

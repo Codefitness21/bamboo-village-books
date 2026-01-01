@@ -3,7 +3,7 @@
         <div class="top-info-row">
             <div class="company-logo-container">
                 <a @click="open('home')"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/bvb-circle-logo.png" alt="Bamboo Village Logo" /></a>
-                <div class="copyright">Copyright © 2025 Bamboo Village Books - All Rights Reserved.</div>
+                <div class="copyright">Copyright © 2025-2026 Bamboo Village Books - All Rights Reserved.</div>
             </div>
             <div class="hours-container">
                 <h6>Hours</h6>

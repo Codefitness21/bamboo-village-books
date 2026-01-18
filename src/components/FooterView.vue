@@ -2,7 +2,7 @@
     <div class="footer-container">
         <div class="top-info-row">
             <div class="company-logo-container">
-                <a @click="open('home')"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/bvb-circle-logo.png" alt="Bamboo Village Logo" /></a>
+                <a @click="open('home')"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/bvb-circle-logo-v1.webp" alt="Bamboo Village Logo" /></a>
                 <div class="copyright">Copyright © 2025-2026 Bamboo Village Books - All Rights Reserved.</div>
             </div>
             <div class="hours-container">
@@ -27,11 +27,11 @@
                     <a href="mailto:bamboovillagebooks@gmail.com">bamboovillagebooks@gmail.com</a>
                 </div>
                 <div class="social-media-icons">
-                    <a href="https://www.linkedin.com/company/bamboo-village-books/"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/linkedin.png" alt="Linkedin Logo" /></a>
-                    <a href="https://x.com/bamboovillagez"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/twitter-x.png" alt="Twitter Logo" /></a>
-                    <a href="https://www.instagram.com/bamboovillagebooks/"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/instagram.png" alt="Instagram Logo" /></a>
-                    <a href="https://www.facebook.com/bamboo.village.books"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/facebook.png" alt="Facebook Logo" /></a>
-                    <a href="https://www.tiktok.com/@bamboovillagebooks"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/tiktok.png" alt="Tiktok Logo" /></a>
+                    <a href="https://www.linkedin.com/company/bamboo-village-books/"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/linkedin-v1.webp" alt="Linkedin Logo" /></a>
+                    <a href="https://x.com/bamboovillagez"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/twitter-x-v1.webp" alt="Twitter Logo" /></a>
+                    <a href="https://www.instagram.com/bamboovillagebooks/"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/instagram-v1.webp" alt="Instagram Logo" /></a>
+                    <a href="https://www.facebook.com/bamboo.village.books"><img src="https://us-east-2.console.aws.amazon.com/s3/object/bamboovillagebooks?region=us-east-2&prefix=logos/facebook.webp" alt="Facebook Logo" /></a>
+                    <a href="https://www.tiktok.com/@bamboovillagebooks"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/tiktok-v1.webp" alt="Tiktok Logo" /></a>
                     <!-- <a href="https://youtu.be/yoKTlytbFq8"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/youtube.png" alt="Youtube Logo" /></a> -->
                 </div>
             </div>

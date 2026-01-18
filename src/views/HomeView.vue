@@ -113,7 +113,7 @@
           <a @click="open('about')"><button class="read-bio-btn">READ FULL BIO</button></a>
         </div>
         <div class="right-aligned-image-container quinton-image">
-          <img class="slideimage" src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/author.jpg"
+          <img class="slideimage" src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/author-v1.webp"
             alt="Author Image">
         </div>
       </div>
@@ -121,7 +121,7 @@
       <h2>Our Vision</h2>
       <div class="information-container vision-info-container">
         <div class="left-aligned-image-container">
-          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/community.jpg" alt="Community Image">
+          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/community-v1.webp" alt="Community Image">
         </div>
         <div class="text-container">
           <p>At Bamboo Village Books, we envision a world where every individual has access to a diverse and enriching
@@ -158,7 +158,7 @@
           </p>
         </div>
         <div class="right-aligned-image-container">
-          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/team.jpg" alt="Team Image">
+          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/team-v1.webp" alt="Team Image">
         </div>
       </div>
     </section>
@@ -167,43 +167,43 @@
       <h2>Achievements and Acknowledgments</h2>
       <div class="scrolling-carousel-items">
         <div class=carousel-items>
-          <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/Navoba.png"
+          <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/Navoba-v1.webp"
               alt="Navoba"></div>
           <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/AG.png"
               alt="Author's Guild"></div>
-          <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/ibpa.png"
+          <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/ibpa-v1.webp"
               alt="Independent Book Publishers Association"></div>
-          <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/award-sticker.png"
+          <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/award-sticker-v1.webp"
               alt="Award Digital Sticker"></div>
-          <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/Literary-Titan.png"
+          <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/Literary-Titan-v1.webp"
               alt="Literary Titan"></div>
-          <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/US-Review.png"
+          <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/US-Review-v1.webp"
               alt="US Review"></div>
-          <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/kirkus-logo-v3.png"
+          <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/kirkus-logo-v4.webp"
               alt="Kirkus Review"></div>
-          <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/Briscoe.png"
+          <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/Briscoe-v1.webp"
               alt="Briscoe"></div>
-          <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/TPR.png"
+          <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/TPR-v1.webp"
               alt="Texas Public Radio"></div>
         </div>
         <div class=carousel-items>
-          <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/Navoba.png"
+          <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/Navoba-v1.webp"
               alt="Navoba"></div>
           <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/AG.png"
               alt="Author's Guild"></div>
-          <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/ibpa.png"
+          <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/ibpa-v1.webp"
               alt="Independent Book Publishers Association"></div>
-          <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/award-sticker.png"
+          <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/award-sticker-v1.webp"
               alt="Award Digital Sticker"></div>
-          <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/Literary-Titan.png"
+          <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/Literary-Titan-v1.webp"
               alt="Literary Titan"></div>
-          <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/US-Review.png"
+          <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/US-Review-v1.webp"
               alt="US Review"></div>
-          <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/kirkus-logo-v3.png"
+          <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/kirkus-logo-v4.webp"
               alt="Kirkus Review"></div>
-          <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/Briscoe.png"
+          <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/Briscoe-v1.webp"
               alt="Briscoe"></div>
-          <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/TPR.png"
+          <div class="scroll"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/TPR-v1.webp"
               alt="Texas Public Radio"></div>
         </div>
       </div>
@@ -223,7 +223,7 @@ export default {
       isShown: false,
       slides: [
         {
-          background: "https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/bamboo-fence-texture.jpg",
+          background: "https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/bamboo-fence-texture-v1.webp",
           title: "BAMBOO VILLAGE BOOKS",
           caption: "Empowering authors, publishing stories that inspire, and building communities through the power of books.",
           image0: 'https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/staggard-books-v3.webp',

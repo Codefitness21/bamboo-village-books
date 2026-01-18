@@ -1,7 +1,7 @@
 <template>
   <header class="nav-bar">
 
-    <a @click="open('home')"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/bamboo-logo.png"
+    <a @click="open('home')"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/bvb-logo-v1.webp"
         alt="Bamboo Village Logo" /></a>
     
     <div class="hamburger" @click="toggleMenu">
@@ -169,7 +169,7 @@ header {
   flex-direction: row;
   justify-content: flex-start;
   margin-left: 24px;
-  width: 30%;
+  width: 42%;
   cursor: pointer;
 }
 

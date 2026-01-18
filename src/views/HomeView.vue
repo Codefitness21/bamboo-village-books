@@ -34,7 +34,7 @@
               <p v-if="slide.text">{{ slide.text }}</p>
               <div class="cta-row">
               <div class="cta" v-if="slide.link">
-                <router-link :to="{ name: slide.link }"><button>LEARN MORE</button></router-link>
+                <router-link :to="{ name: slide.link }" aria-label="Learn more about features"><button>EXPLORE FEATURES</button></router-link>
               </div>
               <div class="cta" v-if="slide.link1">
                 <router-link :to="{ name: slide.link1 }"><button>CLAIM BONUS</button></router-link>

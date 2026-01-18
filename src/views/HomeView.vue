@@ -226,7 +226,7 @@ export default {
           background: "https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/bamboo-fence-texture-v1.webp",
           title: "BAMBOO VILLAGE BOOKS",
           caption: "Empowering authors, publishing stories that inspire, and building communities through the power of books.",
-          image0: 'https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/staggard-books-v3.webp',
+          image0: 'https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/staggard-books-v4.webp',
           image1: 'https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/hero-book-grid-v2.png',
         },
         {

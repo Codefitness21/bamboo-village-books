@@ -30,7 +30,7 @@
                     <a href="https://www.linkedin.com/company/bamboo-village-books/"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/linkedin-v1.webp" alt="Linkedin Logo" /></a>
                     <a href="https://x.com/bamboovillagez"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/twitter-x-v1.webp" alt="Twitter Logo" /></a>
                     <a href="https://www.instagram.com/bamboovillagebooks/"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/instagram-v1.webp" alt="Instagram Logo" /></a>
-                    <a href="https://www.facebook.com/bamboo.village.books"><img src="https://us-east-2.console.aws.amazon.com/s3/object/bamboovillagebooks?region=us-east-2&prefix=logos/facebook.webp" alt="Facebook Logo" /></a>
+                    <a href="https://www.facebook.com/bamboo.village.books"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/facebook.webp" alt="Facebook Logo" /></a>
                     <a href="https://www.tiktok.com/@bamboovillagebooks"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/tiktok-v1.webp" alt="Tiktok Logo" /></a>
                     <!-- <a href="https://youtu.be/yoKTlytbFq8"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/youtube.png" alt="Youtube Logo" /></a> -->
                 </div>

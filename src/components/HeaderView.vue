@@ -1,7 +1,7 @@
 <template>
   <header class="nav-bar">
 
-    <a @click="open('home')"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/bvb-logo-v1.webp"
+    <a @click="open('home')"><img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/bvb-logo-v2.webp"
         alt="Bamboo Village Logo" /></a>
     
     <div class="hamburger" @click="toggleMenu">

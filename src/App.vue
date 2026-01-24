@@ -7,7 +7,7 @@
   </div>
 
 <div v-if="isVisible" @click="scrollToTop" class="back-to-top">
-  <i class="fa-solid fa-arrow-up"></i>
+   <img class="noun-arrow-up" src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/noun-up-arrow.webp" alt="up arrow for page scroll">
 </div>
 </template>
 
@@ -112,13 +112,14 @@ p {
   text-align: left;
 }
 
-.fa-arrow-up {
+.noun-arrow-up {
   position: fixed;
   z-index: 1000;
   bottom: 20px;
   right: 30px;
   width: 40px;
   height: 40px;
+  padding: 5px;
   font-size: 30px;
   color: var(--secondary);
   background-color: orange;
@@ -130,7 +131,7 @@ p {
   transition: bottom 200ms, transform 200ms;
 }
 
-.fa-arrow-up:hover {
+.noun-arrow-up:hover {
   bottom: 35px;
 }
 

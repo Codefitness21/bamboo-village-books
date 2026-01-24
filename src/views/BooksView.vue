@@ -73,7 +73,8 @@
             alt="Ashes of the City book cover image">
           <h3>Ashes of the City</h3>
           <div class="cta-row">
-            <a @click="open('ashes')" aria-label="Learn more about Ashes of the City"><button class="cta-1">LEARN MORE</button></a>
+            <a @click="open('ashes')" aria-label="Learn more about Ashes of the City"><button class="cta-1">LEARN
+                MORE</button></a>
             <div class="dropdown">
               <button class="dropdown cta-2 ashes-cta">BUY BOOK</button>
               <div class="dropdown-content">
@@ -91,13 +92,14 @@
             <a href="https://www.amazon.com/Ashes-City-Quinton-Taylor-Garcia/dp/B0DJZF3DM3"><button class="cta-2">BUY
                 BOOK</button></a>
           </div>-->
-        </div> 
+        </div>
         <div>
           <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/silent_call.jpg"
             alt="The Silent Call of the Lake book cover image">
           <h3>The Silent Call of the Lake</h3>
           <div class="cta-row">
-            <a @click="open('silent')" aria-label="Learn more about Silent Call of the Lake"><button class="cta-1">LEARN MORE</button></a>
+            <a @click="open('silent')" aria-label="Learn more about Silent Call of the Lake"><button class="cta-1">LEARN
+                MORE</button></a>
             <a href="https://www.amazon.com/silent-Call-Lake-JMs-Story/dp/B0CR7KQZTW/"><button class="cta-2">BUY
                 BOOK</button></a>
           </div>
@@ -107,7 +109,8 @@
             alt="The Devil's Dance - A J'ouvert Tale book cover image">
           <h3>The Devil's Dance - A J'ouvert Tale</h3>
           <div class="cta-row">
-            <a @click="open('dance')" aria-label="Learn more about the Devil's Dance - A J'ouvert Tale"><button class="cta-1">LEARN MORE</button></a>
+            <a @click="open('dance')" aria-label="Learn more about the Devil's Dance - A J'ouvert Tale"><button
+                class="cta-1">LEARN MORE</button></a>
             <a href="https://www.amazon.com/Devils-Dance-Jouvert-Tale/dp/B0DG8KH3B6/"><button class="cta-2">BUY
                 BOOK</button></a>
           </div>
@@ -117,7 +120,8 @@
             alt="Eclipse Dragons - Book 1 book cover image">
           <h3>Eclipse Dragons - Book 1</h3>
           <div class="cta-row">
-            <a @click="open('dragonsone')" aria-label="Learn more about Eclipse Dragons - Book 1 "><button class="cta-1">LEARN MORE</button></a>
+            <a @click="open('dragonsone')" aria-label="Learn more about Eclipse Dragons - Book 1 "><button
+                class="cta-1">LEARN MORE</button></a>
             <a href="https://www.amazon.com/Eclipse-Dragons-Shadows-Faction-Origins/dp/B0CP4TG6T9/"><button
                 class="cta-2">BUY BOOK</button></a>
           </div>
@@ -127,7 +131,9 @@
             alt="Eclipse Dragons The Rogue Mages Uprising - Book 2 book cover image">
           <h3>Eclipse Dragons - Book 2</h3>
           <div class="cta-row">
-            <a @click="open('dragonstwo')" aria-label="Learn more about Eclipse Dragons The Rogue Mages Uprising - Book 2"><button class="cta-1">LEARN MORE</button></a>
+            <a @click="open('dragonstwo')"
+              aria-label="Learn more about Eclipse Dragons The Rogue Mages Uprising - Book 2"><button
+                class="cta-1">LEARN MORE</button></a>
             <a href="https://www.amazon.com/Eclipse-Dragons-Rogue-Mages-Uprising/dp/B0CZQ1HTT4/"><button
                 class="cta-2">BUY BOOK</button></a>
           </div>
@@ -137,7 +143,9 @@
             alt="Eclipse Dragons The Warlords's Awakening - Book 3 book cover image">
           <h3>Eclipse Dragons - Book 3</h3>
           <div class="cta-row">
-            <a @click="open('dragonsthree')" aria-label="Learn more about Eclipse Dragons The Warlords's Awakening - Book 3"><button class="cta-1">LEARN MORE</button></a>
+            <a @click="open('dragonsthree')"
+              aria-label="Learn more about Eclipse Dragons The Warlords's Awakening - Book 3"><button
+                class="cta-1">LEARN MORE</button></a>
             <a href="https://www.amazon.com/Warlords-Awakening-Battles-Multiverse-Eclipse/dp/B0D91LXSWL/"><button
                 class="cta-2">BUY BOOK</button></a>
           </div>
@@ -148,7 +156,8 @@
             alt="Warrior's Heart book cover image">
           <h3>Warrior's Heart</h3>
           <div class="cta-row">
-            <a @click="open('warriors')" aria-label="Learn more about Warrior's Heart"><button class="cta-1">LEARN MORE</button></a>
+            <a @click="open('warriors')" aria-label="Learn more about Warrior's Heart"><button class="cta-1">LEARN
+                MORE</button></a>
             <a href="https://www.amazon.com/Warriors-Heart-Poems-Emotion-Valor/dp/B0CQP41713/"><button class="cta-2">BUY
                 BOOK</button></a>
           </div>
@@ -158,7 +167,8 @@
             alt="The Chronicles of the Gated Community book cover image">
           <h3>The Chronicles of the Gated Community</h3>
           <div class="cta-row">
-            <a @click="open('chronicles')" aria-label="Learn more about The Chronicles of the Gated Community"><button class="cta-1">LEARN MORE</button></a>
+            <a @click="open('chronicles')" aria-label="Learn more about The Chronicles of the Gated Community"><button
+                class="cta-1">LEARN MORE</button></a>
             <a href="https://www.amazon.com/Chronicles-Gated-Community-Shadows-Whispers/dp/B0CQ2WFQ99/"><button
                 class="cta-2">BUY BOOK</button></a>
           </div>
@@ -169,46 +179,114 @@
             alt="The Last Sunset: Journey with Myasthenia Gravis book cover image">
           <h3>The Last Sunset: Journey with Myasthenia Gravis</h3>
           <div class="cta-row">
-            <a @click="open('gravis')" aria-label="Learn more about The Last Sunset: Journey with Myasthenia Gravis"><button class="cta-1">LEARN MORE</button></a>
+            <a @click="open('gravis')"
+              aria-label="Learn more about The Last Sunset: Journey with Myasthenia Gravis"><button class="cta-1">LEARN
+                MORE</button></a>
             <a href="https://www.amazon.com/Last-Sunset-Myasthenia-Embracing-Connection/dp/B0CN65MYL3/"><button
                 class="cta-2">BUY BOOK</button></a>
           </div>
         </div>
+
+        <div>
+          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Under_Orders.jpg"
+            alt="Under Orders of Silence book cover image">
+          <h3>Under Orders of Silence</h3>
+          <div class="cta-row">
+            <a @click="open('orders')" aria-label="Learn more about Under Orders of Silence"><button class="cta-1">LEARN
+                MORE</button></a>
+            <a
+              href="https://www.amazon.com/Under-Orders-Silence-Inspired-Book/dp/B0F66ZS35T/ref=sr_1_1?crid=2ZMVW1Y8RO1UO&dib=eyJ2IjoiMSJ9.9TLYcju_fs8qkHpmQ2gyEqSQohurVetJidAnsfFF4YPGjHj071QN20LucGBJIEps.cr_QAXTI_Q57GUa_AZeq4_p7zKZnWyerLlv9-6REqDo&dib_tag=se&keywords=under+orders+of+silence&qid=1745960528&s=books&sprefix=under+orders+of+silence%2Cstripbooks%2C113&sr=1-1"><button
+                class="cta-2">BUY BOOK</button></a>
+          </div>
+        </div>
+
+         <div>
+          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Ember.webp"
+            alt="The Ember Experiment book cover image">
+          <h3>The Ember Experiment</h3>
+          <div class="cta-row">
+            <a @click="open('ember')" aria-label="Learn more about The Ember Experiment"><button class="cta-1">LEARN
+                MORE</button></a>
+            <a
+              href="https://www.amazon.com/Ember-Experiment-Book-Ashes-Saga/dp/B0FDGVCBCC/ref=sr_1_1?crid=199WAOI1GCVIU&dib=eyJ2IjoiMSJ9.n96OpJj4ehKtma1aZgoUXWIJF4QPUdBuGl87llkWexpRB8LHRnXmUgjz32OHoQ7JiGDPIdnTJp906eRq3abI107D6UufpFOfCDfu1rMTyQX_TuPWmHkZ9z77W-efQgG4jWWi-dor8ZlYEYA4eMBZpUXalLE3y0kjNrER02AFHgzjqKJPuawWuho6hwswM3_ImY0dnsj3fc-la-VbThnr1KowtR2iVg4UNRzwNGpZ1uo.-a2x6U-uzqMoXN911jdn0bRON5gbywMUJlGzsO2dPCQ&dib_tag=se&keywords=the+ember+experiment&qid=1751742766&s=digital-text&sprefix=the+ember+experiment%2Cdigital-text%2C139&sr=1-1-catcorr"><button
+                class="cta-2">BUY BOOK</button></a>
+          </div>
+        </div>
+
+
+        <div>
+          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Divinity-of-Gods.webp"
+            alt="Divinity of the Gods book cover image">
+          <h3>The Divinity Of Gods</h3>
+          <div class="cta-row">
+            <a @click="open('divinity')" aria-label="Learn more about the Divinity of the Gods"><button class="cta-1">LEARN
+                MORE</button></a>
+            <a
+              href="https://www.amazon.com/Divinity-Gods-Kaldaris-Book-ebook/dp/B0GFG5P9QN/ref=sr_1_1?crid=15BDN41B0CQR8&dib=eyJ2IjoiMSJ9.UV8xWv__Gpxi2_616PamhJrcvWP4KtwGnM3K4sZnci0VUYXyNDHHagB92yha6IjzuRep7kV2GF0FvrTk510Kd1a3sraIDcVenzCUMyQ9jVBFEO5doXvvMAyE2uRZB9KPCxxxnsouhuZCibuEkVbnqg-6VvyQnLOod1L2ahJnRxkeFgGmKmvzPmiIdhKOMKTopdIGVRUsJ29rtby5_MU-h0aYHYc_MyoFEJHUH3LZrzI.bh1YADT--Vgyg197GXTb-bkAdO2v41tZuyLFeZUqKn4&dib_tag=se&keywords=The+Divinity+of+Gods&qid=1769218639&s=digital-text&sprefix=the+divinity+of+gods%2Cdigital-text%2C260&sr=1-1"><button
+                class="cta-2">BUY BOOK</button></a>
+          </div>
+        </div>
+
+
+        <div>
+          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Founding-Scroll.webp"
+            alt="The Founding Scroll book cover image">
+          <h3>The Founding Scroll</h3>
+          <div class="cta-row">
+            <a @click="open('founding')" aria-label="Learn more about the Founding Scroll"><button class="cta-1">LEARN
+                MORE</button></a>
+            <a
+              href="https://www.amazon.it/Founding-Scroll-Book-Vowforged-English-ebook/dp/B0GFQBWZQQ"><button
+                class="cta-2">BUY BOOK</button></a>
+          </div>
+        </div>
+
       </div>
     </section>
-    <section class="upcoming-releases-container">
+    <!-- <section class="upcoming-releases-container">
       <div>
-        <h2>UPCOMING 2025 RELEASES...</h2>
+        <h2>UPCOMING 2026 RELEASES...</h2>
       </div>
       <div class="upcoming-books slidebooks">
         <div class="book">
-          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Under_Orders.jpg"
-            alt="Under Orders of Silence book cover image">
+          <img src="" alt="">
           <div class="cta-row upcoming-cta-row">
-            <a @click="open('orders')" aria-label="Learn more about Under Orders of Silence"><button class="cta-1 upcoming-cta">LEARN MORE</button></a>
+            <a @click="open('')" aria-label=""><button class="cta-1 upcoming-cta">LEARN MORE</button></a>
+            <a href=""><button class="cta-2 upcoming-cta">BUY BOOK</button></a>
+          </div>
+        </div>
+        <div class="book">
+          <img src=""
+            alt="">
+          <div class="cta-row upcoming-cta-row">
+            <a @click="open('')" aria-label=""><button
+                class="cta-1 upcoming-cta">LEARN MORE</button></a>
             <a
-              href="https://www.amazon.com/Under-Orders-Silence-Inspired-Book/dp/B0F66ZS35T/ref=sr_1_1?crid=2ZMVW1Y8RO1UO&dib=eyJ2IjoiMSJ9.9TLYcju_fs8qkHpmQ2gyEqSQohurVetJidAnsfFF4YPGjHj071QN20LucGBJIEps.cr_QAXTI_Q57GUa_AZeq4_p7zKZnWyerLlv9-6REqDo&dib_tag=se&keywords=under+orders+of+silence&qid=1745960528&s=books&sprefix=under+orders+of+silence%2Cstripbooks%2C113&sr=1-1"><button
+              href=""><button
                 class="cta-2 upcoming-cta">BUY BOOK</button></a>
           </div>
         </div>
         <div class="book">
-          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Ember.webp"
-            alt="The Ember Experiment book cover image">
-          <div class="cta-row upcoming-cta-row">
-            <a @click="open('ember')" aria-label="Learn more about The Ember Experiment"><button class="cta-1 upcoming-cta">LEARN MORE</button></a>
-            <a
-              href="https://www.amazon.com/Ember-Experiment-Book-Ashes-Saga/dp/B0FDGVCBCC/ref=sr_1_1?crid=199WAOI1GCVIU&dib=eyJ2IjoiMSJ9.n96OpJj4ehKtma1aZgoUXWIJF4QPUdBuGl87llkWexpRB8LHRnXmUgjz32OHoQ7JiGDPIdnTJp906eRq3abI107D6UufpFOfCDfu1rMTyQX_TuPWmHkZ9z77W-efQgG4jWWi-dor8ZlYEYA4eMBZpUXalLE3y0kjNrER02AFHgzjqKJPuawWuho6hwswM3_ImY0dnsj3fc-la-VbThnr1KowtR2iVg4UNRzwNGpZ1uo.-a2x6U-uzqMoXN911jdn0bRON5gbywMUJlGzsO2dPCQ&dib_tag=se&keywords=the+ember+experiment&qid=1751742766&s=digital-text&sprefix=the+ember+experiment%2Cdigital-text%2C139&sr=1-1-catcorr"><button
-                class="cta-2 upcoming-cta">BUY BOOK</button></a>
-          </div>
-        </div>
-        <div class="book">
-          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Divinity-of-the-Gods.v1.jpg"
-            alt="Divinity of the Gods book cover image">
+          <img src=""
+            alt="">
           <h2>Coming Soon</h2>
         </div>
-        <!-- <div class="book">
-          <h2>Eclipse Dragons Dark Saga Trilogy</h2>
-        </div> -->
+      </div>
+    </section> -->
+    <section class="upcoming-releases-container">
+      <h2>UPCOMING 2026 RELEASES...</h2>
+      <div class="upcoming-books slidebooks">
+        <div class="bookOne">
+          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/The-Water-Remembers.webp"
+            alt="The Water Remembers book cover image">
+          <h2>Coming Soon</h2>
+        </div>
+        <div class="book">
+          <h2></h2>
+        </div>
+        <div class="book">
+          <h2></h2>
+        </div>
       </div>
     </section>
   </div>
@@ -617,11 +695,32 @@ a {
   padding: 0 0 96px 0;
 }
 
-.book h2 {
+/* .book h2 {
   margin: 30px 0;
   color: var(--secondary);
-}
+} */
 
+.book {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--quinary);
+  background-image: url("https://bamboovillagebooks.s3.us-east-2.amazonaws.com/logos/bamboo-transparent-logo.png");
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 530px;
+  width: 400px;
+  color: var(--secondary);
+  font-weight: bold;
+  padding: 56px;
+  margin-bottom: 96px;
+
+  h2 {
+    font-size: 32px;
+  }
+}
 
 @media (min-width:768px) and (max-width:1024px) {
   .hero-book-image {
@@ -660,7 +759,7 @@ a {
     }
   }
 
-  .upcoming-books {
+  /* .upcoming-books {
     .book {
       margin: 24px;
 
@@ -682,6 +781,26 @@ a {
     .upcoming-cta {
       font-size: 8px;
     }
+  } */
+
+  .upcoming-releases-container {
+    h2 {
+      font-size: 24px;
+      margin-bottom: 48px;
+    }
+  }
+
+  .upcoming-books {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .book {
+    height: 400px;
+    width: 300px;
+    margin-bottom: 56px;
   }
 }
 
@@ -799,7 +918,7 @@ a {
     }
   }
 
-  .upcoming-books {
+  /* .upcoming-books {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -808,6 +927,7 @@ a {
 
   .book {
     margin-top: 64px;
+
     img {
       width: 300px;
     }
@@ -816,6 +936,31 @@ a {
   .book h2 {
     font-size: 46px;
     color: var(--secondary);
+  } */
+
+  .upcoming-releases-container {
+    h2 {
+      font-size: 24px;
+      margin-bottom: 48px;
+    }
+  }
+
+  .upcoming-books {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .book {
+    height: 400px;
+    width: 300px;
+    margin-bottom: 56px;
+  }
+
+  .bookOne img {
+    height: 450px;
+    width: 300px;
   }
 }
 </style>

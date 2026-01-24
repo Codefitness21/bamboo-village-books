@@ -18,7 +18,7 @@
         <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Kelly.jpg" alt="Kelly">
         <h3>Kelly Hill</h3>
         <h4>Frontend Web Developer</h4>
-        <p>Kelly Hill is a frontend web developer. With over six 
+        <p>Kelly Hill is a frontend web developer. With over 4 
           years of frontend experience, Kelly uses a customer first approach when designing and developing interactive platforms.
         </p>
       </div>
@@ -56,10 +56,16 @@
           exploring creative projects, and staying ahead of trends in both cybersecurity and digital media. </p>
       </div>
       <div>
-        <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Ailene.jpg" alt="Ailene">
+        <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Ailene-v1.webp" alt="Ailene">
         <h3>Ailene Hoang</h3>
         <h4>Frontend Web Developer</h4>
         <p>Ailene Hoang is a front-end web developer who has been creating and managing websites for small businesses since 2019. She helps her clients establish and enhance their online presence through user-friendly, visually appealing, and responsive web solutions. In addition to her technical expertise, Ailene brings over 20 years of business experience in the insurance and mortgage lending industries. Her background enables her to understand client needs and deliver tailored web solutions that align with business goals. </p>
+      </div>
+      <div>
+        <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Asaduzzaman.webp" alt="Asaduzzaman">
+        <h3>Asaduzzaman</h3>
+        <h4>Amazon Author, Book Designer, and Social Media Marketing Expert</h4>
+        <p>I am Asaduzzaman, an experienced Amazon Author, Book Designer, and Social Media Marketing Expert with over 5 years of professional experience. I specialize in creating high-quality Amazon KDP books, including interior formatting, cover design, and complete book branding. I also help businesses grow their online presence through strategic social media marketing and performance driven campaigns. </p>
       </div>
     </div>
   </div>

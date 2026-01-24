@@ -37,6 +37,8 @@ import ConnectView from "@/views/ConnectView.vue";
 import PromoView from "@/views/PromoView.vue";
 import PromoTwoView from "@/views/PromoTwoView.vue";
 import EmberView from "@/views/EmberView.vue";
+import FoundingView from "@/views/FoundingView.vue";
+import DivinityView from "@/views/DivinityView.vue";
 
 const routes = [
   {
@@ -218,7 +220,17 @@ const routes = [
      path: "/puzzles",
     name: "puzzles",
     component: PuzzlesView,
-  }
+  },
+  {
+     path: "/founding",
+    name: "founding",
+    component: FoundingView,
+  },
+  {
+     path: "/divinity",
+    name: "divinity",
+    component: DivinityView,
+  },
 ];
 
 const router = createRouter({

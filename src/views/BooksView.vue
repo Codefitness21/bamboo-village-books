@@ -695,10 +695,10 @@ a {
   padding: 0 0 96px 0;
 }
 
-/* .book h2 {
+.bookOne h2 {
   margin: 30px 0;
   color: var(--secondary);
-} */
+}
 
 .book {
   display: flex;

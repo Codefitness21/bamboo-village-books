@@ -693,9 +693,13 @@ a {
   flex-direction: row;
   justify-content: space-evenly;
   padding: 0 0 96px 0;
+  h2{
+    color: var(--quinary);
+  }
 }
 
-.bookOne h2 {
+.bookOne 
+h2{
   margin: 30px 0;
   color: var(--secondary);
 }

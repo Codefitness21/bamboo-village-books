@@ -6,11 +6,11 @@ This website showcases the brilliant work of Quinton Taylor-Garcia, featuring hi
 **Link to project:** https://www.bamboovillagebooks.com/
 
 ## G-P-S
-Goal: Cultivate a global community of readers and thinkers by providing access to a diverse and enriching library of literature that inspires learning, connection, and growth. Promote lead generation, sell books, increase fan communication, offer support for first-time authors.
+**Goal:** Cultivate a global community of readers and thinkers by providing access to a diverse and enriching library of literature that inspires learning, connection, and growth. Promote lead generation, sell books, increase fan communication, offer support for first-time authors.
 
-Problem: Single page website didn't capture vision of the company, lacked connection with community and lead generation, website functionality and purpose, zero book sales through website.
+**Problem:** Single page website didn't capture vision of the company, lacked connection with community and lead generation, website functionality and purpose, zero book sales through website.
 
-Solution: Provide an aesthetically pleasing website to interact with users/readers that functions properly, create great user experience, drive book sales through website lead generation with an annual sales goal set by my client of 1000 books at the end of 2025. A total of 124 were sold in 2024.
+**Solution:** Provide an aesthetically pleasing website to interact with users/readers that functions properly, create great user experience, drive book sales through website lead generation with an annual sales goal set by my client of 1000 books at the end of 2025. A total of 124 were sold in 2024.
 
 ## How It's Made 
 **Tech stack used:** HTML, CSS, Vue.JS, AWS

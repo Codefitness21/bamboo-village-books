@@ -12,17 +12,17 @@
                 </div>
                 <div class="text-container">
                     <p>The Founding Scroll is the first installment of The Vowforged Saga, an epic fantasy series
-                        centered on oath-bound power, guild structures, and the cost of authority.
+                        centered on oath-bound power, guild structures, and the cost of authority.<br><br>
 
                         Set in a world where magic is shaped by sworn vows rather than bloodline or chance, the story
                         follows Seren, a reluctant bearer drawn into a system of ancient agreements that govern power,
                         protection, and dominion. As guilds rise and fracture under competing interpretations of these
-                        oaths, Seren must navigate political intrigue, moral consequence, and escalating conflict.
+                        oaths, Seren must navigate political intrigue, moral consequence, and escalating conflict.<br><br>
 
                         The novel blends traditional epic fantasy with progression elements, including structured power
                         growth, defined roles, and an in-world codex that expands the setting's rules and lore. While
                         inspired by MMORPG-style systems, the narrative remains character-driven, focusing on choice,
-                        responsibility, and the long-term consequences of power.
+                        responsibility, and the long-term consequences of power.<br><br>
 
                         Designed as the foundation for a multi-book saga, The Founding Scroll emphasizes immersive
                         worldbuilding, serialized momentum, and thematic depth, appealing to readers of epic fantasy who

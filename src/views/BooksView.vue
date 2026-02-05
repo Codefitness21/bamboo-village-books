@@ -241,6 +241,19 @@
           </div>
         </div>
 
+         <div>
+          <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/Whisper.webp"
+            alt="The Whisper Before the Breath book cover image">
+          <h3>The Whisper Before The Breath</h3>
+          <div class="cta-row">
+            <a @click="open('whisper')" aria-label="Learn more about The Whisper Before the Breath"><button class="cta-1">LEARN
+                MORE</button></a>
+            <a
+              href="https://www.amazon.com/Whisper-Before-Breath-Remembered-Chronicles-ebook/dp/B0GK656L2R/ref=sr_1_1?crid=38ESY36INQPFE&dib=eyJ2IjoiMSJ9.UuwQFnh_PCOwp-U1Ct6j1LmBTFxee4mEMgbOwwG0BHc.3NlnBRz_BvWl59B5K_6T54PN85FMmIIx2gZK6F5XDUU&dib_tag=se&keywords=WHispers+before+the+breath&qid=1770248418&s=digital-text&sprefix=whispers+before+the+breath%2Cdigital-text%2C143&sr=1-1"><button
+                class="cta-2">BUY BOOK</button></a>
+          </div>
+        </div>
+
       </div>
     </section>
     <!-- <section class="upcoming-releases-container">
@@ -282,7 +295,7 @@
           <h2>Coming Soon</h2>
         </div>
         <div class="book">
-          <h2></h2>
+          <h2>The White Hallow Vol.1 </h2>
         </div>
         <div class="book">
           <h2></h2>
@@ -694,7 +707,7 @@ a {
   justify-content: space-evenly;
   padding: 0 0 96px 0;
   h2{
-    color: var(--quinary);
+    color: var(--secondary);
   }
 }
 

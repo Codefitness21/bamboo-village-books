@@ -39,6 +39,7 @@ import PromoTwoView from "@/views/PromoTwoView.vue";
 import EmberView from "@/views/EmberView.vue";
 import FoundingView from "@/views/FoundingView.vue";
 import DivinityView from "@/views/DivinityView.vue";
+import WhisperView from "@/views/WhisperView.vue";
 
 const routes = [
   {
@@ -230,6 +231,11 @@ const routes = [
      path: "/divinity",
     name: "divinity",
     component: DivinityView,
+  },
+  {
+     path: "/whisper",
+    name: "whisper",
+    component: WhisperView,
   },
 ];
 

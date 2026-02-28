@@ -67,6 +67,12 @@
         <h4>Amazon Author, Book Designer, and Social Media Marketing Expert</h4>
         <p>I am Asaduzzaman, an experienced Amazon Author, Book Designer, and Social Media Marketing Expert with over 5 years of professional experience. I specialize in creating high-quality Amazon KDP books, including interior formatting, cover design, and complete book branding. I also help businesses grow their online presence through strategic social media marketing and performance driven campaigns. </p>
       </div>
+      <div>
+        <img src="https://bamboovillagebooks.s3.us-east-2.amazonaws.com/images/James.webp" alt="Jimmy">
+        <h3>Jimmy</h3>
+        <h4>Staff Writer & Story Developer</h4>
+        <p> </p>
+      </div>
     </div>
   </div>
 </template>
